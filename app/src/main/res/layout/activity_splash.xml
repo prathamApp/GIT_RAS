@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context="com.pratham.readandspeak.ui.splash_activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/temppp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_window">
+
+        <ImageView
+            android:id="@+id/iv_pratham_logo"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pratham_logo" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"/>
+            <!--android:src="@drawable/title_new_2"-->
+
+        <ImageView
+            android:id="@+id/iv_logo_pradigi"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@id/iv_logo"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"/>
+            <!--android:src="@drawable/ic_icon_pradigi" -->
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_12sdp"
+            android:soundEffectsEnabled="true"
+            android:hapticFeedbackEnabled="true"
+            android:layout_marginBottom="@dimen/_140sdp"
+            android:background="@drawable/ripple_effect"
+            android:text="Start" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
