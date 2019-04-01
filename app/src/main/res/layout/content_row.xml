@@ -2,17 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center">
+    android:layout_gravity="center"
+    >
 
     <TextView
         android:id="@+id/tv_word"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="19sp"
+        android:layout_height="@dimen/_80sdp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:text="word"
-        android:padding="5dp"
-        android:layout_margin="5dp"
+        android:padding="@dimen/_10sdp"
+        android:layout_margin="@dimen/_10sdp"
         android:background="@drawable/ripple_rectangle"
         android:gravity="center"/>
     <!--<ImageView-->

@@ -23,8 +23,10 @@ import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.pratham.readandspeak.RASApplication;
 import com.pratham.readandspeak.R;
+import com.pratham.readandspeak.async.ZipDownloader;
 import com.pratham.readandspeak.domain.ContentTable;
 import com.pratham.readandspeak.interfaces.API_Content_Result;
+import com.pratham.readandspeak.nestedRecycler.HomeActivity;
 import com.pratham.readandspeak.ui.bottom_fragment.add_student.MenuActivity;
 /*import com.pratham.readandspeak.ui.games.gamesDisplay.GamesDisplay;
 import com.pratham.readandspeak.ui.profile.ProfileActivity;
@@ -57,7 +59,8 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
     private List<ContentTable> contentViewList;
     Gson gson;
     API_Content_Result APIContentResult;
-
+    ZipDownloader zipDownloader;
+    List<ContentTable> ContentTableList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -160,9 +163,13 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
     public void onLevelClicked(int position, String nodeId, String contentName, String contentType) {
         ButtonClickSound.start();
         if (nodeId.equalsIgnoreCase("1300")) {
-      /*      Intent intent = new Intent(this, ChooseReadingActivity.class);
+           // showRcycler(nodeId);
+
+
+
+            Intent intent = new Intent(this, HomeActivity.class);
             intent.putExtra("nodeId", nodeId);
-            startActivity(intent);*/
+            startActivity(intent);
         } else if (nodeId.equalsIgnoreCase("1301")) {
            /* Intent intent = new Intent(this, GamesDisplay.class);
             intent.putExtra("nodeId", nodeId);
@@ -173,6 +180,17 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
             startActivity(intent);*/
         }
     }
+
+    /*private void showRcycler(String nodeId) {
+        zipDownloader = new ZipDownloader(this);
+        readingAdapter = new ReadingAdapter(this, ContentTableList, this);
+        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(readingAdapter);
+        presenter.getListData(nodeId);
+    }*/
 
     @Override
     public void onBackPressed() {

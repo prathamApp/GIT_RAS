@@ -64,7 +64,7 @@ public class RASApplication extends Application {
     }
 
 
-    public static RASApplication cosApplication;
+    public static RASApplication rasApplication;
     private static final DateFormat dateTimeFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.ENGLISH);
     private static final DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH);
     public static String path;
@@ -72,8 +72,8 @@ public class RASApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        if (cosApplication == null) {
-            cosApplication = this;
+        if (rasApplication == null) {
+            rasApplication = this;
         }
         FastSave.init(getApplicationContext());
 
@@ -108,7 +108,7 @@ public class RASApplication extends Application {
 
     /*public String getExtPath() {
         String sdCardPathString = null;
-        ArrayList<String> sdcard_path = SDCardUtil.getExtSdCardPaths(cosApplication);
+        ArrayList<String> sdcard_path = SDCardUtil.getExtSdCardPaths(rasApplication);
         for (String path : sdcard_path) {
             if (new File(path + "/.EngGame").exists()) {
                 sdCardPathString = path + "/.EngGame/";
@@ -125,7 +125,7 @@ public class RASApplication extends Application {
 
 
     public static String getVersion() {
-        Context context = cosApplication.cosApplication;
+        Context context = rasApplication.rasApplication;
         String packageName = context.getPackageName();
         try {
             PackageManager pm = context.getPackageManager();
@@ -152,7 +152,7 @@ public class RASApplication extends Application {
 
     public static String getCurrentDateTime(boolean timerTime, String appStartTime) {
         if (timerTime) {
-            return cosApplication.getAccurateTimeStamp(appStartTime);
+            return rasApplication.getAccurateTimeStamp(appStartTime);
         } else {
             Calendar cal = Calendar.getInstance();
             return dateTimeFormat.format(cal.getTime());
@@ -160,7 +160,7 @@ public class RASApplication extends Application {
     }
 
     public static RASApplication getInstance() {
-        return cosApplication;
+        return rasApplication;
     }
 
     public static int getRandomNumber(int min, int max) {

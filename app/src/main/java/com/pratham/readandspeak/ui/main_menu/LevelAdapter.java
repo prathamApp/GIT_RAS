@@ -33,7 +33,7 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
 
         public MyViewHolder(View view) {
             super(view);
-            item_content = view.findViewById(R.id.tv_word);
+            item_content = view.findViewById(R.id.tv_content_title);
 
          /*   item_btn = (Button) view.findViewById(R.id.item_btn);
             item_ivbtn = (ImageButton) view.findViewById(R.id.item_ivbtn);
@@ -54,7 +54,7 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
 
     @Override
     public LevelAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.content_row, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, parent, false);
 //        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.reading_row, parent, false);
         String title = contentViewList.get(viewType).getNodeTitle();
         if (title.equalsIgnoreCase("reading")) {

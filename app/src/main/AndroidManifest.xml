@@ -49,8 +49,11 @@
         <activity
             android:name="com.pratham.readandspeak.admin_panel.Activity_AssignGroups"
             android:screenOrientation="portrait" />
- <activity
+        <activity
             android:name="com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity"
+            android:screenOrientation="portrait" />
+<activity
+            android:name="com.pratham.readandspeak.nestedRecycler.HomeActivity"
             android:screenOrientation="portrait" />
 
     </application>
