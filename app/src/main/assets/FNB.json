@@ -1,0 +1,635 @@
+[{
+	"category": "Food & Beverages",
+	"categoryImage": "triangle.png",
+	"dataList": [{
+			"category": "Cutlery",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 1,
+					"regionalName": "एपी फोर्क",
+					"englishName": "AP (All purpose Fork)",
+					"imagePath": "01_AP-Fork.png",
+					"audioPath": "ap.mp3",
+					"useText": "इस फोर्क का उपयोग गेस्ट खाना खाने के लिए करते हैं| यह टेबल सेटअप के समय रखा जाता है|",
+					"useAudioPath": "iska_upyog_guest_table.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 2,
+					"regionalName": "एपी स्पून",
+					"englishName": "AP (All purpose spoon)",
+					"imagePath": "02_AP-Spoon-1.png",
+					"audioPath": "ap_spoon.mp3",
+					"useText": "इस स्पून का उपयोग गेस्ट खाना खाने के लिए करते हैं| यह टेबल सेटअप के समय रखा जाता है|",
+					"useAudioPath": "iska_spoon_upyog_guest_table.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 3,
+					"regionalName": "फिश नाइफ",
+					"englishName": "FISH KNIFE",
+					"imagePath": "03_Fish-Knife.png",
+					"audioPath": "fish_knife.mp3",
+					"useText": "फिश नाइफ का उपयोग गेस्ट फिश की डिश खाने के लिए करते हैं|",
+					"useAudioPath": "is_knife_ka_upyog.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 4,
+					"regionalName": "फिश फोर्क",
+					"englishName": "FISH FORK",
+					"imagePath": "04_Fish-Fork.png",
+					"audioPath": "fish_fork.mp3",
+					"useText": "फिश फोर्क का उपयोग फिश की डिश खाने के लिए किया जाता है|",
+					"useAudioPath": "is_fork_ka_upyog.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 5,
+					"regionalName": "सर्विस स्पून",
+					"englishName": "SERVICE SPOON",
+					"imagePath": "05_Service-Spoon.png",
+					"audioPath": "service_spoon.mp3",
+					"useText": "सर्विस स्पून का उपयोग डिश को प्लैटर टू प्लेट सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "is_service_spoon_ka_upyog.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 6,
+					"regionalName": "सर्विस फोर्क",
+					"englishName": "SERVICE FORK",
+					"imagePath": "06_Service-Fork.png",
+					"audioPath": "service_fork.mp3",
+					"useText": "इस फोर्क का उपयोग डिश को प्लैटर टू प्लेट सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "is_fork_ka_platter.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 7,
+					"regionalName": "सूप स्पून",
+					"englishName": "SOUP SPOON",
+					"imagePath": "07_Soup-Spoon.png",
+					"audioPath": "soup_spoon.mp3",
+					"useText": "सूप स्पून का उपयोग सूप पीने के लिए किया जाता है|",
+					"useAudioPath": "is_spoon_ka_upyog_soup_peene.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 8,
+					"regionalName": "बार स्पून",
+					"englishName": "BAR SPOON",
+					"imagePath": "08_Bar-spoon.png",
+					"audioPath": "bar_spoon.mp3",
+					"useText": "बार स्पून का उपयोग बार में बनी हुई ड्रिंक्स को मिक्स करने के लिए किया जाता है|",
+					"useAudioPath": "is_spoon_ka_upyog_bar_drinks.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 9,
+					"regionalName": "बटर स्प्रेडर",
+					"englishName": "BUTTER SPREADER",
+					"imagePath": "09_Butter-Spreader.png",
+					"audioPath": "butter_spreader.mp3",
+					"useText": "इस नाइफ का उपयोग ब्रेड में बटर लगाने के लिए किया जाता है|",
+					"useAudioPath": "is_knife_ka_upyog_bread.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 10,
+					"regionalName": "बटर डिश",
+					"englishName": "BUTTER DISH",
+					"imagePath": "10_Butter-Dish.png",
+					"audioPath": "butter_dish.mp3",
+					"useText": "इस डिश का उपयोग गेस्ट को बटर सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "is_dish_ka_upyog_guest_ko_butter.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 11,
+					"regionalName": "ऐश ट्रे",
+					"englishName": "ASH TRAY",
+					"imagePath": "11_Ash-Tray.png",
+					"audioPath": "ashtray.mp3",
+					"useText": "इसका उपयोग सिगरेट की राख़ डालने के लिए करते हैं|",
+					"useAudioPath": "iska_upyog_ciggarte.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 12,
+					"regionalName": "सर्विस लेडल",
+					"englishName": "SERVICE LADDLE",
+					"imagePath": "12-SERVICE-LADDLE_2.png",
+					"audioPath": "service_laddle.mp3",
+					"useText": "सर्विस लेडल का उपयोग बुफे में खाने की सर्विस के लिए किया जाता है|",
+					"useAudioPath": "service_leddle_spoon_upyog_buffe.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 13,
+					"regionalName": "आइस टोंग",
+					"englishName": "ICE TONG",
+					"imagePath": "13_Ice-Tong-2.png",
+					"audioPath": "ice_tong.mp3",
+					"useText": "आइस टोंग का उपयोग आइस बकेट से बर्फ़ के टुकड़ों को सर्व करने के लिए किया जाता है |",
+					"useAudioPath": "ice_tong_ka_upyog.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 14,
+					"regionalName": "पेस्ट्री टोंग",
+					"englishName": "PASTRY TONG",
+					"imagePath": "14_Pastry-tong.png",
+					"audioPath": "pastry_tong.mp3",
+					"useText": "पेस्ट्री टोंग का उपयोग पेस्ट्री सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "is_tong_ka_upyog_pastry.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 15,
+					"regionalName": "सैलेड टोंग",
+					"englishName": "SALAD TONG",
+					"imagePath": "15_Salad-Tong.png",
+					"audioPath": "salad_tong.mp3",
+					"useText": "सैलेड टोंग का उपयोग सैलेड सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "salad_tong_upyog_salad.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 16,
+					"regionalName": "पेग मेज़रर",
+					"englishName": "PEG MEASURER",
+					"imagePath": "16_Peg-Measurer.png",
+					"audioPath": "peg_measurear.mp3",
+					"useText": "इसका उपयोग अल्कोहलिक और नॉन अल्कोहलिक बेवरेजेज की 30 और 60 मि.ली. मात्रा मापने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_alcoholic.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 17,
+					"regionalName": "दाल लेडल",
+					"englishName": "DAL LADDLE",
+					"imagePath": "17_Dal-Laddle.png",
+					"audioPath": "dal_laddle.mp3",
+					"useText": "दाल लेडल का उपयोग बुफे में दाल सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "daal_laddle_is_spoon_ka_upyog_daal.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 18,
+					"regionalName": "स्ट्रॉ होल्डर",
+					"englishName": "STRAW HOLDER",
+					"imagePath": "18_Straw-Holder.png",
+					"audioPath": "straw_holder.mp3",
+					"useText": "इसका उपयोग बेवरेज़ के साथ स्ट्रॉ सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_bevarage_straw.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 19,
+					"regionalName": "टी पॉट",
+					"englishName": "TEA POT",
+					"imagePath": "19_Tea-Pot.png",
+					"audioPath": "tea_pot.mp3",
+					"useText": "टी पॉट का उपयोग चाय सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "tea_pot_chay_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 20,
+					"regionalName": "कॉफ़ी पॉट",
+					"englishName": "COFFEE POT",
+					"imagePath": "20_Coffee-Pot.png",
+					"audioPath": "coffe_pot.mp3",
+					"useText": "कॉफ़ी पॉट का उपयोग कॉफ़ी सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "coffe_pot_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 21,
+					"regionalName": "मिल्क क्रीमर",
+					"englishName": "MILK CREAMER",
+					"imagePath": "21_Milk-Creamer.png",
+					"audioPath": "milk_creamer.mp3",
+					"useText": "मिल्क क्रीमर का उपयोग मिल्क सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "milk_creamer_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 22,
+					"regionalName": "फिंगर बाउल विद अंडरलाइनर",
+					"englishName": "FINGER BOWL WITH UNDERLINER",
+					"imagePath": "22_Finger-Bowl-with-underliner.png",
+					"audioPath": "finger_bowl.mp3",
+					"useText": "फिंगर बाउल का उपयोग मेनकोर्स खाने के बाद टेबल पर हाथ धोने के लिए करते हैं|",
+					"useAudioPath": "finger_bowl_khana_ke_baad_table.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 23,
+					"regionalName": "कॉकटेल शेकर",
+					"englishName": "COCKTAIL SHAKER",
+					"imagePath": "23_Cocktail-Shaker.png",
+					"audioPath": "coctail_shaker.mp3",
+					"useText": "इसका उपयोग कॉकटेल और मोकटेल बनाने के लिए किया जाता है|",
+					"useAudioPath": "cocktail_moctail_banane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 24,
+					"regionalName": "वॉटर जग",
+					"englishName": "WATER JUG",
+					"imagePath": "24_Water-jug.png",
+					"audioPath": "water_jug.mp3",
+					"useText": "इसका उपयोग पानी सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "paani_ki_service_karne_ke.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 25,
+					"regionalName": "आइस बकेट",
+					"englishName": "ICE BUCKET",
+					"imagePath": "25_Ice-Bucket.png",
+					"audioPath": "ice_bucket.mp3",
+					"useText": "इसका उपयोग बर्फ़ के टुकड़े रखने के लिए किया जाता है|",
+					"useAudioPath": "burf_tukde_rakhne.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Crockery",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 26,
+					"regionalName": "साइड या क्वॉर्टर प्लेट",
+					"englishName": "SIDE OR QUARTER PLATE",
+					"imagePath": "26_Side_Quarter-Plate.png",
+					"audioPath": "side_quarter_plate.mp3",
+					"useText": "इस प्लेट का उपयोग स्टार्टर खाने के लिए किया जाता है| इसका उपयोग टेबल सेटअप के लिए किया जाता है|",
+					"useAudioPath": "start_rakhane_table_setup.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 27,
+					"regionalName": "अंडरलाइनर या सौसर",
+					"englishName": "UNDERLINER OR SAUCER",
+					"imagePath": "27_Underliner.png",
+					"audioPath": "underliner_souce.mp3",
+					"useText": "यह एक छोटी प्लेट होती है जो कप्स और बाउल्स रखने के लिए इस्तेमाल की जाती है|",
+					"useAudioPath": "choti_plate_jo_cups_bowl.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 28,
+					"regionalName": "फुल या डिनर प्लेट",
+					"englishName": "FULL OR DINNER PLATE",
+					"imagePath": "28_Full_Dinner-Plate.png",
+					"audioPath": "full_dinner_plate.mp3",
+					"useText": "इस प्लेट का उपयोग मेन कोर्स खाना सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "full_dinner_cource_khane_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 29,
+					"regionalName": "स्टार्टर प्लेटर या सैलेड प्लैटर",
+					"englishName": "STARTER PLATTER OR SALAD PLATTER",
+					"imagePath": "29_Salad-Plater.png",
+					"audioPath": "starter_salad_platter.mp3",
+					"useText": "इसका उपयोग प्लैटर से प्लेट पर स्टार्टर और सलाद सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "starter_or_salad.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 30,
+					"regionalName": "पोर्शन डिश",
+					"englishName": "PORTION DISH",
+					"imagePath": "30_Portion-Dish.png",
+					"audioPath": "portion_dish.mp3",
+					"useText": "इस बाउल का उपयोग किसी डिश का एक पोर्शन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "ek_portion_dish.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 31,
+					"regionalName": "सूप बाउल विद अंडरलाइनर",
+					"englishName": "SOUP BOWL WITH UNDERLINER",
+					"imagePath": "31_Soup-bowl-with-underliner.png",
+					"audioPath": "soup_bowl.mp3",
+					"useText": "इस बाउल का उपयोग सूप सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "soup_upyog_dish.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 32,
+					"regionalName": "कॉफ़ी कप विद सौसर",
+					"englishName": "COFFEE CUP WITH SAUCER",
+					"imagePath": "32_Coffee-cup--with-saucer.png",
+					"audioPath": "coffe_cup.mp3",
+					"useText": "इस कप का उपयोग कॉफ़ी पीने के लिए किया जाता है|",
+					"useAudioPath": "coffe_cup_upyog_.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 33,
+					"regionalName": "टी कप विद सौसर",
+					"englishName": "TEA CUP WITH SAUCER",
+					"imagePath": "33_Tea-Cup-with-saucer.png",
+					"audioPath": "tea_cup.mp3",
+					"useText": "इस कप का उपयोग चाय पीने के लिए किया जाता है|",
+					"useAudioPath": "tea_cup_upyog_chaye_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 34,
+					"regionalName": "क्रुएट सेट",
+					"englishName": "CRUET SET",
+					"imagePath": "34_Cruet-Set.png",
+					"audioPath": "cruet_set.mp3",
+					"useText": "इसका उपयोग नमक और काली मिर्च पाउडर सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "kali_mirch_powder.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 35,
+					"regionalName": "शुगर बेसिन",
+					"englishName": "SUGAR BASIN",
+					"imagePath": "35_Sugar-Basin.png",
+					"audioPath": "sugar_besin.mp3",
+					"useText": "इसका उपयोग शुगर सैशे (शुगर पैकेट) सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "sachets_sugar_packet_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 36,
+					"regionalName": "टिशू पेपर होल्डर",
+					"englishName": "TISSUE PAPER HOLDER",
+					"imagePath": "36-TISSUE-PAPER-HOLDER.png",
+					"audioPath": "tissue_paper_holder.mp3",
+					"useText": "इसका उपयोग टिशू पेपर सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "tissue_pepar_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 37,
+					"regionalName": "बाउल",
+					"englishName": "BOWL",
+					"imagePath": "37_Bowl.png",
+					"audioPath": "bowl.mp3",
+					"useText": "इसका उपयोग लिक्विड या सेमीलिक्विड डिश सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "bowl_semiliquid_dish.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Glassware",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 38,
+					"regionalName": "मार्टीनी ग्लास",
+					"englishName": "MARTINI GLASS",
+					"imagePath": "38_Martini-Glass-2.png",
+					"audioPath": "martini_glass.mp3",
+					"useText": "इस ग्लास का उपयोग मार्टीनी कॉकटेल सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "martini_kok_telco.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 39,
+					"regionalName": "रोली पोली ग्लास",
+					"englishName": "ROLLY POLLY GLASS",
+					"imagePath": "39_Rolly-Polly-Glass.png",
+					"audioPath": "rolly_plly_glass.mp3",
+					"useText": "इस ग्लास का उपयोग किसी भी तरह की मोकटेल या कॉकटेल सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "kisi_bhi_tarha_moctail_cocktail.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 40,
+					"regionalName": "ओल्ड फैशन्ड ग्लास",
+					"englishName": "OLD FASHIONED GLASS",
+					"imagePath": "40_Old-Fashioned-Glass.png",
+					"audioPath": "old_fashiond_glass.mp3",
+					"useText": "इस ग्लास का उपयोग व्हिस्की सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "whisky_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 41,
+					"regionalName": "बियर गॉब्लेट ग्लास",
+					"englishName": "BEER GOBLET GLASS",
+					"imagePath": "41-BEER-GOBLET-GLASS_1.png",
+					"audioPath": "beer_goblet_glass.mp3",
+					"useText": "बियर गॉब्लेट ग्लास का उपयोग बियर सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "beer_goblet_beer_ki_service.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 42,
+					"regionalName": "शैम्पेन ट्युलिप",
+					"englishName": "CHAMPAGNE TULIP",
+					"imagePath": "42_Champagne-Tulip.png",
+					"audioPath": "champagne_tulip.mp3",
+					"useText": "इस ग्लास का उपयोग शैम्पेन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "chapagne_tulip_serve_karne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 43,
+					"regionalName": "ब्रैन्डी बलून",
+					"englishName": "BRANDY BALLOON",
+					"imagePath": "43_Brandy-Balloon.png",
+					"audioPath": "brandy_balloon.mp3",
+					"useText": "इस ग्लास का उपयोग ब्रैन्डी सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "brandy_ballon_serve_karne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 44,
+					"regionalName": "डीकेंटर ग्लास",
+					"englishName": "DECANTER GLASS",
+					"imagePath": "44_Dicanter-Glass.png",
+					"audioPath": "decanter_glass.mp3",
+					"useText": "इस ग्लास का उपयोग सभी तरह के मिक्सर जैसे पानी, सोडा, सॉफ्ट ड्रिंक आदि सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "sabhi_tarah_ke_mixture.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 45,
+					"regionalName": "शेरी ग्लास",
+					"englishName": "SHERRY GLASS",
+					"imagePath": "45_Sherry-Glass.png",
+					"audioPath": "sherry_glass.mp3",
+					"useText": "इस ग्लास का उपयोग शेरी वाइन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "sherry_wine_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 46,
+					"regionalName": "रेड वाइन ग्लास",
+					"englishName": "RED WINE GLASS",
+					"imagePath": "46_Red-Wine-Glass.png",
+					"audioPath": "red_wine_glass.mp3",
+					"useText": "इस ग्लास का उपयोग रेड वाइन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "red_wine_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 47,
+					"regionalName": "वाइट वाइन ग्लास",
+					"englishName": "WHITE WINE GLASS",
+					"imagePath": "47_White-Wine-Glass.png",
+					"audioPath": "white_wine_glass.mp3",
+					"useText": "इस ग्लास का उपयोग वाइट वाइन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "white_wine_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 48,
+					"regionalName": "हाई बॉल ग्लास",
+					"englishName": "HI BALL GLASS",
+					"imagePath": "48_Hi-Ball-Glass.png",
+					"audioPath": "hi_ball_glass.mp3",
+					"useText": "इस ग्लास का उपयोग पानी सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "water_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 49,
+					"regionalName": "आइसक्रीम बाउल",
+					"englishName": "ICE CREAM BOWL",
+					"imagePath": "49_Ice-Cream-Bowl.png",
+					"audioPath": "ici_cream_bowl.mp3",
+					"useText": "बाउल जैसे इस ग्लास का उपयोग आइसक्रीम या अन्य डिजर्ट सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "ice_cream_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 50,
+					"regionalName": "एपी वाइन ग्लास",
+					"englishName": "AP WINE GLASS",
+					"imagePath": "50_A-P-Wine-Glass.png",
+					"audioPath": "ap_wine_glass.mp3",
+					"useText": "इस ग्लास का उपयोग शैम्पेन के अलावा सभी तरह की वाइन सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "all_wine_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 51,
+					"regionalName": "बियर पिल्सनर",
+					"englishName": "BEER PILSNER",
+					"imagePath": "51_Beer-Pilsner.png",
+					"audioPath": "beer_pilsner.mp3",
+					"useText": "बियर पिल्सनर का उपयोग बियर सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "beer_ki_serve.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 52,
+					"regionalName": "टॉम कोलिन्स ग्लास",
+					"englishName": "TOM COLLINS GLASS",
+					"imagePath": "52_Tom-Cillins-Glass.png",
+					"audioPath": "tom_collins.mp3",
+					"useText": "इस ग्लास का उपयोग टॉम कोलिन्स नामक कॉकटेल सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "tom_collins_namak.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 53,
+					"regionalName": "टकीला शॉट ग्लास",
+					"englishName": "TEQUILA OR SHOT GLASS",
+					"imagePath": "53_Teqila-Shot-Glass.png",
+					"audioPath": "tequilla_glass.mp3",
+					"useText": "इस ग्लास का उपयोग टकीला सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "tequilla_glass_serve.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Other Equipments (Banquet & Buffet)",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 54,
+					"regionalName": "जूस डिस्पेंसर",
+					"englishName": "JUICE DISPENSER",
+					"imagePath": "54_Juice-Dispenser.png",
+					"audioPath": "juice_dispenser.mp3",
+					"useText": "इसका उपयोग बुफे में जूस सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "Juice-buffe_survey.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 55,
+					"regionalName": "सूप ट्यूरिन",
+					"englishName": "SOUP TURIN",
+					"imagePath": "55_Soup-Turin.png",
+					"audioPath": "soup_turin.mp3",
+					"useText": "इसका उपयोग बुफे में सूप सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "soup_buffe_survey_karne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 56,
+					"regionalName": "चैफिंग डिश",
+					"englishName": "CHAFFING DISH",
+					"imagePath": "56_CHAFFING-DISH.png",
+					"audioPath": "chaffing_dish.mp3",
+					"useText": "इसका उपयोग बुफे में खाना सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "food_khane_ke_buffe_survey.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 57,
+					"regionalName": "टेबल मैट",
+					"englishName": "TABLE MAT",
+					"imagePath": "57_Tabel-mat.png",
+					"audioPath": "table_mat.mp3",
+					"useText": "इसका उपयोग कवर सेटअप करने के लिए किया जाता है",
+					"useAudioPath": "cover_setup_karte_samay.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 58,
+					"regionalName": "सैल्वर",
+					"englishName": "SALVER",
+					"imagePath": "58_Salver.png",
+					"audioPath": "salver.mp3",
+					"useText": "इस ट्रे का उपयोग फ़ूड एंड बेवरेज उपकरण और डिश ले जाने के लिए किया जाता है",
+					"useAudioPath": "salver_bevarrage_tray_ka_upyog.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 59,
+					"regionalName": "कोस्टर",
+					"englishName": "COASTER",
+					"imagePath": "59_Coster.png",
+					"audioPath": "coaster.mp3",
+					"useText": "इसका उपयोग ग्लास के नीचे रखने के लिए किया जाता है|",
+					"useAudioPath": "glass_neechey_rakhne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 60,
+					"regionalName": "टी या कॉफ़ी मेकर",
+					"englishName": "TEA OR COFFEE MAKER",
+					"imagePath": "60_Tea-Coffee-Maker.png",
+					"audioPath": "tea_coffe_maker.mp3",
+					"useText": "इसका उपयोग चाय या कॉफ़ी बनाने के लिए किया जाता है| यह मुख्यतः गेस्ट रूम में रखे होते हैं|",
+					"useAudioPath": "coffee_banane_ke_liye.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 61,
+					"regionalName": "ब्रेड बास्केट",
+					"englishName": "BREAD BASKET",
+					"imagePath": "61_Bread-basket.png",
+					"audioPath": "bread_basket.mp3",
+					"useText": "इस बास्केट का उपयोग ब्रेड सर्व करने के लिए किया जाता है|",
+					"useAudioPath": "bread_serve_karne_ke_liye.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		}
+	]
+}]

@@ -120,7 +120,6 @@ public class HomeActivity extends BaseActivity implements API_Content_Result {
                                 tempList.add(contentChild);
                             }
                             contentTable.setNodelist(tempList);
-
                             contentParentList.add(contentTable);
                         }
                     } catch (Exception e) {
@@ -303,6 +302,6 @@ public class HomeActivity extends BaseActivity implements API_Content_Result {
 
     @Override
     public void receivedError(String header) {
-        Toast.makeText(this, "Check Internet", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Please Check Internet", Toast.LENGTH_SHORT).show();
     }
 }

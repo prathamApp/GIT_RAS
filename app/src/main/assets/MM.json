@@ -1,0 +1,625 @@
+{
+	"category": "Food & Beverages",
+	"categoryImage": "triangle.png",
+	"dataList": [{
+			"category": "Safety Equipments",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 1,
+					"regionalName": "हेल्मेट",
+					"englishName": "Helmate",
+					"imagePath": "01_Helmate.png",
+					"audioPath": "helmate.mp3",
+					"useText": "इसका उपयोग मैकेनिक वर्कशॉप में वाहन के नीचे काम करते समय अपने सिर को चोटों से बचाने के लिए करते हैं I",
+					"useAudioPath": "iska_upyog_vahan_neechey_choton_se_bachane.mp3",
+					"processName": "Fundamentals of Workshop"
+				},
+				{
+					"questionId": 2,
+					"regionalName": "हैण्ड ग्लव्स",
+					"englishName": "Hand Gloves",
+					"imagePath": "02_Hand_Gloves.png",
+					"audioPath": "hand_gloves.mp3",
+					"useText": "इसे किसी वाहन की मरम्मत करते समय पहनते हैं क्योंकि इंजन के अत्यधिक चलने से इंजन के हिस्से गरम हो जाते हैं",
+					"useAudioPath": "iska_upyog_vahan_marammat.mp3",
+					"processName": "Fundamentals of Workshop"
+				},
+				{
+					"questionId": 3,
+					"regionalName": "नोज मास्क",
+					"englishName": "Nose Mask",
+					"imagePath": "03_Nose_Mask.png",
+					"audioPath": "nose_mask.mp3",
+					"useText": "इसका उपयोग मैकेनिक इंजन या एग्जॉस्ट सिस्टम पर काम करते समय करते हैं ताकि जहरीले गैसें नाक और मुंह से फेफड़ों में न जाएंI",
+					"useAudioPath": "iska_upyog_engine_apni_naak.mp3",
+					"processName": "Fundamentals of Workshop"
+				},
+				{
+					"questionId": 4,
+					"regionalName": "सेफ्टी गॉगल्स",
+					"englishName": "Safety Goggles",
+					"imagePath": "04_Safety_Goggle.png",
+					"audioPath": "Safety_Goggles.mp3",
+					"useText": "इसका उपयोग मैकेनिक वर्कशॉप में वाहन के नीचे काम करते समय अपनी आँखों को चोट और धूल-मिट्टी से बचाने के लिए करते हैंI",
+					"useAudioPath": "iska_upyog_workshop_vahan_neechey_dhool_mitti.mp3",
+					"processName": "Fundamentals of Workshop"
+				},
+				{
+					"questionId": 5,
+					"regionalName": "सेफ्टी शूज",
+					"englishName": "Safety Shoes",
+					"imagePath": "05_Safety_Shoes.png",
+					"audioPath": "Safety_Shoes.mp3",
+					"useText": "इसका उपयोग मैकेनिक वर्कशॉप में अपने पैरों को चोट से बचाने के लिए करते हैंI",
+					"useAudioPath": "iska_upyog_workshop_peron_ki.mp3",
+					"processName": "Fundamentals of Workshop"
+				},
+				{
+					"questionId": 6,
+					"regionalName": "फायर एक्स्टिंग्विशर",
+					"englishName": "Fire Extingusher",
+					"imagePath": "06_Fire_Extingusher.png",
+					"audioPath": "Fire_Extingusher.mp3",
+					"useText": "इसका उपयोग वर्कशॉप में आग बुझाने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_workshop_aag_bujhane.mp3",
+					"processName": "Fundamentals of Workshop"
+				}
+			]
+		},
+		{
+			"category": "General Tool",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 7,
+					"regionalName": "स्क्रू ड्राइवर",
+					"englishName": "Screw Driver",
+					"imagePath": "07_Screw_Driver.png",
+					"audioPath": "Screw_Driver.mp3",
+					"useText": "इसका उपयोग मशीन के स्क्रू कसने या ढीले करने के लिए किया जाता है I",
+					"useAudioPath": "iska_upyog_machine_screw.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 8,
+					"regionalName": "ओपन एंडेड स्पैनर",
+					"englishName": "Open Ended Spanner",
+					"imagePath": "08_Open_Ended_Spanner.png",
+					"audioPath": "Open_Ended_Spanner.mp3",
+					"useText": "इस स्पैनर का उपयोग नट और बोल्ट कसने या ढीला करने के लिए किया जाता है.I",
+					"useAudioPath": "is_spanner_nut_bolt.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 9,
+					"regionalName": "रिंग स्पैनर",
+					"englishName": "Ring Spanner",
+					"imagePath": "09_Ring_Spanner.png",
+					"audioPath": "Ring_Spanner.mp3",
+					"useText": "इस स्पैनर का उपयोग नट और बोल्ट कसने या ढीला करने के लिए किया जाता हैI इसका मुंह नट और बोल्ट को चारों ओर से पकड़ता है जिससे यह फिसलता नहीं हैI",
+					"useAudioPath": "is_spanner_kasne_ya_dheela_karne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 10,
+					"regionalName": "कॉम्बिनेशन स्पैनर",
+					"englishName": "Combination Spanner",
+					"imagePath": "10_Combination_Spanner.png",
+					"audioPath": "Combination_Spanner.mp3",
+					"useText": "इस स्पैनर का एक सिरा बंद और दूसरा सिरा खुला होता है I इसका उपयोग जाम हुए नट और बोल्ट को ढीला करने के लिए किया जाता है",
+					"useAudioPath": "is_spanner_ek_sira_band_ek_khula.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 11,
+					"regionalName": "सॉकेट स्पैनर",
+					"englishName": "Socket Spanner",
+					"imagePath": "11_Socket_Spanner.png",
+					"audioPath": "Socket_Spanner.mp3",
+					"useText": "यह स्पैनर उन जगहों में उपयोगी होते हैं जहाँ सामान्य प्रकार के स्पैनर इस्तेमाल नहीं किये जा सकते हैंI इसका उपयोग नट को कसने या ढीला करने के लिए होता है|",
+					"useAudioPath": "yeh_spanner_samanya_prakar_se.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 12,
+					"regionalName": "एडजस्टेबल रेंच",
+					"englishName": "Adjustable Wrench",
+					"imagePath": "13_Adjustable_Wrench.png",
+					"audioPath": "Adjustable_Wrench.mp3",
+					"useText": "इस रेंच का उपयोग कई आकारों के नट और बोल्ट को कसने या ढीला करने के लिए किया जाता हैI",
+					"useAudioPath": "is_tarah_vranch_kai_aakaron.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 13,
+					"regionalName": "पाइप रेंच",
+					"englishName": "Pipe Wrench",
+					"imagePath": "14_Pipe_Wrench.png",
+					"audioPath": "Pipe_Wrench.mp3",
+					"useText": "इस तरह के रेंच का उपयोग पाइप को पकड़ने और मोड़ने के लिए किया जाता है।",
+					"useAudioPath": "is_tarah_pakadne_morne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 14,
+					"regionalName": "प्लायर",
+					"englishName": "Plier",
+					"imagePath": "17_Plier.png",
+					"audioPath": "Plier.mp3",
+					"useText": "इसका उपयोग लेवरेज की मदद से वस्तुओं को पकड़ने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_livrej.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 15,
+					"regionalName": "हैमर",
+					"englishName": "Hammer",
+					"imagePath": "18_Hammer.png",
+					"audioPath": "Hammer.mp3",
+					"useText": "इसका उपयोग किसी चीज को ठोक कर पिचकाने, झुकाने, छेद करने, सरलीकरण, रिवेटिंग इत्यादि के लिए होता है।",
+					"useAudioPath": "iska_thok_kar_pichkana.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 16,
+					"regionalName": "चिसेल",
+					"englishName": "Chisel",
+					"imagePath": "19_Chisel.png",
+					"audioPath": "Chisel.mp3",
+					"useText": "इसका उपयोग हैमर की मदद से धातु काटने के लिए किया जाता है I आमतौर पर जंग लगे हुए नट और बोल्ट तोड़ने के लिए इसका इस्तेमाल होता हैI",
+					"useAudioPath": "iska_hemmer_dhatu_katne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 17,
+					"regionalName": "फाइल",
+					"englishName": "File",
+					"imagePath": "20_File.png",
+					"audioPath": "File.mp3",
+					"useText": "इसका उपयोग उबड़-खाबड़ सतह को निखारने तथा धातु के छोटे-छोटे कणों को निकालने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_ubar_khabad.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 18,
+					"regionalName": "हैक सॉ",
+					"englishName": "Hack Saw",
+					"imagePath": "21_Hack_Saw.png",
+					"audioPath": "Hack_Saw.mp3",
+					"useText": "इसका उपयोग धातु काटने के लिए किया जाता हैI",
+					"useAudioPath": "iska_dhatu_katne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 19,
+					"regionalName": "मेजरिंग टेप",
+					"englishName": "Measuring Tape",
+					"imagePath": "28_Measuring_Tape.png",
+					"audioPath": "Measuring_Tape.mp3",
+					"useText": "यह लचीला टेप है जिसका उपयोग दूरी को मापने के लिए किया जाता है।",
+					"useAudioPath": "yeh_lachila_tep.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 20,
+					"regionalName": "जम्पर केबल",
+					"englishName": "Jumper Cable",
+					"imagePath": "31_Jumper_Cable.png",
+					"audioPath": "Jumper_Cable.mp3",
+					"useText": "इन केबल का उपयोग बंद वाहन को स्पेयर बैटरी की मदद से शुरू करने के लिए किया जाता हैI",
+					"useAudioPath": "in_cable_band_vahan.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 21,
+					"regionalName": "रूलर",
+					"englishName": "Ruler",
+					"imagePath": "43_Ruler.png",
+					"audioPath": "Ruler.mp3",
+					"useText": "इसका उपयोग धातु या वस्तुओं की लम्बाई नापने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_dhatu.mp3",
+					"processName": "Workshop Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Special Tool",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 22,
+					"regionalName": "टॉर्क रेंच",
+					"englishName": "Torque Wrench",
+					"imagePath": "12_Torque_Wrench.png",
+					"audioPath": "Torque_Wrench.mp3",
+					"useText": "इस रेंच का उपयोग नट और बोल्ट को ख़ास मात्रा में टॉर्क देकर कसने के लिए किया जाता है.I",
+					"useAudioPath": "is_vranch_vishisht_matra.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 23,
+					"regionalName": "व्हील नट स्पैनर",
+					"englishName": "Wheel Nut Spanner",
+					"imagePath": "15_Wheel_Nut_Spanner.png",
+					"audioPath": "Wheel_Nut_Spanner.mp3",
+					"useText": "इस स्पैनर का उपयोग व्हील नट्स को कसने या ढीला करने के लिए किया जाता है I",
+					"useAudioPath": "is_spanner_wheel_nuts.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 24,
+					"regionalName": "ऐलन रेंच",
+					"englishName": "Allen Wrench",
+					"imagePath": "16_Allen_Wrench.png",
+					"audioPath": "Allen_Wrench.mp3",
+					"useText": "इस रेंच का उपयोग ऐलन स्क्रू, जिनके सिर पर षट्कोणीय खांचे होते हैं, को कसने या ढीला करने के लिए किया जाता हैI",
+					"useAudioPath": "is_vranch_elan_screw.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 25,
+					"regionalName": "फीलर गेज",
+					"englishName": "Feeler Gauge",
+					"imagePath": "23_Feeler Gauge.png",
+					"audioPath": "Feeler_Gauge.mp3",
+					"useText": "इसका उपयोग गैप की चौड़ाई मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_gep_chorai_mapne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 26,
+					"regionalName": "ऑइल फ़िल्टर रेंच",
+					"englishName": "Oil Filter Wrench",
+					"imagePath": "34_Oil_Filter_Wrench.png",
+					"audioPath": "Oil_Filter_Wrench.mp3",
+					"useText": "इस रेंच का उपयोग ऑइल फ़िल्टर को कसने या ढीला करने के लिए किया जाता है.I",
+					"useAudioPath": "is_vranch_ka_upyog_filter_kasne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 27,
+					"regionalName": "पिस्टन रिंग एक्स्पैंडर",
+					"englishName": "Piston Ring Expander",
+					"imagePath": "35_Piston_Ring_Expander.png",
+					"audioPath": "Piston_Ring_Expander.mp3",
+					"useText": "इस टूल का उपयोग पिस्टन से पिस्टन रिंग को निकालने और बिठाने के लिए किया जाता है।",
+					"useAudioPath": "is_tool_piston_ring.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 28,
+					"regionalName": "वाल्व स्प्रिंग कंप्रेसर",
+					"englishName": "Valve Spring Compressor",
+					"imagePath": "36_Valve_Spring_Compressor.png",
+					"audioPath": "Valve_Spring_Compressor.mp3",
+					"useText": "इस टूल का उपयोग इंजन से वाल्व स्प्रिंग को निकालने और बिठाने के लिए किया जाता है।",
+					"useAudioPath": "is_tool_engine_se_valv.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 29,
+					"regionalName": "कॉयल स्प्रिंग कंप्रेसर",
+					"englishName": "Coil Spring Compressor",
+					"imagePath": "37_Coil_Spring_Compressor.png",
+					"audioPath": "Coil_Spring_Compressor.mp3",
+					"useText": "इस टूल का उपयोग कॉयल स्प्रिंग को कॉम्प्रेस करने के लिए किया जाता है।",
+					"useAudioPath": "is_tool_ka_coil_spring.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 30,
+					"regionalName": "स्पार्क प्लग पुलर",
+					"englishName": "Spark Plug Puller",
+					"imagePath": "38_Spark_Plug_Puller.png",
+					"audioPath": "Spark_Plug_Puller.mp3",
+					"useText": "इस टूल का उपयोग स्पार्क प्लग को निकालने और बिठाने के लिए किया जाता है।",
+					"useAudioPath": "is_tool_spark_plug.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 31,
+					"regionalName": "ड्रम पुलर",
+					"englishName": "Drum Puller",
+					"imagePath": "39_Drum_Puller.png",
+					"audioPath": "Drum_Puller.mp3",
+					"useText": "इसका उपयोग पहियों के जाम हो चुके ड्रम को निकालने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_pahiyon_jaam.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 32,
+					"regionalName": "इंजेक्टर पुलर",
+					"englishName": "Injector Puller",
+					"imagePath": "40_Injector_Puller.png",
+					"audioPath": "Injector_Puller.mp3",
+					"useText": "इस टूल का उपयोग इंजेक्टर को निकालने के लिए किया जाता है।",
+					"useAudioPath": "in_tool_enjector_nikalne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 33,
+					"regionalName": "बेअरिंग पुलर",
+					"englishName": "Bearing Puller",
+					"imagePath": "41_Bearing_Puller.png",
+					"audioPath": "Bearing_Puller.mp3",
+					"useText": "इसका उपयोग वाहन की जाम हो चुकी बेअरिंग को निकालने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_vahan_jaam_bearing.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 34,
+					"regionalName": "पिस्टन रिंग कंप्रेसर",
+					"englishName": "Piston Ring Compressor",
+					"imagePath": "42_Piston_Ring_Compressor.png",
+					"audioPath": "Piston_Ring_Compressor.mp3",
+					"useText": "इसका उपयोग पिस्टन रिंग को कॉम्प्रेस करके पिस्टन को इंजन में स्थापित करने के लिए किया जाता है।",
+					"useAudioPath": "iska_piston_ring_compress.mp3",
+					"processName": "Workshop Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "General Equipment",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 35,
+					"regionalName": "बेंच वाइज",
+					"englishName": "Bench Wise",
+					"imagePath": "22_Bench_Wise.png",
+					"audioPath": "Bench_Wise.mp3",
+					"useText": "इसका उपयोग काम करते समय वस्तुओं को पकड़ने के लिए किया जाता हैI",
+					"useAudioPath": "iska_kaam_karte_samay_ghatak.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 36,
+					"regionalName": "टूल ट्रॉली",
+					"englishName": "Tool Trolley",
+					"imagePath": "24_Tool_Trolley.png",
+					"audioPath": "Tool_Trolley.mp3",
+					"useText": "इसका उपयोग टूल को व्यवस्थित करने, ले जाने और उनकी सुरक्षा करने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_tool_vyabasthith.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 37,
+					"regionalName": "फनल",
+					"englishName": "Funnel",
+					"imagePath": "25_Funnel.png",
+					"audioPath": "Funnel.mp3",
+					"useText": "इसका उपयोग ऑइल और फ्लूइड को छोटे छेद वाले भागों में भरने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_taral_oil.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 38,
+					"regionalName": "कॉटन वेस्ट",
+					"englishName": "Cotton Waste",
+					"imagePath": "26_Cotton_Waste.png",
+					"audioPath": "Cotton_Waste.mp3",
+					"useText": "इसका उपयोग ऑइल और मिट्टी से वाहन के ख़राब हुए पार्ट्स को साफ करने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_oil_mitti.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 39,
+					"regionalName": "डिजिटल मल्टीमीटर",
+					"englishName": "Digital Multimeter",
+					"imagePath": "27_Digital_Multimeter.png",
+					"audioPath": "Digital_Multimeter.mp3",
+					"useText": "इसका उपयोग इलेक्ट्रिक सर्किट में वोल्टेज, करंट और रेजिस्टेंस मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_electric_cercuit.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 40,
+					"regionalName": "टैकोमीटर",
+					"englishName": "Tachometer",
+					"imagePath": "29_Tachometer.png",
+					"audioPath": "Tachometer.mp3",
+					"useText": "इसका उपयोग किसी मोटर या मशीन के शाफ्ट या डिस्क की रोटेशन स्पीड को मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_kisi_motor.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 41,
+					"regionalName": "हाइड्रोमीटर",
+					"englishName": "Hydrometer",
+					"imagePath": "30_Hydrometer.png",
+					"audioPath": "Hydrometer.mp3",
+					"useText": "इसका उपयोग बैटरी इलेक्ट्रोलाइट की स्पेसिफिक ग्रेविटी मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_battery_electrolight.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 42,
+					"regionalName": "ऑइल कैन",
+					"englishName": "Oil Can",
+					"imagePath": "32_Oil_Can.png",
+					"audioPath": "Oil_Can.mp3",
+					"useText": "इसका उपयोग वाहन से ख़राब ऑइल और फ्लूइड को निकाल कर जमा करने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_kharab_oil.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 43,
+					"regionalName": "क्लीनिंग ट्रे",
+					"englishName": "Cleaning Tray",
+					"imagePath": "33_Cleaning_Tray.png",
+					"audioPath": "Cleaning_Tray.mp3",
+					"useText": "इसका उपयोग वाहन के भागों को साफ़ करने और पार्ट्स को रखने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_ke_bhagon_saaf.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 44,
+					"regionalName": "वर्निएर कैलिपर",
+					"englishName": "Vernier Calliper",
+					"imagePath": "44_Vernier_Calliper.png",
+					"audioPath": "Vernier_Calliper.mp3",
+					"useText": "इसका उपयोग आंतरिक व्यास/ लम्बाई, बाहरी व्यास/ लम्बाई और गहराई मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_antrik_bahari.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 45,
+					"regionalName": "माइक्रोमीटर",
+					"englishName": "Micrometer",
+					"imagePath": "45_Micrometer.png",
+					"audioPath": "Micrometer.mp3",
+					"useText": "इसका उपयोग छोटी वस्तुओं का आंतरिक और बाहरी व्यास/ लम्बाई मापने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_choti_antrik.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 46,
+					"regionalName": "हाइड्रोलिक रैंप",
+					"englishName": "Hydraulic Ramp",
+					"imagePath": "46_Hydraulic_Ramp.png",
+					"audioPath": "Hydraulic_Ramp.mp3",
+					"useText": "इसका उपयोग वाहन को पर्याप्त ऊँचाई तक उठाने के लिए किया जाता है जिससे वाहन के नीचे काम किया जा सकेI यह हाइड्रोलिक, न्यूमेटिक और इलेक्ट्रिक रूप से संचालित किया जाता हैI",
+					"useAudioPath": "iska_vahan_paryapt_unchai.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 47,
+					"regionalName": "सिज़र जैक",
+					"englishName": "Scissor Jack",
+					"imagePath": "47_Scissor_Jack.png",
+					"audioPath": "Scissor_Jack.mp3",
+					"useText": "इसका उपयोग वाहन को पर्याप्त ऊँचाई तक उठाने के लिए किया जाता है जिससे वाहन के नीचे काम किया जा सकेI यह यांत्रिक रूप से संचालित किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_uthane.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 48,
+					"regionalName": "हाइड्रोलिक जैक",
+					"englishName": "Hydraulic Jack",
+					"imagePath": "48_Hydraulic_Jack.png",
+					"audioPath": "Hydraulic_Jack.mp3",
+					"useText": "इसका उपयोग वाहन को पर्याप्त ऊँचाई तक उठाने के लिए किया जाता है जिससे वाहन के नीचे काम कर सकेI यह हाइड्रोलिक रूप से संचालित किया जाता है I",
+					"useAudioPath": "iska_upyog_vahan_neechey_hidrolik.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 49,
+					"regionalName": "सेफ्टी स्टैंड",
+					"englishName": "Safety Stand",
+					"imagePath": "49_Safety_Stand.png",
+					"audioPath": "Safety_Stand.mp3",
+					"useText": "इसका उपयोग वाहन को सुरक्षा हेतु पर्याप्त ऊँचाई पर खड़े रखने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_suraksha_hetu.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 50,
+					"regionalName": "ऑइल गन",
+					"englishName": "Oil Gun",
+					"imagePath": "50_Oil_Gun.png",
+					"audioPath": "Oil_Gun.mp3",
+					"useText": "इसका उपयोग वाहन के चलते भागों पर लुब्रिकेंट लगाने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_chalte_bhagon_snehan.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 51,
+					"regionalName": "ग्रीज़ गन",
+					"englishName": "Grease Gun",
+					"imagePath": "51_Grease_Gun.png",
+					"audioPath": "Grease_Gun.mp3",
+					"useText": "इसका उपयोग वाहन के चलते भागों पर ग्रीज़ लगाने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_vahan_chalte_greez_lagane.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 52,
+					"regionalName": "न्युमेंटिक/ एयर गन",
+					"englishName": "Pneumatic/Air Gun",
+					"imagePath": "52_Pneumatic_Air_Gun.png",
+					"audioPath": "Pneumatic_Air_Gun.mp3",
+					"useText": "यह कंप्रेस्ड हवा द्वारा संचालित होता है जो एयर कंप्रेसर द्वारा भेजी जाती है। इसका उपयोग जाम हुए नट और बोल्ट्स को खोलने और कसने के लिए किया जाता हैI",
+					"useAudioPath": "yeh_compress_hava_duara_sanchalit.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 53,
+					"regionalName": "बैटरी चार्जर और टेस्टर",
+					"englishName": "Battery Charger & Tester",
+					"imagePath": "53_Battery_Charger_&_Tester.png",
+					"audioPath": "Battery_Charger_Tester.mp3",
+					"useText": "इसका उपयोग बैटरी को चार्ज और उसकी जाँच करने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_battery_charge.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 54,
+					"regionalName": "स्पार्क प्लग क्लीनर एंड टेस्टर",
+					"englishName": "Spark Plug Cleaner and Tester",
+					"imagePath": "54_Spark_Plug_Cleaner_&_Tester.png",
+					"audioPath": "Spark_Plug_Cleaner_and_Tester.mp3",
+					"useText": "इसका उपयोग स्पार्क प्लग को साफ करने और जाँच करने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_spark_plug_saaf.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 55,
+					"regionalName": "बेंच ग्राइंडर",
+					"englishName": "Bench Grinder",
+					"imagePath": "55_Bench_Grinder.png",
+					"audioPath": "Bench_Grinder.mp3",
+					"useText": "इसका उपयोग पार्ट्स को शार्प, साफ़, पोलिश और रुख आकार देने के लिए किया जाता हैI",
+					"useAudioPath": "iska_upyog_parts_shapning_polish.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 56,
+					"regionalName": "हैण्ड ड्रिलिंग मशीन",
+					"englishName": "Hand Drilling Machine",
+					"imagePath": "56_Hand_Drilling_Machine.png",
+					"audioPath": "Hand_Drilling_Machine.mp3",
+					"useText": "इसका उपयोग मुख्य रूप से गोल छेद बनाने के लिए और फ़ास्टनर्स को कसने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_mukhya_gol_ched.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 57,
+					"regionalName": "वेल्डिंग मशीन",
+					"englishName": "Welding Machine",
+					"imagePath": "57_Welding_Machine.png",
+					"audioPath": "Welding_Machine.mp3",
+					"useText": "इसका उपयोग धातुओं की वेल्डिंग करने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_dhatuon_velding.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 58,
+					"regionalName": "वेहिकल वॉशिंग मशीन",
+					"englishName": "Vehicle Washing Machine",
+					"imagePath": "58_Vehicle_Washing_Machine.png",
+					"audioPath": "Vehicle_Washing_Machine.mp3",
+					"useText": "इसका उपयोग वाहन पर जमा तेल, ग्रीज़, कीचड़ जैसी गन्दगी हटाने और वाहन को धोने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_vahan_sancharak_hatane.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 59,
+					"regionalName": "एयर कंप्रेसर",
+					"englishName": "Air Compressor",
+					"imagePath": "59_Air_Compressor.png",
+					"audioPath": "Air_Compressor.mp3",
+					"useText": "इसका उपयोग हवा को उच्च दबाव में टायर स्फीति, स्प्रे पेंटिंग और वाहन को पानी से धोने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_ucch_davab_tire.mp3",
+					"processName": "Workshop Tools & Equipments"
+				},
+				{
+					"questionId": 60,
+					"regionalName": "टायर प्रेशर गेज",
+					"englishName": "Tyre Pressure Gauge",
+					"imagePath": "60_Tyre_Pressure_Gauge.png",
+					"audioPath": "Tyre_Pressure_Gauge.mp3",
+					"useText": "इसका उपयोग वाहन के टायर के दबाव को मापने के लिए किया जाता है।",
+					"useAudioPath": "tyre_pressue_tyre_davab_mapne.mp3",
+					"processName": "Workshop Tools & Equipments"
+				}
+			]
+		}
+	]
+}

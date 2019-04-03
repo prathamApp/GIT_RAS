@@ -1,0 +1,835 @@
+{
+	"category": "Food & Beverages",
+	"categoryImage": "triangle.png",
+	"dataList": [{
+			"category": "Housekeeping Manual Equipment",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 1,
+					"regionalName": "ड्राई मॉप",
+					"englishName": "Dry Mop",
+					"imagePath": "01_Dry-Mop.png",
+					"audioPath": "Dry_Mop.mp3",
+					"useText": "यह कपास के फाइबर या सिंथेटिक फाइबर से बनाया जाता है। इसका उपयोग फर्श की धूल साफ करने के लिए किया जाता है।",
+					"useAudioPath": "yeh_kapas_ke_fibre.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 2,
+					"regionalName": "वेट मॉप",
+					"englishName": "Wet Mop",
+					"imagePath": "02_Wet-Mop.png",
+					"audioPath": "Wet_Mop.mp3",
+					"useText": "इसका उपयोग गीला करके फर्श को साफ करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_geela_farsh.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 3,
+					"regionalName": "स्क्वीजी",
+					"englishName": "Squeezee",
+					"imagePath": "03_Squezee.png",
+					"audioPath": "Squeezee.mp3",
+					"useText": "इसका उपयोग खिड़की के शीशे की सफाई करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_khirki_ke_sheeshe.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 4,
+					"regionalName": "वाइपर",
+					"englishName": "Wiper",
+					"imagePath": "04_Wiper.png",
+					"audioPath": "Wiper.mp3",
+					"useText": "इसका उपयोग फर्श से पानी हटाने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_farsh_se_pani.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 5,
+					"regionalName": "स्क्रबिंग ब्रश",
+					"englishName": "Scrubbing/T. brush",
+					"imagePath": "05_Scrubbing-T.-brush.png",
+					"audioPath": "Scrubbing_T_brush.mp3",
+					"useText": "इसका उपयोग फर्श को रगड़कर साफ़ करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_farsh_ko_ragarkar.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 6,
+					"regionalName": "कारपेट ब्रश",
+					"englishName": "Carpet Brush",
+					"imagePath": "06_Carpet-Brush.png",
+					"audioPath": "Carpet_Brush.mp3",
+					"useText": "इसका उपयोग कारपेट (कालीन) की धूल हटाने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_karpet_kalin_dhool.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 7,
+					"regionalName": "टॉयलेट ब्रश",
+					"englishName": "Toilet brush",
+					"imagePath": "07_Toilet-brush.png",
+					"audioPath": "Toiletbrush.mp3",
+					"useText": "इसका उपयोग डब्ल्यूसी/ टॉयलेट बोल की सफाई करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_wc_toilet_ball.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 8,
+					"regionalName": "फेदर ब्रश",
+					"englishName": "Feather brush",
+					"imagePath": "08_Feather-brush.png",
+					"audioPath": "Feather_brush.mp3",
+					"useText": "इसका उपयोग टीवी कैबिनेट, एसी, बेड साइड लैंप जैसी सतह की सफाई के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_tv_cabinet_AC_bed_side.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 9,
+					"regionalName": "अपहोल्स्ट्री ब्रश",
+					"englishName": "Upholstery Brushes",
+					"imagePath": "09_Upholstry-brush.png",
+					"audioPath": "Upholstery_Brushes.mp3",
+					"useText": "इसका उपयोग सोफे व चेयर से धूल साफ़ करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_sofe_chair_se_dhool_saaf.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 10,
+					"regionalName": "सॉफ्ट ब्रूम",
+					"englishName": "Soft Broom",
+					"imagePath": "10_Soft-Broom.png",
+					"audioPath": "Soft_Broom.mp3",
+					"useText": "इसका उपयोग सतह से धूल और गंदगी हटाने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_satah_se_dhool_or_gandagi.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 11,
+					"regionalName": "हार्ड ब्रूम",
+					"englishName": "Hard Broom",
+					"imagePath": "11_Hard-Broom.png",
+					"audioPath": "Hard_Broom.mp3",
+					"useText": "इसका उपयोग कठोर सतह से धूल या कचरा साफ़ करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_kathor_satah_se_dhool_saaf.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 12,
+					"regionalName": "यार्ड ब्रूम",
+					"englishName": "Yard Broom",
+					"imagePath": "12_Yard-Broom.png",
+					"audioPath": "Yard_Broom.mp3",
+					"useText": "इसका उपयोग गार्डन की सफाई के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_garden_ki_safai.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 13,
+					"regionalName": "सीलिंग ब्रूम/ कॉबवेब ब्रश",
+					"englishName": "Ceiling Broom / Cobweb Remover/ Cobweb Brush",
+					"imagePath": "13_Ceiling-Broom_Cobweb-Remover_Cobweb-Brush.png",
+					"audioPath": "Ceiling_Broom_bweb_Brush.mp3",
+					"useText": "इसका उपयोग मकड़ी के जाले हटाने और छत के कोनों व ऊंची जगहों से धूल साफ करने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_makri_ke_jaale_hatane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 14,
+					"regionalName": "फ्लोर क्लॉथ",
+					"englishName": "Floor cloth",
+					"imagePath": "14_Floor-cloth.png",
+					"audioPath": "Floor_cloth.mp3",
+					"useText": "इसका उपयोग फर्श की गन्दगी साफ करने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_farsh_ki_gandagi_saaf.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 15,
+					"regionalName": "डस्टर",
+					"englishName": "Duster",
+					"imagePath": "15_Duster.png",
+					"audioPath": "Duster.mp3",
+					"useText": "इसका उपयोग सतह की धूल पोछने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_satah_ki_dhool_ponchne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 16,
+					"regionalName": "बकेट",
+					"englishName": "Buckets",
+					"imagePath": "16_Buckets.png",
+					"audioPath": "Buckets.mp3",
+					"useText": "इसका उपयोग पानी ले जाने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_pani_le_jane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 17,
+					"regionalName": "डस्ट पैन",
+					"englishName": "Dust Pan",
+					"imagePath": "17_Dust-Pan.png",
+					"audioPath": "Dust_Pan.mp3",
+					"useText": "इसका उपयोग हैण्ड ब्रश और झाड़ू से धूल इकट्ठा करके डस्ट बिन में डालने के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_handbrush_or_jharu_se_dhool.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 18,
+					"regionalName": "ट्रैश कैन",
+					"englishName": "Trash can",
+					"imagePath": "18_Trash-can.png",
+					"audioPath": "Trash_can.mp3",
+					"useText": "इसका उपयोग कचरा जमा करना के लिए किया जाता है।",
+					"useAudioPath": "iska_upyog_kachra_jama_karna.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 19,
+					"regionalName": "कैडी",
+					"englishName": "Caddy",
+					"imagePath": "19_Caddy.png",
+					"audioPath": "Caddy.mp3",
+					"useText": "इसका उपयोग केमिकल और ब्रश ले जाने के लिए किया जाता है|",
+					"useAudioPath": "iska_upyog_kamikal_or_brush_le.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 20,
+					"regionalName": "रूम अटेंडेंट ट्रॉली",
+					"englishName": "Room Attendant’s Trolley",
+					"imagePath": "20_Room-Attendant’s-Trolley.png",
+					"audioPath": "Room_Attendant’s_Trolley.mp3",
+					"useText": "इसका उपयोग रूम में काम आने वाले सभी उपकरणों को ले जाने के लिय किया जाता है |",
+					"useAudioPath": "iska_upyog_room_mai_kaam_aaney.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Housekeeping Mechanical Equipment & Surfaces",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 21,
+					"regionalName": "ब्रास",
+					"englishName": "BRASS",
+					"imagePath": "21_Brass.png",
+					"audioPath": "BRASS.mp3",
+					"useText": "पीतल की सतह आमतौर पर होटल की दरवाजा घुंडी, आदि में होती है|",
+					"useAudioPath": "pital_ki_satah_aamtor_hotel.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 22,
+					"regionalName": "गोल्ड (सोना)",
+					"englishName": "GOLD",
+					"imagePath": "22_Gold.png",
+					"audioPath": "GOLD.mp3",
+					"useText": "सोने की सतह\nआमतौर पर होटल के कमरों की नंबर प्लेटों में होती है।",
+					"useAudioPath": "sone_ki_satah_hotel_ki_number_pleton.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 23,
+					"regionalName": "सिल्वर (चांदी)",
+					"englishName": "SILVER",
+					"imagePath": "23_Silver.png",
+					"audioPath": "SILVER.mp3",
+					"useText": "सिल्वर की सतह\nआमतौर पर होटल के एफ एंड बी विभाग में होती है जैसे चांदी की प्लेटें, चम्मच, पानी के जग, आदि|",
+					"useAudioPath": "silver_ki_satahhotel_ke_f_&_B_vibhag.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 24,
+					"regionalName": "आयरन (लोहा)",
+					"englishName": "IRON",
+					"imagePath": "24_Iron.png",
+					"audioPath": "IRON.mp3",
+					"useText": "लोहे की सतह आमतौर पर होटल की सीढीयों की रेलिंग, दरवाजे, आदि में होती है।",
+					"useAudioPath": "lohe_ki_satah_hotel_seeriyon_ki_railing.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 25,
+					"regionalName": "प्लास्टिक",
+					"englishName": "PLASTIC",
+					"imagePath": "25_Plastic.png",
+					"audioPath": "PLASTIC.mp3",
+					"useText": "प्लास्टिक की सतह आमतौर पर होटल की कुर्सियों, \nस्टूल, बेड साइड लैंप, आदि में होती है।",
+					"useAudioPath": "plastic_ki_satah_kursiyon.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 26,
+					"regionalName": "वुड (लकड़ी)",
+					"englishName": "WOOD",
+					"imagePath": "26_Wood.png",
+					"audioPath": "WOOD.mp3",
+					"useText": "लकड़ी की सतह आमतौर पर होटल के दरवाजों, मेजों, कुर्सियों, बिस्तर, आदि में होती है।",
+					"useAudioPath": "lakdi_hotel_darvazon_kursiyon.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 27,
+					"regionalName": "ग्लास (कांच)",
+					"englishName": "GLASS",
+					"imagePath": "27_Glass.png",
+					"audioPath": "GLASS.mp3",
+					"useText": "गिलास (कांच) की सतह \nआमतौर पर होटल की खिड़कियों, दर्पणों, सजावटी वस्तुओं, आदि में होती है।",
+					"useAudioPath": "gilass_ki_satah_darpano.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 28,
+					"regionalName": "फैब्रिक",
+					"englishName": "FABRIC",
+					"imagePath": "28_Fabric.png",
+					"audioPath": "FABRIC.mp3",
+					"useText": "फैब्रिक की सतह आमतौर पर होटल के सोफा कवर, कुशन कवर, चेयर कवर, आदि में होती है।",
+					"useAudioPath": "fabrick_ki_satah_sofa_cution_cover.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 29,
+					"regionalName": "टाइल्स",
+					"englishName": "TILES",
+					"imagePath": "29_Tiles.png",
+					"audioPath": "TILES.mp3",
+					"useText": "टाइल्स की सतह आमतौर पर होटल के कमरे के फर्श, गलियारे के फर्श, बाथरूम की दीवारों, आदि में होती है।",
+					"useAudioPath": "tiles_ki_satah_kamre_ke_farsh_galiyare.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 30,
+					"regionalName": "कॉपर",
+					"englishName": "COPPER",
+					"imagePath": "30_Copper.png",
+					"audioPath": "COPPER.mp3",
+					"useText": "कॉपर की सतह आमतौर पर होटल में सजावटी वस्तुओं, तस्वीरों के फ्रेम, आदि में होती है।",
+					"useAudioPath": "coper_ki_satah_hotel_ki_sajavati_tasveeron.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 31,
+					"regionalName": "ग्रेनाइट",
+					"englishName": "GRANITE",
+					"imagePath": "31_Granite.png",
+					"audioPath": "GRANITE.mp3",
+					"useText": "ग्रेनाइट की सतह आमतौर पर होटल के बाथरूम वैनिटी काउंटर, बुफे काउंटर, हाथ धोने की जगहों, आदि में होती है।",
+					"useAudioPath": "granite_hotel_ke_bathroom_vaniti_counter.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 32,
+					"regionalName": "मार्बल (संगमरमर)",
+					"englishName": "MARBLE",
+					"imagePath": "32_Marble.png",
+					"audioPath": "MARBLE.mp3",
+					"useText": "मार्बल (संगमरमर) की सतह आमतौर पर होटल की लॉबी फर्श, कमरे के फर्श, आदि में होती है।",
+					"useAudioPath": "marble_ki_satah_hotel_lobby.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 33,
+					"regionalName": "विनाइल",
+					"englishName": "VINYL",
+					"imagePath": "33_Vinly.png",
+					"audioPath": "VINYL.mp3",
+					"useText": "यह एक प्रकार की सतह है जो आमतौर पर होटल के कमरे के फर्श में होती है जिसे फर्श ढकने के लिए लगाया जाता है और आखिर में यह एक कालीन जैसी दिखती है।",
+					"useAudioPath": "hotel_ke_kamre_ke_farsh_main_hoti_hai.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 34,
+					"regionalName": "लेदर (चमड़ा)",
+					"englishName": "LEATHER",
+					"imagePath": "34_Leather.png",
+					"audioPath": "LEATHER.mp3",
+					"useText": "चमड़े की सतह आमतौर पर चमड़े से ढकी कुर्सियों, बिल फोल्डर, आदि में होती जाती है।",
+					"useAudioPath": "chamde_ki_satah_aamtor_kursiyon.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 35,
+					"regionalName": "रबर",
+					"englishName": "RUBBER",
+					"imagePath": "35_Rubber.png",
+					"audioPath": "RUBBER.mp3",
+					"useText": "रबर की सतह आमतौर पर होटल के बर्तन धोने की जगह, बार, आदि में होती है जो काम करते समय फिसलने का खतरा कम करती है।",
+					"useAudioPath": "dhone_ki_jagah_bar_aadi_mai_hoti_hai.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 36,
+					"regionalName": "वैक्यूम क्लीनर",
+					"englishName": "VACCUM CLEANER",
+					"imagePath": "36_Vaccum-Cleaner.png",
+					"audioPath": "VACCUM_CLEANER.mp3",
+					"useText": "यह एक मशीन है जिसका उपयोग कालीन या फर्श से धूल और कचरा हटाने के लिए किया जाता है।",
+					"useAudioPath": "yeh_mashine_hai_jiska_upyog_kalin.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 37,
+					"regionalName": "स्क्रबिंग मशीन",
+					"englishName": "SCRUBBING MACHINE",
+					"imagePath": "37-Scrubbing-Machine.png",
+					"audioPath": "SCRUBBING_ MACHINE.mp3",
+					"useText": "यह एक मशीन है जिसका उपयोग फर्श को साफ़ करने के लिए किया जाता है।",
+					"useAudioPath": "yeh_mashine_jiska_upyog_farsh_saaf.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 38,
+					"regionalName": "शैम्पूइंग मशीन",
+					"englishName": "SHAMPOOING MACHINE",
+					"imagePath": "38_Shampooing-Machine.png",
+					"audioPath": "SHAMPOOIG_MACHINE.mp3",
+					"useText": "इस यह एक मशीन है जिसका इस्तेमाल गहरे दाग लगे कारपेट को साफ़ करने के लिए किया जाता है।",
+					"useAudioPath": "is_machine_ka_istemaal_gehre_daag_karpet_saaf.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 39,
+					"regionalName": "वेट वैक्यूम",
+					"englishName": "WET VACCUM",
+					"imagePath": "39_Wet-Vaccum.png",
+					"audioPath": "WET_VACCUM.mp3",
+					"useText": "यह एक मशीन है जिसका इस्तेमाल कारपेट या फर्श से पानी हटाने के लिए किया जाता है किया जाता है|",
+					"useAudioPath": "yeh_mashine_karpet_farsh_se_pani.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Room Amenities",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 40,
+					"regionalName": "नोट पैड और पेंसिल",
+					"englishName": "Note Pad & Pencil",
+					"imagePath": "40_Note-Pad-_-Pencil.png",
+					"audioPath": "note_pad.mp3",
+					"useText": "इसका उपयोग नोट्स, निर्देश, प्रतिक्रिया आदि लिखने के लिए किया जाता है।",
+					"useAudioPath": "information_ikattha.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 41,
+					"regionalName": "टी और कॉफ़ी सैशे",
+					"englishName": "Tea & Coffee Sachet",
+					"imagePath": "41_Tea-Coffee-Sachet.png",
+					"audioPath": "tea_coffee_sachet.mp3",
+					"useText": "इसे रूम में टी और कॉफ़ी बनाने के लिए रखा जाता है|",
+					"useAudioPath": "tea_coffe_banane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 42,
+					"regionalName": "टी/कॉफ़ी मेकर",
+					"englishName": "Tea/Coffee Maker",
+					"imagePath": "42_Tea_Coffee Maker.png",
+					"audioPath": "tea_coffee_maker.mp3",
+					"useText": "इसका उपयोग पानी को गर्म करने के लिए किया जाता है जिससे टी और कॉफ़ी बनाई जाती है|",
+					"useAudioPath": "garam_tea_coffe.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 43,
+					"regionalName": "क्लीन माय रूम कार्ड",
+					"englishName": "Clean My Room Card",
+					"imagePath": "43_Clean-My-Room-Card.png",
+					"audioPath": "clean_room_card.mp3",
+					"useText": "यह कार्ड रूम के डोर हैंडल पर लगा होता है| यह गेस्ट द्वारा यह बताने के लिए लगाया जाता है कि वे अपना रूम क्लीन करवाना चाहते हैं| हाउसकीपिंग अटेंडडेंट यह कार्ड डोर में यह बताने के लिए लगाते हैं कि वे रूम के अन्दर हैं और क्लीनिंग चालू है|",
+					"useAudioPath": "guest_dwar_room_clean.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 44,
+					"regionalName": "प्लीज कलेक्ट माय लौंड्री कार्ड",
+					"englishName": "Please Collect My Laundry Card",
+					"imagePath": "44_Please-Collect-My-Laundry-Card.png",
+					"audioPath": "please_collect_my_laundry_card.mp3",
+					"useText": "यह कार्ड है जिसे कमरे के दरवाजे के हैंडल पर लटका दिया जा सकता है। इसका उपयोग अतिथि द्वारा यह इंगित करने के लिए किया जाता है कि वह चाहती है कि वह अपने कपड़े धोने और एकत्र किए गए, इस्त्री या सूखे-साफ किए जाएं",
+					"useAudioPath": "laundry_dhulwane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 45,
+					"regionalName": "डी.न.डी कार्ड्स",
+					"englishName": "DND (Do Not Disturb) Cards",
+					"imagePath": "45_D-N-D-CARD.png",
+					"audioPath": "dnd.mp3",
+					"useText": "यह कार्ड रूम के डोर हैंडल पर लटकाया जा सकता है| यह गेस्ट द्वारा यह बताने के लिए लगाया जाता है कि वे कोई व्यवधान नहीं चाहते हैं| अगर कमरे के बाहर DND कार्ड लगा हो तो डोर बेल नहीं बजानी चाहिए|",
+					"useAudioPath": "dnd_do_not_distrub.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 46,
+					"regionalName": "फोल्डर",
+					"englishName": "Folder",
+					"imagePath": "46_Folder.png",
+					"audioPath": "folder.mp3",
+					"useText": "इसका उपयोग लिफाफे, कागज, टिप्पणी कार्ड, आदि स्टेशनरी को रखने के लिए किया जाता है।",
+					"useAudioPath": "folder_envlope_rakhne_ke.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 47,
+					"regionalName": "लौंड्री स्लिप",
+					"englishName": "Laundry Slip",
+					"imagePath": "47_Laundry-Slip.png",
+					"audioPath": "laundry_slip.mp3",
+					"useText": "यह कागज का एक टुकड़ा होता है जिसे अतिथि द्वारा भरकर कपड़े धोने के बैग के साथ रखा जाता है इसमें साफ किए जाने वाले कपड़ों की संख्या, लिनेन का प्रकार, इसे कैसे साफ किया जाना है- पानी से या ड्राई क्लीन- लिखे जाते हैं और इसमें अतिथि और कमरे का नंबर भी होता है|",
+					"useAudioPath": "loundry_slip_bag.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 48,
+					"regionalName": "लौंड्री बैग",
+					"englishName": "Laundry Bag",
+					"imagePath": "48_Laundry-Bag.png",
+					"audioPath": "laundry_bag.mp3",
+					"useText": "यह प्लास्टिक या कागज या कपड़े का थैला होता है जिसका उपयोग उन गंदे कपड़ों को रखने के लिए किया जाता है जिनकी सफाई की आवश्यकता होती है|",
+					"useAudioPath": "paper_ya_kapde_ka_bag.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 49,
+					"regionalName": "न्यूज़ पेपर",
+					"englishName": "Newspaper",
+					"imagePath": "49_Newspaper.png",
+					"audioPath": "newspaper.mp3",
+					"useText": "यह दैनिक अखबार पेपर होता है जो गेस्ट को कॉम्प्लीमेंट्री तौर पर दिया जाता है।",
+					"useAudioPath": "daily_paper.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 50,
+					"regionalName": "मैगजीन",
+					"englishName": "Magazine",
+					"imagePath": "50_Magazine.png",
+					"audioPath": "magazine.mp3",
+					"useText": "यह साप्ताहिक या मासिक पत्रिका होती है जिसे पढ़ने के लिए अतिथि कक्ष में रखा जाता है|",
+					"useAudioPath": "saptahik_manthli_guest.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 51,
+					"regionalName": "वॉटर बॉटल और गिलास",
+					"englishName": "Water Bottle & Glass",
+					"imagePath": "51_Water-Bottle-_-Glass.png",
+					"audioPath": "water_bottle.mp3",
+					"useText": "इन्हें मेहमानों को दी जाने वाली बुनियादी सुविधा के रूप में कमरे में रखा जाता है। कुछ होटल मुफ्त में बोतलें देते हैं, और अन्य होटल अतिथि से शुल्क लेते हैं|",
+					"useAudioPath": "yeh_room_guest_pani_peene.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 52,
+					"regionalName": "ऐश ट्रे",
+					"englishName": "Ash Tray",
+					"imagePath": "52_Ashtray.png",
+					"audioPath": "ash_tray.mp3",
+					"useText": "यह मेहमानों द्वारा धूम्रपान करते समय उपयोग किया जाता है जिसमें वे सिगरेट की राख और इस्तेमाल की गई सिगरेट को रखते हैं|",
+					"useAudioPath": "cigarrate_ki_rakh.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 53,
+					"regionalName": "शू हॉर्न्स",
+					"englishName": "Shoe Horns",
+					"imagePath": "53_Shoe-Horns.png",
+					"audioPath": "shoe_horn.mp3",
+					"useText": "इसका उपयोग गेस्ट द्वारा जूता आसानी से पहनने के लिए किया जाता है|",
+					"useAudioPath": "joota_aaram_pehanne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 54,
+					"regionalName": "टर्न डाउन ट्रे",
+					"englishName": "Turn Down Tray",
+					"imagePath": "54_Turn-Down-Tray.png",
+					"audioPath": "turn_down_tray.mp3",
+					"useText": "यह एक ट्रे है जिसका उपयोग टर्नडाउन सेवा के दौरान इन चीजों को रखने के लिए किया जाता है - नाश्ते का मेनू कार्ड, बॉडी लोशन, कॉमेंट कार्ड और कपड़े धोने का बैग",
+					"useAudioPath": "is_tray_turn_breakfast.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 55,
+					"regionalName": "स्पा ब्रोशर",
+					"englishName": "Spa Brochure",
+					"imagePath": "55_Spa-Brochure.png",
+					"audioPath": "spa.mp3",
+					"useText": "यह गेस्ट रूम में रखा जाता है जिससे गेस्ट को होटल द्वारा दी जाने वाली स्पा सेवा की जानकारी मिलती है|",
+					"useAudioPath": "spa_information.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 56,
+					"regionalName": "मैच बॉक्स",
+					"englishName": "Match Box",
+					"imagePath": "56_matchbox.png",
+					"audioPath": "match_box.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा सिगरेट, मोमबत्ती आदि को जलाने के लिए किया जाता है।",
+					"useAudioPath": "ciggarrate_candle_jalane.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 57,
+					"regionalName": "सैशे होल्डर",
+					"englishName": "Sachet Holder",
+					"imagePath": "57_sachet-holder.png",
+					"audioPath": "sachet_holder.mp3",
+					"useText": "इसका उपयोग अतिथि कक्ष में चाय, कॉफी और चीनी के पाउच रखने के लिए किया जाता है",
+					"useAudioPath": "tea_coffe_sachet.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 58,
+					"regionalName": "मिनी बार",
+					"englishName": "Mini Bar",
+					"imagePath": "58_Mini-Bar.png",
+					"audioPath": "mini_bar.mp3",
+					"useText": "भोजन और पेय पदार्थों को रखने के लिए कमरे में एक छोटा फ्रिज रखा जाता है। इसमें एक टोकरी या ट्रे में रखे खाद्य पदार्थ भी शामिल हैं जिन्हें ठंडा रखने की जरूरत नहीं होती है। अधिकांश वस्तुओं का शुल्क लिया जाता है हैं जब तक कि होटल यह न बताये कि वे निशुल्क हैं|",
+					"useAudioPath": "yeh_ke_chota_fridge_bevarrage.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 59,
+					"regionalName": "मिनी बार स्लिप",
+					"englishName": "Mini Bar Slip",
+					"imagePath": "59_MINIBAR-SLIP.png",
+					"audioPath": "mini_bar_slip.mp3",
+					"useText": "यह कागज का एक टुकड़ा होता है जिसमें मिनी बार की सभी वस्तुओं की सूची और उनकी कीमत होती है। यदि कोई मेहमान मिनी बार से कोई वस्तु लेना चाहता है तो उन्हें उस वस्तु पर स्लिप पर निशान लगाना होता है|",
+					"useAudioPath": "mini_baar_chizon_ki_jankari.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 60,
+					"regionalName": "शू शाइनर",
+					"englishName": "Shoe Shiner",
+					"imagePath": "60_Shoe-Shiner.png",
+					"audioPath": "shoe_shiner.mp3",
+					"useText": "इसका उपयोग अतिथि अपने जूते चमकाने के लिए करते हैं|",
+					"useAudioPath": "jooton_ki_palish.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 61,
+					"regionalName": "शू मिट",
+					"englishName": "Shoe Mitt",
+					"imagePath": "61_Shoe-mitt.png",
+					"audioPath": "shoe_mitt.mp3",
+					"useText": "इसका उपयोग अतिथि जूते से गंदगी साफ करने के लिए करते हैं|",
+					"useAudioPath": "jooton_ki_gandgi.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 62,
+					"regionalName": "टी/कॉफ़ी स्टरर",
+					"englishName": "Tea/Coffee Stirrer",
+					"imagePath": "62_Tea-Coffee-Stirrer.png",
+					"audioPath": "tea_coffe_stirrer.mp3",
+					"useText": "इसका उपयोग टी और कॉफ़ी को घोलने के लिए किया जाता है|",
+					"useAudioPath": "tea_coffe_gholne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 63,
+					"regionalName": "कैरी बैग",
+					"englishName": "Carry Bag",
+					"imagePath": "63_Carry-Bag.png",
+					"audioPath": "carry_bag.mp3",
+					"useText": "यह पेपर या कपड़े का बैग होता है जो गेस्ट के रूम गेस्ट द्वारा इस्तेमाल करने के लिए रखा जाता है|",
+					"useAudioPath": "paper_kapde_ka_bag.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		},
+		{
+			"category": "Bathroom Amenities",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 64,
+					"regionalName": "सीविंग किट",
+					"englishName": "Sewing kit",
+					"imagePath": "64_Sewing-kit.png",
+					"audioPath": "sewing_kit.mp3",
+					"useText": "यह एक किट है जिसमे धागा, सुई, पिन, और बटन होते हैं| यह किट गेस्ट रूम में रखी होती है और जरुरत के अनुसार गेस्ट इसका उपयोग करते हैं|",
+					"useAudioPath": "kit_sui_dhaga_botton.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 65,
+					"regionalName": "बाथरूम स्लिपर्स",
+					"englishName": "Bathroom Slippers",
+					"imagePath": "65_Bathroom-Slippers.png",
+					"audioPath": "bathroom_slipper.mp3",
+					"useText": "बाथरूम चप्पल का उपयोग मेहमानों द्वारा बाथरूम जाने पर किया जाता है",
+					"useAudioPath": "bathroom_chappal_ka_upyog_mehmano.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 66,
+					"regionalName": "शेविंग किट",
+					"englishName": "Shaving kit",
+					"imagePath": "66_Shaving-kit.png",
+					"audioPath": "shaving_kit.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा शेविंग के लिए किया जाता है|",
+					"useAudioPath": "sheving_kit_bathroom_mai.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 67,
+					"regionalName": "डेन्टल किट",
+					"englishName": "Dental kit",
+					"imagePath": "67_Dental-kit.png",
+					"audioPath": "dental_kit.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा अपने दाँत ब्रश करने के लिए किया जाता है|",
+					"useAudioPath": "danto_ko_saaf_karne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 68,
+					"regionalName": "लूफा",
+					"englishName": "Loofah",
+					"imagePath": "68_Loofah.png",
+					"audioPath": "loofah.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा स्नान करते समय अपने शरीर को धीरे से रगड़ने के लिए किया जाता है।",
+					"useAudioPath": "nahate_samay_scrubb.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 69,
+					"regionalName": "कोम्ब",
+					"englishName": "Comb",
+					"imagePath": "69_Comb.png",
+					"audioPath": "comb.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा अपने बालों को कंघी करने के लिए किया जाता है|",
+					"useAudioPath": "balon_ko_banane_ke_liye.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 70,
+					"regionalName": "सोप",
+					"englishName": "Soap",
+					"imagePath": "70_Soap.png",
+					"audioPath": "soap.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा स्नान के लिए किया जाता है।",
+					"useAudioPath": "soup_nahate_samay.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 71,
+					"regionalName": "शैम्पू",
+					"englishName": "Shampoo",
+					"imagePath": "71_Shampoo.png",
+					"audioPath": "shampoo.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा अपने बालों की सफाई के लिए किया जाता है।",
+					"useAudioPath": "shampoo_balon_ki_safai.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 72,
+					"regionalName": "शावर कैप",
+					"englishName": "Shower Cap",
+					"imagePath": "72_Shower-Cap.png",
+					"audioPath": "shower_cap.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा स्नान करते समय अपने बालों को गीला होने से बचाने के लिए किया जाता है।",
+					"useAudioPath": "shavar_cap_balon_ko_dhakne.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 73,
+					"regionalName": "टिशू बॉक्स",
+					"englishName": "Tissue Box",
+					"imagePath": "73_Tissue-Box.png",
+					"audioPath": "tissue_box.mp3",
+					"useText": "इसमें टिशू पेपर होता है जो गीले हाथ को पोछने के लिए उपयोग किया जाता है|",
+					"useAudioPath": "tissue_paper_wipe.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 74,
+					"regionalName": "टॉयलेट रोल",
+					"englishName": "Toilet Roll",
+					"imagePath": "74_Toilet-Roll.png",
+					"audioPath": "toilet_rool.mp3",
+					"useText": "अतिथि द्वारा इसका उपयोग शौच करने के बाद सफाई के लिए किया जाता है।",
+					"useAudioPath": "toilet_mai_istemaal.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 75,
+					"regionalName": "मॉइस्चराइजर",
+					"englishName": "Moisturizer",
+					"imagePath": "75_Moisturizer.png",
+					"audioPath": "moisturizer.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा अपनी त्वचा की कोमलता बनाए रखने के लिए किया जाता है",
+					"useAudioPath": "skin_moisturizer_dhayan.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 76,
+					"regionalName": "बाथ जेल",
+					"englishName": "Bath Gel",
+					"imagePath": "76_Bath-Gel.png",
+					"audioPath": "bath_gel.mp3",
+					"useText": "इसका उपयोग स्नान के दौरान त्वचा को साफ करने वाले एजेंट के रूप में किया जाता है।",
+					"useAudioPath": "bath_gel_nahate_samay.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 77,
+					"regionalName": "फॉर योर केयर किट",
+					"englishName": "For your care Kit",
+					"imagePath": "77_For Your Care-Kit-2.png",
+					"audioPath": "for_your_care_kit.mp3",
+					"useText": "इस किट में बैंडेज और इयर बड्स रखे होते हैं|",
+					"useAudioPath": "is_kit_mai_bandage_or.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 78,
+					"regionalName": "आफ्टर शेव जेल",
+					"englishName": "After shave Gel",
+					"imagePath": "78_After-shave-Gel.png",
+					"audioPath": "after_shave.mp3",
+					"useText": "इसका उपयोग अतिथि द्वारा शेविंग के बाद किया जाता है|",
+					"useAudioPath": "shaving_ke_baad_istemaal.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 79,
+					"regionalName": "डिस्पोजेबल बैग",
+					"englishName": "Disposable Bag",
+					"imagePath": "79_Disposable-bag.png",
+					"audioPath": "disposable_bag.mp3",
+					"useText": "इसका उपयोग कचरे को रखने के लिए किया जाता है।",
+					"useAudioPath": "disposale_west_rakhne_ke.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 80,
+					"regionalName": "गार्गल गिलास",
+					"englishName": "Gargle glass",
+					"imagePath": "80_gargle-glass.png",
+					"audioPath": "gargle_glass.mp3",
+					"useText": "यह एक ग्लास है जिसे गेस्ट गार्गल के लिए इस्तेमाल करते हैं|",
+					"useAudioPath": "gargle_glass_karne_ke_liye.mp3",
+					"processName": "Tools & Equipments"
+				},
+				{
+					"questionId": 81,
+					"regionalName": "टैलकम पाउडर",
+					"englishName": "Talcum Powder",
+					"imagePath": "81_Talcum-Powder.png",
+					"audioPath": "talcum_powder.mp3",
+					"useText": "इसका उपयोग मेहमान द्वारा स्नान के बाद सुगंध और ताजगी के लिए किया जाता है।",
+					"useAudioPath": "telcum_powder_nahane_ke_khusboo.mp3",
+					"processName": "Tools & Equipments"
+				}
+			]
+		}
+	]
+}

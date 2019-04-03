@@ -1,0 +1,2038 @@
+{
+	"category": "Food & Beverages",
+	"categoryImage": "triangle.png",
+	"dataList": [{
+			"category": "Utensils",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 1,
+					"regionalName": "वुडन स्पून",
+					"englishName": "Wooden Spoon",
+					"imagePath": "01_Wooden_Spoon.png",
+					"audioPath": "Wooden_Spoon.mp3",
+					"useText": "इसका उपयोग गरम खाना हिलाने और मिलाने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_garam_khana.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 2,
+					"regionalName": "परफ़ोरेटेड स्पून\n स्किमर",
+					"englishName": "Perforated spoon or Skimmer",
+					"imagePath": "02_Perforated_spoonSkimmer.png",
+					"audioPath": "Perforated_spoon_or_Skimmer.mp3",
+					"useText": "इसका उपयोग रसेदार खाना हिलाने के लिए होता है. परोसते समय ठोस पदार्थो को रसदार खाने से अलग करने में इसका प्रयोग किया जाता है.",
+					"useAudioPath": "iska_upyog_rasedar_khana_hilane.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 3,
+					"regionalName": "वायर व्हिस्क",
+					"englishName": "Wire Wisk",
+					"imagePath": "03_Wire_Wisk.png",
+					"audioPath": "Wire_Wisk.mp3",
+					"useText": "इसका का उपयोग अंडे या क्रीम को फेंटने के लिए किया जाता है. बेटर में एयर ऐड करने में भी इसका उपयोग किया जाता है. गाढ़े मिक्सचर के लिए इसका उपयोग ना करें.",
+					"useAudioPath": "iska_upyog_ande_cream.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 4,
+					"regionalName": "रबर स्क्रेपर या रबर स्पेचुला",
+					"englishName": "Rubber Scraper or Rubber Spatula",
+					"imagePath": "04_Rubber_ScraperRubber_Spatula.png",
+					"audioPath": "Rubber_Scraper_or_Rubber_Spatula.mp3",
+					"useText": "इसका का उपयोग सॉफ्ट इंग्रेडिएंट्स को मिक्स और फोल्ड करने के लिए और बर्तन या प्लेट से उड़ेलने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_soft_ingrante_ko.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 5,
+					"regionalName": "टर्नर या स्पेचुला",
+					"englishName": "Turner or Spatula or slicer",
+					"imagePath": "05_TurnerSpatulaslicer.png",
+					"audioPath": "Turner_or_Spatula_or_slicer.mp3",
+					"useText": "इसका इस्तेमाल पैनकेक, बर्गर, केक को पलटने के लिए किया जाता है.",
+					"useAudioPath": "iska_istemal_pencake.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 6,
+					"regionalName": "पीलर",
+					"englishName": "Peeler",
+					"imagePath": "06_Peeler.png",
+					"audioPath": "Peeler.mp3",
+					"useText": "इसका उपयोग फल और सब्जियों का छिलका निकालने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_fal_sabziyon.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 7,
+					"regionalName": "शेफ नाइफ",
+					"englishName": "Chef’s Knife",
+					"imagePath": "07_Chef’s_Knife.png",
+					"audioPath": "Chef’s_Knife.mp3",
+					"useText": "यह नाइफ आल परपज नाइफ है, जिसका उपयोग स्लाइस, मिन्स, चॉप, क्यूब और डाइस करने के लिए किया जाता है.",
+					"useAudioPath": "yeh_knife_all_porpose_knife.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 8,
+					"regionalName": "पैरिंग नाइफ",
+					"englishName": "Paring Knife",
+					"imagePath": "08_Paring_Knife.png",
+					"audioPath": "Paring_Knife.mp3",
+					"useText": "यह नाइफ छोटा ऑल परपज़ चाकू है. इसका उपयोग बारीक़ काटने के लिए, गार्निश, पैरिंग या कोरिंग के लिए किया जाता है.",
+					"useAudioPath": "yeh_chota_all_porpose.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 9,
+					"regionalName": "बुचर नाइफ",
+					"englishName": "Butcher’s Knife",
+					"imagePath": "09_Butcher’s_Knife.png",
+					"audioPath": "Butcher’s_Knife.mp3",
+					"useText": "यह नाइफ चौड़ी ब्लेड वाला चाकू है जिससे मांस काटा जाता है.",
+					"useAudioPath": "yeh_knife_chodi_blade.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 10,
+					"regionalName": "वेसल या पॉट",
+					"englishName": "Vessel or POT",
+					"imagePath": "10_VesselPOT.png",
+					"audioPath": "Vessel_or_POT.mp3",
+					"useText": "यह अलग-अलग आकारों में आता है. इसका उपयोग ग्रेवी तैयार करना, वेजिटेबल बॉइल करना, या फिर बल्क चाय कॉफ़ी बनाने के काम आता है.",
+					"useAudioPath": "yeh_alag_alag_akakaron.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 11,
+					"regionalName": "रोलिंग पिन या बेलन",
+					"englishName": "Rolling Pin",
+					"imagePath": "11_Rolling_Pin.png",
+					"audioPath": "Rolling_Pin.mp3",
+					"useText": "इस की सहायता से गुंदे आटे को फ्लैट करके पिज़्ज़ा, कूकीज क्रस्ट, चपाती बनती हैं.",
+					"useAudioPath": "iski_sahayta_se_gunde.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 12,
+					"regionalName": "पिज़्ज़ा कटर",
+					"englishName": "Pizza Cutter",
+					"imagePath": "12_Pizza_Cutter.png",
+					"audioPath": "Pizza_Cutter.mp3",
+					"useText": "इसका उपयोग पिज़्ज़ा, नूडल, डोव कट करने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_pizza_noodle.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 13,
+					"regionalName": "ग्रिडल",
+					"englishName": "Griddle",
+					"imagePath": "13_Griddle.png",
+					"audioPath": "Griddle.mp3",
+					"useText": "इसका उपयोग चपाती, फुलका, पराठा इत्यादि पकाने के लिए होता है.",
+					"useAudioPath": "iska_upyog_chapati.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 14,
+					"regionalName": "टी स्ट्रेनर",
+					"englishName": "Tea Strainer",
+					"imagePath": "14_Tea_Strainer.png",
+					"audioPath": "Tea_Strainer.mp3",
+					"useText": "इसका उपयोग चाय छानने के लिए होता है.",
+					"useAudioPath": "iska_uypyog_chaye.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 15,
+					"regionalName": "कैन ओपनर",
+					"englishName": "Can opener",
+					"imagePath": "15_Can_opener.png",
+					"audioPath": "Can_opener.mp3",
+					"useText": "यह टिन के डिब्बों को खोलने के काम आता है.",
+					"useAudioPath": "yeh_teen_ke_dibbon.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 16,
+					"regionalName": "स्ट्रेनर",
+					"englishName": "Strainer",
+					"imagePath": "16_Strainer.png",
+					"audioPath": "Strainer.mp3",
+					"useText": "यह ठोस चीजों को द्रव से अलग करने के अलावा आटा और पाउडर शक्कर जैसी सूखी सामग्री को छानने के लिए इस्तेमाल में लाया जाता है.",
+					"useAudioPath": "yeh_thos_chizon.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 17,
+					"regionalName": "कोलंडर",
+					"englishName": "Colander",
+					"imagePath": "17_Colander.png",
+					"audioPath": "Colander.mp3",
+					"useText": "यह एक छेद वाला बाउल है. इसका उपयोग ठोस चीजों को द्रव से अलग करने के लिए और फल-सब्जियों को धोने के लिए किया जाता है.",
+					"useAudioPath": "yeh_ke_ched_wala_bowl.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 18,
+					"regionalName": "पेस्ट्री ब्रश",
+					"englishName": "Pastry Brush",
+					"imagePath": "18_Pastry_Brush.png",
+					"audioPath": "Pastry Brush.mp3",
+					"useText": "इसका उपयोग बेक किये गये पदार्थो को बटर से ब्रशिंग और उनमें चमक लाने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_beck_kiye.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 19,
+					"regionalName": "मैज़रिंग स्पून",
+					"englishName": "Measuring Spoon",
+					"imagePath": "19_Measuring_Spoon.png",
+					"audioPath": "Measuring Spoon.mp3",
+					"useText": "इसका उपयोग लिक्विड या ड्राई चीजों की सही और कम मात्रा मापने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_liquid.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 20,
+					"regionalName": "ड्राई मैज़रिंग कप",
+					"englishName": "Dry Measuring Cups",
+					"imagePath": "20_Dry_Measuring_Cups.png",
+					"audioPath": "Dry_Measuring_Cups.mp3",
+					"useText": "ड्राई या स्टिकि चीजों की सही मात्रा मापने के लिए इसका इस्तेमाल किया जाता है. मापते समय इन्हें ऊपर तक भरा जाता है.",
+					"useAudioPath": "dry_stiki_sahi_matra.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 21,
+					"regionalName": "लिक्विड और ग्लास मैज़रिंग कप",
+					"englishName": "Liquid Measuring cup or Glass",
+					"imagePath": "21_Liquid_Measuring_cup_Glass.png",
+					"audioPath": "Liquid_Measuring_cup_or_Glass.mp3",
+					"useText": "इसका उपयोग तरल चीजों की मात्रा को मापने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_taral.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 22,
+					"regionalName": "किचन शिअर",
+					"englishName": "Kitchen Shears",
+					"imagePath": "22_Kitchen_Shears.png",
+					"audioPath": "Kitchen_Shears.mp3",
+					"useText": "इसका उपयोग फ़ूड और मटीरियल को काटने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_food.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 23,
+					"regionalName": "ग्रेटर",
+					"englishName": "Grater",
+					"imagePath": "23_Grater.png",
+					"audioPath": "Grater.mp3",
+					"useText": "आलू, गोभी, पनीर जैसे खाद्य पदार्थों को श्रेड या ग्रेट करने के लिए इस्तेमाल किया जाने वाला उपकरण.  नींबू या अदरक का जेस्ट निकलने के लिए भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "aaloo_gobhi_paneer.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 24,
+					"regionalName": "पोटैटो मैशर",
+					"englishName": "Potato masher",
+					"imagePath": "24_Potato_masher.png",
+					"audioPath": "Potato_masher.mp3",
+					"useText": "यह पके फल और वेजीटेबल को मैश करने के काम आता है. जैसे मैश पोटैटो, मैश पमकिन",
+					"useAudioPath": "yeh_pake_fal.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 25,
+					"regionalName": "टोंग्स",
+					"englishName": "Tongs",
+					"imagePath": "25_Tongs.png",
+					"audioPath": "Tongs.mp3",
+					"useText": "खाना पकाते या सर्व करते समय, खाने को उठाने के लिए या पकडने के लिए इसका उपयोग किया जाता है.",
+					"useAudioPath": "khana_pakate_sarve.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 26,
+					"regionalName": "आइसक्रीम स्कूपर",
+					"englishName": "Ice cream scooper",
+					"imagePath": "26_Icecream_scooper.png",
+					"audioPath": "Ice_cream_scooper.mp3",
+					"useText": "इसका इस्तेमाल आइसक्रीम को स्कूप करने के लिए किया जाता है.",
+					"useAudioPath": "iska_istemal_icecream_scoop.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 27,
+					"regionalName": "मिक्सिंग बाउल",
+					"englishName": "Mixing Bowl",
+					"imagePath": "27_Mixing_Bowl.png",
+					"audioPath": "Mixing_Bowl.mp3",
+					"useText": "ये रसोई के बुनियादी बर्तन हैं. जो अलग-अलग आकार में धातु, प्लास्टिक, ग्लास या सिरेमिक के बने होते हैं. इनका इस्तेमाल खाने को मिलाने के लिए किया जाता है.",
+					"useAudioPath": "yeh_rasoi_ke_buniyadi.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 28,
+					"regionalName": "वौक (कढ़ाई)",
+					"englishName": "Wok",
+					"imagePath": "28_Wok.png",
+					"audioPath": "Wok.mp3",
+					"useText": "इसका इस्तेमाल डीप फ्राई और स्टर फ्राई के लिए किया जाता है.",
+					"useAudioPath": "iska_istemal_deep_fry.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 29,
+					"regionalName": "सॉते पैन या फ्राई पैन",
+					"englishName": "Sauté Pan or Fry pan",
+					"imagePath": "29_Sauté_Pan_Fry_pan.png",
+					"audioPath": "Sauté_Pan_or_Fry_pan.mp3",
+					"useText": "इस का उपयोग सॉते फ्राई \n  करने के लिए और पोर्शन डिशेस बनाने के लिए होता है.",
+					"useAudioPath": "iska_upyog_sante_fry.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 30,
+					"regionalName": "सॉस पैन",
+					"englishName": "Sauce pan",
+					"imagePath": "30_Sauce_pan.png",
+					"audioPath": "Sauce_pan.mp3",
+					"useText": "सॉस पैन बेसिक पेन है जिसमें हैंडल लगा होता है. इसका उपयोग बेसिक सॉस, चाय और काफी बनाने में होता है.",
+					"useAudioPath": "sauce_pen_basic_pen.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 31,
+					"regionalName": "कुकिंग थर्मामीटर",
+					"englishName": "Cooking Thermometer",
+					"imagePath": "31_Cooking_Thermometer.png",
+					"audioPath": "Cooking_Thermometer.mp3",
+					"useText": "इस डिवाइस का उपयोग पके हुए खाने का टेम्परेचर मापने के लिए होता है.",
+					"useAudioPath": "is_device_ka_upyog.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 32,
+					"regionalName": "नाइफ शार्पनर",
+					"englishName": "Knife Sharpener",
+					"imagePath": "32_Knife_Sharpener.png",
+					"audioPath": "Knife_Sharpener.mp3",
+					"useText": "यह\n  सुनिश्चित करता है कि चाकु कि ब्लेड आसानी से काटने के लिए तेज हैं. बिना धार के चाकू के उपयोग से होने वाली दुर्घटनाओं से बचना चाहिए.",
+					"useAudioPath": "yeh_sunhischit_karta hai_chaku.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 33,
+					"regionalName": "कटिंग बोर्ड",
+					"englishName": "Cutting Board",
+					"imagePath": "33_Cutting_Board.png",
+					"audioPath": "Cutting_Board.mp3",
+					"useText": "यह खाद्य पदार्थों को काटने के लिए प्रोटेक्टिव टूल है. इससे काउंटर टॉप ख़राब नहीं होते. इसको सेनिटाइज करके ड्राई प्लेस में स्टोर करते है.",
+					"useAudioPath": "yeh_khad_padarthon_ko.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 34,
+					"regionalName": "स्क्यूअर या कबाब स्टिक",
+					"englishName": "Skewer or Kebab Stick",
+					"imagePath": "34_Skewer_Kebab_Stick.png",
+					"audioPath": "Skewer_or_Kebab_Stick.mp3",
+					"useText": "यह तंदूरी और बारबेक्यू जैसे खाद्य पदार्थों को बनाने में काम आती है, ये लंबी धातु की छड़ी है.",
+					"useAudioPath": "yeh_tandoori_barbekyu.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 35,
+					"regionalName": "फनल",
+					"englishName": "Funnel",
+					"imagePath": "35_Funnel.png",
+					"audioPath": "Funnel.mp3",
+					"useText": "बोतल के अंदर लिक्विड डालने के लिए फनल उपयोगी होता है.",
+					"useAudioPath": "botal_ke_andar_liquid.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 36,
+					"regionalName": "लिड",
+					"englishName": "Lid",
+					"imagePath": "36_Lid.png",
+					"audioPath": "Lid.mp3",
+					"useText": "इसका उपयोग पॉट और कढ़ाई को ढकने के लिए होता है.",
+					"useAudioPath": "iska_uypyog_pot_or_kadai.mp3",
+					"processName": "Utensils"
+				},
+				{
+					"questionId": 37,
+					"regionalName": "लेडल",
+					"englishName": "Ladle",
+					"imagePath": "37_Ladle.png",
+					"audioPath": "Ladle.mp3",
+					"useText": "यह स्पून है जिसका उपयोग सूप, स्टू, पंच और सॉस सर्व करने के लिए होता है.",
+					"useAudioPath": "yeh_spoon_hai_jiska_upyog.mp3",
+					"processName": "Utensils"
+				}
+			]
+		},
+		{
+			"category": "Equipments",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 38,
+					"regionalName": "रेफ्रीजरेटर",
+					"englishName": "Refrigerator",
+					"imagePath": "38_Refrigerator.png",
+					"audioPath": "Refrigerator.mp3",
+					"useText": "खाने को 0 c से 7 c  के बीच ठंडे तापमान में रखने के लिए इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "khane_ko_thande_tapmaan_mai_rakhne.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 39,
+					"regionalName": "डीप फ्रिज",
+					"englishName": "Deep Fridge",
+					"imagePath": "39_Deep_Fridge.png",
+					"audioPath": "Deep Fridge.mp3",
+					"useText": "खाने को -18 C से नीचे ठंडे तापमान में रखने के लिए इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "khane_ko_18_se_neeche_thande_taapman.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 40,
+					"regionalName": "मिक्सर",
+					"englishName": "Mixer",
+					"imagePath": "40_Mixer.png",
+					"audioPath": "Mixer.mp3",
+					"useText": "इसका इस्तेमाल चटनी, प्यूरी, ड्राई मसाला और खाने को पीसने के लिए किया जाता है.",
+					"useAudioPath": "iska_istemal_chatni_pyuri.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 41,
+					"regionalName": "किचन सलामेंडर",
+					"englishName": "Kitchen salamander",
+					"imagePath": "41_Kitchen_salamander.png",
+					"audioPath": "Kitchen_salamander.mp3",
+					"useText": "इसका उपयोग रोस्टिंग, ग्लेज़िंग, कैरेमलाइजिंग के लिए किया जाता है. यह एक ओपन ओवन होता है.",
+					"useAudioPath": "iska_upyog_rosting_glazing.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 42,
+					"regionalName": "गैस स्टोव",
+					"englishName": "Gas Stove",
+					"imagePath": "42_Gas_Stove.png",
+					"audioPath": "Gas_Stove.mp3",
+					"useText": "इसका उपयोग खाना पकाने के लिए किया जाता है. इसमें बर्नर होता है और एलपीजी गैस का प्रयोग किया जाता है.",
+					"useAudioPath": "iska_upyog_khana_pakane.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 43,
+					"regionalName": "माइक्रोवेव ओवन",
+					"englishName": "Microwave Oven",
+					"imagePath": "43_Microwave_Oven.png",
+					"audioPath": "Microwave_Oven.mp3",
+					"useText": "यह खाना जल्दी पकाने वाला ओवन है. खाना गर्म करने और बेक करने के लिए इसका इस्तेमाल होता है.",
+					"useAudioPath": "yeh_khana_jaldi_pakane.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 44,
+					"regionalName": "बेकरी ओवन",
+					"englishName": "Bakery Oven",
+					"imagePath": "44_Bakery_Oven.png",
+					"audioPath": "Bakery_Oven.mp3",
+					"useText": "इसका उपयोग बेकिंग के लिए किया जाता है. उदाहरण के कुकीज, ब्रेड आदि बेक करने के लिए इसका उपयोग किया जाता है.",
+					"useAudioPath": "iska_upyog_baking_ke.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 45,
+					"regionalName": "ग्रिलर मशीन",
+					"englishName": "Griller Machine",
+					"imagePath": "45_Griller_Machine.png",
+					"audioPath": "Griller_Machine.mp3",
+					"useText": "इसका उपयोग वेजिटेबल या मीट को ग्रिल करने के लिए किया जाता है. जैसे ग्रिल्ड चिकन. ग्रिल्ड फिश, ग्रिल्ड सैंडविच इत्यादि.",
+					"useAudioPath": "iska_upyog_vegitable_meet.mp3",
+					"processName": "Equipments"
+				},
+				{
+					"questionId": 46,
+					"regionalName": "क्ले ओवन या तंदूर",
+					"englishName": "Clay Oven or Tandoor",
+					"imagePath": "46_Clay_OvenTandoor.png",
+					"audioPath": "Clay_Oven_or_Tandoor.mp3",
+					"useText": "इसमे\n कोयले का उपयोग किया जाता है. इसका उपयोग तंदूरी रोटी, नान, य कई प्रकार के टिक्का और कबाब बनाने में किया जाता है.",
+					"useAudioPath": "isme_koyle_ka_upyog.mp3",
+					"processName": "Equipments"
+				}
+			]
+		},
+		{
+			"category": "Vegetable Cut",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 47,
+					"regionalName": "जूलियन",
+					"englishName": "Julienne",
+					"imagePath": "47_Julienne.png",
+					"audioPath": "Julienne.mp3",
+					"useText": "1mm X 1mm X 25mm आकार की पतली स्ट्रिप्स  . इनका उपयोग गार्निशिंग, चायनीज़ स्टर फ्राइज, सलाद आदि में किया जाता है.",
+					"useAudioPath": "aakar_ki_patli_strips.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 48,
+					"regionalName": "जार्डनियर",
+					"englishName": "Jardiniere",
+					"imagePath": "48_Jardiniere.png",
+					"audioPath": "Jardiniere.mp3",
+					"useText": "3mm X 3mm X 18mm आकार के बैटॉन यानि मोटे टुकडे. इनका उपयोग सॉते प्रेपरेशन, सलाद, फिंगर चिप्स में किया जाता है.",
+					"useAudioPath": "aakar_ke_baton.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 49,
+					"regionalName": "मेसेडोइन",
+					"englishName": "Macedoine",
+					"imagePath": "49_Macedoine.png",
+					"audioPath": "Macedoine.mp3",
+					"useText": "5mm X 5mm X 5mm आकार वाली बड़ी डाइस. इनका उपयोग सलाद, सॉते प्रेपरेशन में किया जाता है.",
+					"useAudioPath": "aakar_wali_badi_dise.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 50,
+					"regionalName": "ब्रूनोस",
+					"englishName": "Brunoise",
+					"imagePath": "50_Brunoise.png",
+					"audioPath": "Brunoise.mp3",
+					"useText": "2mm x 2mm x 2mm आकार के टुकडे. इनका उपयोग गार्निशिंग, स्टफिंग. में किया जाता है.",
+					"useAudioPath": "aakar_ke_tukde_inka_stuffing.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 51,
+					"regionalName": "लॉजेंज",
+					"englishName": "Lozenge",
+					"imagePath": "51_Lozenge.png",
+					"audioPath": "Lozenge.mp3",
+					"useText": "समान लम्बाई के तिरछे कटे टुकड़े. इनका उपयोग स्टर फ्राइज, सॉते प्रेपरेशन आदि में किया जाता है.",
+					"useAudioPath": "saman_lambai_ke_tirchey.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 52,
+					"regionalName": "स्लाइसिंग",
+					"englishName": "Slicing",
+					"imagePath": "52_Slicing.png",
+					"audioPath": "Slicing.mp3",
+					"useText": "गोल सब्जियों को गोल आकार में कटाई. सलाद / रोस्ट/ ग्रिल/ बेक आदि में इस्तेमाल किया जाता है.",
+					"useAudioPath": "gol_sabziyon_gol_aakar.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 53,
+					"regionalName": "पेरिंग",
+					"englishName": "Paring",
+					"imagePath": "53_Paring.png",
+					"audioPath": "Paring.mp3",
+					"useText": "सब्जियों / फल का ऊपरी भाग छीलने और जिनमें पेरिंग चाकू का इस्तेमाल हो.",
+					"useAudioPath": "sabziyon_fal_ka_upri_bhag.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 54,
+					"regionalName": "शिफोनेड",
+					"englishName": "Chiffonade",
+					"imagePath": "54_Chiffonade.png",
+					"audioPath": "Chiffonade.mp3",
+					"useText": "पत्तेदार सब्जियां जब परत को श्रेड करना. उपयोग सॉते प्रेपरेशन/ स्टफिंग / गार्निश.",
+					"useAudioPath": "pattedar_sabziyan_parat.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 55,
+					"regionalName": "पेसेन",
+					"englishName": "Paysanne",
+					"imagePath": "55_Paysanne.png",
+					"audioPath": "Paysanne.mp3",
+					"useText": "1 मिमी ज्यामितीय आकार की मोटाई वाले टुकडे. गार्निशिंग, सॉते प्रेपरेशन में इस्तेमाल होता है.",
+					"useAudioPath": "jyamtiye_aakar_ki_motai_wale.mp3",
+					"processName": "Vegetable Cut"
+				},
+				{
+					"questionId": 56,
+					"regionalName": "वेजेस",
+					"englishName": "Wedges",
+					"imagePath": "56_Wedges.png",
+					"audioPath": "Wedges.mp3",
+					"useText": "गोल सब्जी को बराबर लंबाई में काटना. इसका इस्तेमाल स्टू, फ्राइड, ग्रिल्स, रोस्ट, बॉइल और पोच्ड खाने में किया जाता है.",
+					"useAudioPath": "gol_sabzi_ke_barabar_lambai.mp3",
+					"processName": "Vegetable Cut"
+				}
+			]
+		},
+		{
+			"category": "Spices",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 57,
+					"regionalName": "सौंफ़",
+					"englishName": "Aniseed",
+					"imagePath": "57_Aniseed.png",
+					"audioPath": "Aniseed.mp3",
+					"useText": "यह मीठी और खुशबूदार होती है जिसका अलग स्वाद है. भारत में खाना खाने के बाद इसे पाचक की तरह लिया जाता है. बहुत से व्यंजनों में स्वाद बढ़ाने के लिए इसका प्रयोग किया जाता है.",
+					"useAudioPath": "yeh__meethi_or_khushboodar.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 58,
+					"regionalName": "हींग",
+					"englishName": "Asafetida",
+					"imagePath": "58_Asafetida.png",
+					"audioPath": "Asafetida.mp3",
+					"useText": "यह पाचक के तौर पर भोजन में शामिल की जाती है. यह भोजन का स्वाद बढ़ाती है. आमतौर पर भारतीय व्यंजनों में इसका उपयोग किया जाता है.",
+					"useAudioPath": "yeh_pachak_ke_tor_bhojan.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 59,
+					"regionalName": "लाल मिर्च",
+					"englishName": "Kashmiri red chili",
+					"imagePath": "59_Kashmiri_red_chili.png",
+					"audioPath": "Kashmiri_red_chili.mp3",
+					"useText": "यह भारतीय व्यंजनों में लोकप्रिय मसाला है. इसका उपयोग दाल में तड़का लगाने के लिए किया जाता है. इसके पाउडर का इस्तेमाल व्यंजन को मसालेदार बना देता है. यह व्यंजन का रंग भी निखार देता है.",
+					"useAudioPath": "yeh_bhartiye_vyanjan.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 60,
+					"regionalName": "काली इलायची",
+					"englishName": "Black cardamom",
+					"imagePath": "60_Black_cardamom.png",
+					"audioPath": "Black_cardamom.mp3",
+					"useText": "इसका प्रयोग ग्रेवी तैयार करने में किया जाता है, मुख्यतः मांसाहारी व्यंजन के लिए. यह काले रंग का होता है।",
+					"useAudioPath": "iska_prayog_gravy_tayyar.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 61,
+					"regionalName": "सफ़ेद मिर्च",
+					"englishName": "White pepper",
+					"imagePath": "61_White_pepper.png",
+					"audioPath": "White_pepper.mp3",
+					"useText": "इसके पाउडर के इस्तेमाल से खाने का स्वाद बढ़ जाता है. यह स्वाद में बहुत सौम्य होता है. बहुत से चाइनीज़ पश्चिमी व्यंजनों और सूप में इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "is_powder_ke_istemal_se_khane_ka_swad.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 62,
+					"regionalName": "काली मिर्च",
+					"englishName": "Black pepper",
+					"imagePath": "62_Black_pepper.png",
+					"audioPath": "Black_pepper.mp3",
+					"useText": "यह व्यंजनों में तीखापन और स्वाद जोड़ता है और पाचन में सुधार करता है. यह काले गोल आकर के बिज है।",
+					"useAudioPath": "yeh_vyanjano_me_tikhapan.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 63,
+					"regionalName": "तेज पत्ता",
+					"englishName": "Bay leaf",
+					"imagePath": "63_Bay_leaf.png",
+					"audioPath": "Bay_leaf.mp3",
+					"useText": "यह सुखा पत्ता खाने में हल्का मसालेदार स्वाद बढ़ा देता है. यह गरम मसाले का एक प्रमुख घटक है. इसका इस्तेमाल कई तरह की ग्रेवी और चावल के व्यंजनों जैसे बिरयानी, पुलाव बनाने में भी किया जाता है.",
+					"useAudioPath": "yeh_sookha_patta.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 64,
+					"regionalName": "नाग केशर",
+					"englishName": "Cinnamon bud",
+					"imagePath": "64_Cinnamon_bud.png",
+					"audioPath": "Cinnamon_bud.mp3",
+					"useText": "इस मसाले के कई औषधीय गुण हैं. यह मसाला कई विदेशी भारतीय व्यंजन जैसे कबाब बनाने में इस्तेमाल होता है. यह व्यंजन में ख़ुशबूदार ज़ायका बढ़ा देता है.",
+					"useAudioPath": "is_masale_ke_oshadhiye.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 65,
+					"regionalName": "दालचीनी",
+					"englishName": "Cinnamon",
+					"imagePath": "65_Cinnamon.png",
+					"audioPath": "dalchini.mp3",
+					"useText": "गरम मसाले में यह भी एक प्रमुख घटक है. यह व्यंजन में मिठास और मसालेदार स्वाद बढ़ा देता है.  यह मसाला कई भारतीय ग्रेवियों में प्रयोग किया जाता है और इसके पाउडर का उपयोग कुछ मीठे व्यंजनों में भी किया जाता है.",
+					"useAudioPath": "garam_masale_me_yeh_bhi_pramkuh.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 66,
+					"regionalName": "साइट्रिक एसिड",
+					"englishName": "Citric acid",
+					"imagePath": "66_Citric_acid.png",
+					"audioPath": "Citric_acid.mp3",
+					"useText": "इसे नींबू सत्व के रूप में भी जाना जाता है. इसका इस्तेमाल व्यंजन को खटास देने के लिए किया जाता है. रसगुल्ला, रसमलाई तैयार करते समय दूध को फाड़ने के लिए इसका उपयोग किया जाता है.",
+					"useAudioPath": "ise_neembu_satva.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 67,
+					"regionalName": "लवंग/लौंग",
+					"englishName": "Cloves",
+					"imagePath": "67_Cloves.png",
+					"audioPath": "Cloves.mp3",
+					"useText": "दरअसल ये फूल की सूखी कलियां होती हैं और वे व्यंजनों में गहरी मीठी सुगंध बढ़ा देती हैं. इसे साबुत या पीस कर इस्तेमाल किया जा सकता है, लेकिन एक चीज बनी रहती है. स्वाद बहुत तेज़ होता है, इसलिए इसका उपयोग किफ़ायत से करें.",
+					"useAudioPath": "darasal_ye_phool_sookhi_kaliyan.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 68,
+					"regionalName": "धनिया",
+					"englishName": "Whole coriander",
+					"imagePath": "68_Whole_coriander.png",
+					"audioPath": "Whole_coriander.mp3",
+					"useText": "यह भारतीय व्यंजनों का महत्वपूर्ण हिस्सा है. यह कुटा हुआ या पाउडर के रूप में इस्तेमाल किया जाता है. व्यंजनों को यह बहुत ही खुशबूदार स्वाद देता है.",
+					"useAudioPath": "yeh_bhartiye_vyanjan_ka_mehtavpur.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 69,
+					"regionalName": "ज़ीरा",
+					"englishName": "Cumin seeds",
+					"imagePath": "69_Cumin_seeds.png",
+					"audioPath": "Cumin_seeds.mp3",
+					"useText": "यह भारतीय व्यंजनों में बारंबार इस्तेमाल किया जाता है और करी पाउडर और गरम मसाले का एक नियमित घटक है. बहुत से भारतीय व्यंजनों में यह तड़के के लिए प्रयोग किया जाता है. रायते को गार्निश करने के लिए इसका पाउडर इस्तेमाल किया जाता है.",
+					"useAudioPath": "yeh_bhartiyon_vyanjano.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 70,
+					"regionalName": "मेथी के बीज",
+					"englishName": "Fenugreek seeds",
+					"imagePath": "70_Fenugreek_seeds.png",
+					"audioPath": "Fenugreek_seeds.mp3",
+					"useText": "भारतीय व्यंजनों में यह करी पाउडर और अचार पाउडर में एक आम घटक है. विभिन्न सब्जियों और दाल से बने व्यंजनों के स्वाद और खुशबू को बढ़ाने के लिए इसका तड़के में इस्तेमाल होता है. इसका सुखद कड़वा स्वाद है.",
+					"useAudioPath": "bhartiya_vyanjano_mai_yeh_kari_powder.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 71,
+					"regionalName": "तरबूज/खरबूज ककडी/ पेठे के बीज",
+					"englishName": "Four seeds",
+					"imagePath": "71_Four_seeds.png",
+					"audioPath": "Four_seeds.mp3",
+					"useText": "इसका स्वाद बहुत सौम्य होता है. इसे व्हाइट पेस्ट और कोरमा ग्रेवी बनाने में इस्तेमाल करते हैं.",
+					"useAudioPath": "iska_swad_bahut_somya_hota.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 72,
+					"regionalName": "गरम मसाला",
+					"englishName": "Garam masala",
+					"imagePath": "72_Garam_masala.png",
+					"audioPath": "Garam_masala.mp3",
+					"useText": "यह 8 मसालों का एक मिश्रण है. (जीरा, धनिया ,जावित्री , काली इलायची, तेजपत्ता, लौंग, काली मिर्च और दालचीनी). मसालों को हल्का भून कर पाउडर बना लेते हैं.",
+					"useAudioPath": "yeh_aatha_masalon.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 73,
+					"regionalName": "सोंठ",
+					"englishName": "Dry ginger powder",
+					"imagePath": "73_Dry_ginger_powder.png",
+					"audioPath": "Dry_ginger_powder.mp3",
+					"useText": "इसका औषधीय उपयोग है. इसका उपयोग मसाला चाय बनाने के लिए किया जाता है. यह अदरक की जगह उपयोग में लाया जा सकता है.",
+					"useAudioPath": "iska_oshadhiye_upyog_hai.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 74,
+					"regionalName": "छोटी इलाइची",
+					"englishName": "Green cardamom",
+					"imagePath": "74_Green_cardamom.png",
+					"audioPath": "Green_cardamom.mp3",
+					"useText": "इसका उपयोग भारतीय व्यंजनों में मीठे व्यंजन और ग्रेवीज़ को स्वादिष्ट बनाने के लिए किया जाता है. इसकी बहुत बढ़िया ख़ुशबू है और यह लस्सी, मिल्कशेक और चाय को भी बहुत अच्छा स्वाद देती है.",
+					"useAudioPath": "iska_upyog_bhartiya_vyanjano.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 75,
+					"regionalName": "काला नमक",
+					"englishName": "Black salt",
+					"imagePath": "75_Black_salt.png",
+					"audioPath": "Black_salt.mp3",
+					"useText": "यह चाट मसाला में महत्वपूर्ण घटक है. यह चाट, चटनी, सलाद, सभी प्रकार के फल-सलाद, रायता और कई अन्य स्वादिष्ट भारतीय स्नैक्स में इस्तेमाल किया जाता है.",
+					"useAudioPath": "yeh_chaat_masala_ghatak_hai.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 76,
+					"regionalName": "पत्थर के फूल",
+					"englishName": "Stone flower",
+					"imagePath": "76_Stone_flower.png",
+					"audioPath": "Stone_flower.mp3",
+					"useText": "ख़ासतौर पर मांस के व्यंजनों में इस्तेमाल किया जाता है जैसे नहारी (पाया), बॉम्बे बिरयानी, गोवा के मीट स्टूज़. यह शाकाहारी व्यंजनों में भी प्रयोग किया जाता है. यह महाराष्ट्रियन काले मसाले में एक उपयोगी पदार्थ है, जो मांस, मछली और सब्जियां पकाने के लिए इस्तेमाल किया जाता है.",
+					"useAudioPath": "khaastor_per_mans_ke.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 77,
+					"regionalName": "अमचूर",
+					"englishName": "Sour dried mango powder",
+					"imagePath": "77_Sour_dried_mango_powder.png",
+					"audioPath": "Sour_dried_mango_powder.mp3",
+					"useText": "यह सूखे कच्चे हरे आमों से बना एक फल मसाला पाउडर है और इसका उपयोग खट्टे मसाले के रूप में किया जाता है. यह भारत में बनाया जाता है और जब ताज़े आमों का मौसम नहीं होता, खाने में स्वाद के लिए इस्तेमाल करने से आमों से मिलने वाले पोषण लाभ में इज़ाफा होता है.",
+					"useAudioPath": "yeh_sookhey_kacche_hare.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 78,
+					"regionalName": "सरसों",
+					"englishName": "Mustard Seeds",
+					"imagePath": "78_Mustard_Seeds.png",
+					"audioPath": "Mustard_Seeds.mp3",
+					"useText": "यह कई दक्षिण भारतीय और बंगाली व्यंजनों में प्रयोग किया जाता है. यह अचार में मुख्य घटक है. इसका उपयोग दाल में तड़का लगाने के लिए भी किया जाता है.",
+					"useAudioPath": "yeh_kai_dakshin_bhartiye_or_bangali.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 79,
+					"regionalName": "कलोंजी",
+					"englishName": "Nigela Seeds",
+					"imagePath": "79_Nigela_Seeds.png",
+					"audioPath": "Nigela_Seeds.mp3",
+					"useText": "यह काले तिल की तरह दिखता है यह पंच फोरम मसाला में और नान जैसी भारतीय रोटी बनाने में उपयोग किया जाता है.",
+					"useAudioPath": "yeh_kale_til_tarah_dikhta.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 80,
+					"regionalName": "जैफल / जायफल",
+					"englishName": "Nutmeg",
+					"imagePath": "80_Nutmeg.png",
+					"audioPath": "Nutmeg.mp3",
+					"useText": "भारतीय व्यंजनों में मिठाईयों और नमकीन व्यंजनों में इसका उपयोग किया जाता है. इसका ज़्यादातर मुगलई व्यंजनों में उपयोग किया जाता है.",
+					"useAudioPath": "bhartiye_vyanjano.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 81,
+					"regionalName": "जावित्री",
+					"englishName": "Mace",
+					"imagePath": "81_Mace.png",
+					"audioPath": "Mace.mp3",
+					"useText": "यह जायफल की बाहरी परत होती है. इसका स्वाद और ख़ुशबू जायफल की तरह होता है.",
+					"useAudioPath": "yeh_jaywal_bahari_parat.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 82,
+					"regionalName": "पञ्च फोरन",
+					"englishName": "Panch phoran",
+					"imagePath": "82_Panch_phoran.png",
+					"audioPath": "Panch_phoran.mp3",
+					"useText": "यह एक बंगाली मसाला है. इसमें सौंफ, जीरा , मेथी के दाने, सरसों और कलोंजी का मिश्रण होता है.",
+					"useAudioPath": "yeh_ek_bangali_masala.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 83,
+					"regionalName": "खस-खस",
+					"englishName": "Poppy seeds",
+					"imagePath": "83_Poppy_seeds.png",
+					"audioPath": "Poppy_seeds.mp3",
+					"useText": "भारतीय व्यंजनों में खस-खस का उपयोग रेसिपी को गाढ़ा करने, टेक्सचर देने और रेसिपी को फ्लेवर देने के लिए किया जाता है. महाराष्ट्र में दीवाली के त्योहार के समय बनाई जाने वाली एक ख़ास मिठाई अनारसा को गार्निश करने के लिए इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "bhartiye_vyanjano_khas_khas_ka_upyog.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 84,
+					"regionalName": "केसर",
+					"englishName": "Saffron",
+					"imagePath": "84_Saffron.png",
+					"audioPath": "Saffron.mp3",
+					"useText": "यह दुनिया का सबसे महंगा मसाला है. यह एक फूल का हिस्सा है. इसका उपयोग बिरयानी, पुलाव और बहुत सारे मीठे व्यंजनों में किया जाता है. यह खाने को बहुत सुखद खुशबू देता है.",
+					"useAudioPath": "yeh_duniya_ka_sabse_mehenga_masala_hai.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 85,
+					"regionalName": "नमक",
+					"englishName": "Salt",
+					"imagePath": "85_Salt.png",
+					"audioPath": "Salt.mp3",
+					"useText": "इसका उपयोग कई व्यंजनों में किया जाता है. इसे सब्जियों में से नमी निकालकर उन्हें सॉफ्ट बनाने के लिए इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_upyog_sabziyon_mai_nami_nikalkar.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 86,
+					"regionalName": "तिल",
+					"englishName": "Sesame seeds",
+					"imagePath": "86_Sesame_seeds.png",
+					"audioPath": "Sesame_seeds.mp3",
+					"useText": "इसका उपयोग बहुत सारे एशियाई व्यंजनों में किया जाता है. कई तरह के मीठे व्यंजनों और स्नैक्स में भी इसका उपयोग किया जाता है. यह महाराष्ट्रियन ग्रेवी को गाढ़ा करने में भी इस्तेमाल होता है.",
+					"useAudioPath": "iska_upyog_bahut_sarey_asia_vyanjano.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 87,
+					"regionalName": "चक्र फूल",
+					"englishName": "Star anis",
+					"imagePath": "87_Star_anis.png",
+					"audioPath": "Star_anis.mp3",
+					"useText": "इसका स्वाद मीठा और काली मिर्च की तरह होता है. यह बिरयानी और मसाला चाय का स्वाद बढ़ाता है. लाल मांस से बने व्यंजनों को भी यह ज़ायकेदार बनाता है.",
+					"useAudioPath": "iska_swad_meetha_kali_mirch.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 88,
+					"regionalName": "अज़वाइन",
+					"englishName": "Carom seeds",
+					"imagePath": "88_Carom_seeds.png",
+					"audioPath": "Carom_seeds.mp3",
+					"useText": "इसमें औषधीय गुण हैं. यह पराठे और बहुत सारे प्रकार के पकोड़े बनाने में इस्तेमाल होती है.",
+					"useAudioPath": "isme_oshadhiye_gun_hai_paranthe.mp3",
+					"processName": "Spices"
+				},
+				{
+					"questionId": 89,
+					"regionalName": "हल्दी",
+					"englishName": "Turmeric",
+					"imagePath": "89_Turmeric.png",
+					"audioPath": "Turmeric.mp3",
+					"useText": "इसमें औषधीय गुण हैं. इसका करी बनाने में प्रयोग किया जाता है. यह भोजन को प्राकृतिक पीला रंग देती है. घावों को भरने के लिए प्राथमिक चिकित्सा के रूप में भी इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_upyog_kari_banane.mp3",
+					"processName": "Spices"
+				}
+			]
+		},
+		{
+			"category": "Dry Fruits",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 90,
+					"regionalName": "काजू",
+					"englishName": "Cashewnut",
+					"imagePath": "90_Cashewnut .png",
+					"audioPath": "Cashewnut .mp3",
+					"useText": "यह ग्रेवी को गाढ़ा बनाने के लिए इस्तेमाल किया जाता है. बिरयानी और कई किस्मों के मीठे व्यंजनों को गार्निश करने में भी इसका प्रयोग किया जाता है.",
+					"useAudioPath": "yeh_gravi_ko_ghada_banane.mp3",
+					"processName": "Dry Fruits"
+				},
+				{
+					"questionId": 91,
+					"regionalName": "बादाम",
+					"englishName": "Almond",
+					"imagePath": "91_Almond.png",
+					"audioPath": "Almond.mp3",
+					"useText": "इसका इस्तेमाल पसंदा ग्रेवी में किया जाता है. और डेजर्ट को गार्निश करने के लिए भी उपयोग में लाया जाता है.",
+					"useAudioPath": "iska_istemala_pasanda_gravi.mp3",
+					"processName": "Dry Fruits"
+				},
+				{
+					"questionId": 92,
+					"regionalName": "किशमिश",
+					"englishName": "Raisins",
+					"imagePath": "92_Raisins.png",
+					"audioPath": "Raisins.mp3",
+					"useText": "बहुत से मीठे व्यंजनों को गार्निश करने में इसका उपयोग होता है. यह सुखे अंगूर होते हैं.",
+					"useAudioPath": "bahut_se_meethe_vyanjano_garnish.mp3",
+					"processName": "Dry Fruits"
+				},
+				{
+					"questionId": 93,
+					"regionalName": "अखरोट",
+					"englishName": "Walnut",
+					"imagePath": "93_Walnut.png",
+					"audioPath": "Walnut.mp3",
+					"useText": "इसका खाद्य हिस्सा खोल के अंदर होता है.",
+					"useAudioPath": "iska_khad_hissa_khol.mp3",
+					"processName": "Dry Fruits"
+				},
+				{
+					"questionId": 94,
+					"regionalName": "खुबानी",
+					"englishName": "Apricot",
+					"imagePath": "94_Apricot.png",
+					"audioPath": "Apricot.mp3",
+					"useText": "इसका उपयोग खुबानी का मीठा बनाने के लिए किया जाता है.",
+					"useAudioPath": "iska_upyog_khubani_meetha.mp3",
+					"processName": "Dry Fruits"
+				},
+				{
+					"questionId": 95,
+					"regionalName": "पिस्ता",
+					"englishName": "Pistachio",
+					"imagePath": "95_Pistachio.png",
+					"audioPath": "Pistachio.mp3",
+					"useText": "इसका उपयोग मीठे व्यंजनों को गार्निश करने के लिए किया जाता है.  फ्लेवर्ड मिल्क और आइसक्रीम बनाने के लिए भी इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "fleyvard_or_icecream_banane_ke.mp3",
+					"processName": "Dry Fruits"
+				}
+			]
+		},
+		{
+			"category": "Root Vegetables",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 96,
+					"regionalName": "गाजर",
+					"englishName": "Carrot",
+					"imagePath": "96_Carrot.png",
+					"audioPath": "Carrot.mp3",
+					"useText": "इसका उपयोग मिक्स वेजिटेबल करी, वेजिटेबल कोफ्ता करी में किया जाता है. इसे सलाद में भी प्रयोग किया जाता है. गाजर के हलवे के लिए यह मुख्य सामग्री है.",
+					"useAudioPath": "iska_upyog_mix_vegetable.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 97,
+					"regionalName": "चुकंदर",
+					"englishName": "Beetroot",
+					"imagePath": "97_Beetroot.png",
+					"audioPath": "Beetroot.mp3",
+					"useText": "इसका उपयोग सलाद में होता है. यह चटक नीलापन लिए लाल रंग का होता है. इसका जूस बहुत स्वास्थ्यवर्धक होता है.",
+					"useAudioPath": "iska_upyog_salad_mai_hota.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 98,
+					"regionalName": "प्याज़",
+					"englishName": "Onion",
+					"imagePath": "98_Onion.png",
+					"audioPath": "Onion.mp3",
+					"useText": "इसका उपयोग कई बेसिक पेस्ट में किया जाता है जैसे सॉते अनियन पेस्ट, उबला अनियन पेस्ट. बहुत तरह की करी और डिशेज़ बनाने में इसका उपयोग किया जाता है. यह सलाद में भी इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_basic_paste_mai_kiya_jata.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 99,
+					"regionalName": "आलू",
+					"englishName": "Potato",
+					"imagePath": "99_Potato.png",
+					"audioPath": "Potato.mp3",
+					"useText": "फ्रेंच फ्राइज, आलू मैश, बटाटा वडा और चिप्स बनाने में इसका उपयोग होता है. कई भारतीय व्यंजनों में भी इसका इस्तेमाल होता है.",
+					"useAudioPath": "french_frize_aalo_mesh.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 100,
+					"regionalName": "शकरकंदी",
+					"englishName": "Sweet Potato",
+					"imagePath": "100_Sweet_Potato.png",
+					"audioPath": "Sweet_Potato.mp3",
+					"useText": "इससे बहुत तरह के उपवास / व्रत के व्यंजन बनाए जाते हैं.",
+					"useAudioPath": "isse_bahut_tarah_ke_upvaas.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 101,
+					"regionalName": "लहसुन",
+					"englishName": "Garlic",
+					"imagePath": "101_Garlic.png",
+					"audioPath": "Garlic.mp3",
+					"useText": "इसका उपयोग जिंजर गार्लिक पेस्ट बनाने में होता है. यह डिश को अच्छा स्वाद देता है. इसका उपयोग दाल में तड़का लगाने के लिए भी किया जाता है.",
+					"useAudioPath": "iska_upyog_ginger_garlik_paste.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 102,
+					"regionalName": "अदरक",
+					"englishName": "Ginger",
+					"imagePath": "102_Ginger.png",
+					"audioPath": "Ginger.mp3",
+					"useText": "इसका उपयोग जिंजर गार्लिक पेस्ट बनाने में होता है. यह डिश को अच्छा स्वाद देता है. इसका उपयोग मसला चाय बनाने के लिये किया जाता है.",
+					"useAudioPath": "iska_upyog_dish_acha_swad_deta.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 103,
+					"regionalName": "मूली",
+					"englishName": "Radish",
+					"imagePath": "103_Radish.png",
+					"audioPath": "Radish.mp3",
+					"useText": "इसका सब्ज़ी सलाद में उपयोग किया जाता है. पराठे बनाने में इसका इस्तेमाल किया जाता है. यह बहुत तीखे स्वाद वाला होता है.",
+					"useAudioPath": "iska_sabzi_salad_mai_upyog.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 104,
+					"regionalName": "टर्निप",
+					"englishName": "Turnips",
+					"imagePath": "104_Turnips.png",
+					"audioPath": "Turnips.mp3",
+					"useText": "इसका स्वाद मूली की तरह होता है. इसे सलाद में इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_swad_mooli_ki_tarah_hota_hai.mp3",
+					"processName": "Root Vegetables"
+				},
+				{
+					"questionId": 105,
+					"regionalName": "अरबी",
+					"englishName": "Arbi",
+					"imagePath": "105_Arbi.png",
+					"audioPath": "Arbi.mp3",
+					"useText": "इसकी एक करी डिश बनती है.",
+					"useAudioPath": "iski_kari_dish_banti_hai.mp3",
+					"processName": "Root Vegetables"
+				}
+			]
+		},
+		{
+			"category": "Fruit Vegetables",
+			"categoryImage": "",
+
+			"dataList": [{
+					"questionId": 106,
+					"regionalName": "टमाटर",
+					"englishName": "Tomato",
+					"imagePath": "106_Tomato.png",
+					"audioPath": "Tomato.mp3",
+					"useText": "इसका उपयोग मखनी ग्रेवी, यलो ब्राउन ग्रेवी में होता है. सलाद और सॉस में भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "iska_upyog_makhni_gravi.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 107,
+					"regionalName": "खीरा",
+					"englishName": "Cucumber",
+					"imagePath": "107_Cucumber.png",
+					"audioPath": "Cucumber.mp3",
+					"useText": "यह सलाद और रायता बनाने में इस्तेमाल होता है. गैजपाचो सूप की यह मुख्य सामग्री है.",
+					"useAudioPath": "yeh_salad_or_rayta_banane.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 108,
+					"regionalName": "फ्रेंच बीन्स",
+					"englishName": "French Beans",
+					"imagePath": "108_French_Beans.png",
+					"audioPath": "French_Beans.mp3",
+					"useText": "इसका उपयोग मिक्स्ड वेजिटेबल में किया जाता है. बीन्स पोरियल में भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "iska_upyog_mixed_vegetable_beens_poriyal.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 109,
+					"regionalName": "बैंगन",
+					"englishName": "Brinjal",
+					"imagePath": "109_Brinjal.png",
+					"audioPath": "Brinjal.mp3",
+					"useText": "यह बहुत तरह की वेजेटेरियन डिशेज़ जैसे बैंगन का भरता, बघारे बैंगन, तवा वेज में इस्तेमाल किये जाते हैं.",
+					"useAudioPath": "yeh_bahut_tarah_vegeterian_dishes_begun.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 110,
+					"regionalName": "शिमला मिर्च",
+					"englishName": "Capsicum",
+					"imagePath": "110_Capsicum.png",
+					"audioPath": "Capsicum.mp3",
+					"useText": "इसका उपयोग कढ़ाई डिशेज़ में किया जाता है| जैसे मुर्ग कढ़ाई, मटन कढ़ाई. पनीर टिक्का और बहुत सारे कांटिनेंटल सलाद में इसका उपयोग किया जाता है.",
+					"useAudioPath": "iska_kadhai_dishez_mai_kiya_jata.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 111,
+					"regionalName": "लौकी",
+					"englishName": "Bottle Gourd",
+					"imagePath": "111_Bottle_Gourd.png",
+					"audioPath": "Bottle_Gourd.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स और मीठे व्यंजनों में भी किया जाता है. उदाहरण के लिए लौकी का हलवा, लौकी कोफ्ता करी, लौकी मुसल्लम.",
+					"useAudioPath": "iska_upyog_vegeterian_main_cource.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 112,
+					"regionalName": "करेला",
+					"englishName": "Bitter Gourd",
+					"imagePath": "112_Bitter_Gourd.png",
+					"audioPath": "Bitter_Gourd.mp3",
+					"useText": "यह स्वाद में कड़वा होता है. यह शाकाहारी व्यंजन बनाने के लिए इस्तेमाल किया जाता है.",
+					"useAudioPath": "yeh_swad_kadva_hota_shakahari_vyanjan.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 113,
+					"regionalName": "कद्दू",
+					"englishName": "Pumpkin",
+					"imagePath": "113_Pumpkin.png",
+					"audioPath": "Pumpkin.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स, मीठे व्यंजन और सूप में भी किया जाता है. उदाहरण के लिए कद्दू का हलवा, कद्दू कोफ्ता करी, कद्दू सूप, सांभर",
+					"useAudioPath": "vegeterian_main_course_meethe_vyanjan.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 114,
+					"regionalName": "भिंडी",
+					"englishName": "Lady Finger",
+					"imagePath": "114_Lady_Finger.png",
+					"audioPath": "Lady_Finger.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स में किया जाता है. जैसे भिंडी दो प्याज़ा, तवा वेज, सुनेरी भिंडी.",
+					"useAudioPath": "iska_upyog_main_course_main_jaise_bhindi.mp3",
+					"processName": "Fruit Vegetables"
+				},
+				{
+					"questionId": 115,
+					"regionalName": "टिंडा",
+					"englishName": "Tinda",
+					"imagePath": "115_Tinda.png",
+					"audioPath": "Tinda.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स में किया जाता है.  जैसे टिंडा कोफ्ता करी, टिंडा मसाला.",
+					"useAudioPath": "iska_upygo_tinda_kofta_kari.mp3",
+					"processName": "Fruit Vegetables"
+				}
+			]
+		},
+		{
+			"category": "Leafy Vegetables",
+			"categoryImage": "",
+
+			"dataList": [{
+					"questionId": 116,
+					"regionalName": "पालक",
+					"englishName": "Spinach",
+					"imagePath": "116_Spinach.png",
+					"audioPath": "Spinach.mp3",
+					"useText": "इसका उपयोग स्पिनच ग्रेवी में होता है. सलाद और मेन कोर्स डिशेज़ में भी इसका उपयोग किया जाता है. उदाहरण के लिए पालक पनीर,चिकन सागवाला, मटन सागवाला.",
+					"useAudioPath": "iska_upyog_spinach_gravi.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 117,
+					"regionalName": "मेथी",
+					"englishName": "Fenugreek Leaves",
+					"imagePath": "117_Fenugreek_Leaves.png",
+					"audioPath": "Fenugreek_Leaves.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स में किया जाता है. जैसे मेथी मटर, आलू मेथी, लहसूनी मेथी.",
+					"useAudioPath": "iska_upyog_vegeterian_methi_aaloo.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 118,
+					"regionalName": "पत्तागोभी",
+					"englishName": "Cabbage",
+					"imagePath": "118_Cabbage.png",
+					"audioPath": "Cabbage.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स डिश में किया जाता है. चाइनीज़ खाने में और सूप में इसका उपयोग किया जाता है. उदाहरण के लिए कैबेज मटर , कैबेज फ्राई , कैबेज पोरियल , वेज मंचाव सूप, वेज हाक्का नूडल्स, वेज मंचूरियन.",
+					"useAudioPath": "chinse_khane_or_soup_mai_kiya_jata.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 119,
+					"regionalName": "पुदीना",
+					"englishName": "Mint Leaves",
+					"imagePath": "119_Mint_Leaves.png",
+					"audioPath": "Mint_Leaves.mp3",
+					"useText": "ग्रीन चटनी बनाने में इसका उपयोग किया जाता है. आइस क्रीम और बिरयानी गार्निश में भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "green_chatni_upyog_kiya_jata_hai.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 120,
+					"regionalName": "धनिया पत्ता",
+					"englishName": "Coriander Leaves",
+					"imagePath": "120_Coriander_Leaves.png",
+					"audioPath": "Coriander_Leaves.mp3",
+					"useText": "ग्रीन चटनी बनाने में इसका उपयोग किया जाता है| बहुत सारे इंडियन डिशेज़ को गार्निश करने के लिए इसका उपयोग किया जाता है.",
+					"useAudioPath": "green_chatni_sarey_indian_dishez.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 121,
+					"regionalName": "करी पत्ता",
+					"englishName": "Curry Leaves",
+					"imagePath": "121_Curry_Leaves.png",
+					"audioPath": "Curry_Leaves.mp3",
+					"useText": "भारतीय खाने में इसका प्रयोग तड़का लगाने के लिए किया जाता है.",
+					"useAudioPath": "bhartiya_khane_main_tadka_lagane.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 122,
+					"regionalName": "दिल लीव्ज़/ शेपू",
+					"englishName": "Dill Leaves",
+					"imagePath": "122_Dill_Leaves.png",
+					"audioPath": "Dill_Leaves.mp3",
+					"useText": "यह एक नाजुक सुगंधित जड़ी बूटी है. इसका उपयोग सूप, सलाद, चटनी में किया जाता है. ईसे सोया लीव्ज़ भी कहा जाता है.",
+					"useAudioPath": "yeh_nazuk_sugandhtit_jadi_butiyan.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 123,
+					"regionalName": "खट्टे पत्ते",
+					"englishName": "Green Sorrel Leaves",
+					"imagePath": "123_Green_Sorrel_Leaves.png",
+					"audioPath": "Green_Sorrel_Leaves.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स डिशेज़ में किया जाता है. सूप, सलाद में भी इस्तेमाल होता है जैसे सोरेल सूप.",
+					"useAudioPath": "iska_upyog_vegeterian_soup_salad.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 124,
+					"regionalName": "हरे प्याज़ के पत्ते",
+					"englishName": "Spring Onion",
+					"imagePath": "124_Spring_Onion.png",
+					"audioPath": "Spring_Onion.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स डिश में किया जाता है. चाइनीज़ खाने और सूप में भी इसका उपयोग किया जाता है जैसे बैंगन भरता, वेज क्लियर सूप, वेज हाक्का नूडल्स, वेज मंचूरियन.",
+					"useAudioPath": "iska_upyog_chinse_khane_ke_liye_kiya_jata.mp3",
+					"processName": "Leafy Vegetables"
+				},
+				{
+					"questionId": 125,
+					"regionalName": "सरसों के पत्ते",
+					"englishName": "Mustard leaves",
+					"imagePath": "125_Mustard_leaves.png",
+					"audioPath": "Mustard_leaves.mp3",
+					"useText": "इसका उपयोग वेजीटेरियन मेन कोर्स डिश में किया जाता है. उदाहरण के लिए सरसों का साग.",
+					"useAudioPath": "iska_upyog_vegetrian_main_course.mp3",
+					"processName": "Leafy Vegetables"
+				}
+			]
+		},
+		{
+			"category": "Fruits",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 126,
+					"regionalName": "आम",
+					"englishName": "Mango",
+					"imagePath": "126_Mango.png",
+					"audioPath": "Mango.mp3",
+					"useText": "इसे फलों का राजा भी कहा जाता है. यह गर्मी के सीजन में पाया जाता है. इसका जूस बनता है और कट फ्रूट्स में भी उपयोग किया जाता है.",
+					"useAudioPath": "ise_falon_ka_raja_bhi_kaha_jata_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 127,
+					"regionalName": "सेब",
+					"englishName": "Apple",
+					"imagePath": "127_Apple.png",
+					"audioPath": "Apple.mp3",
+					"useText": "इसका उपयोग मीठे व्यंजन बनाने में होता है जैसे एप्पल पाई, एप्पल कस्टर्ड , एप्पल जलेबी आदि. यह शेक्स, जूस और कट फ्रूट बनाने में भी इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_meethe_vyanjan_apple_pai_apple_custerd.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 128,
+					"regionalName": "केला",
+					"englishName": "Banana",
+					"imagePath": "128_Banana.png",
+					"audioPath": "Banana.mp3",
+					"useText": "इसका इस्तेमाल बनाना शेक , केलिचे शिकरण, बनाना फ्लिटर आदि तैयार करने में होता है.",
+					"useAudioPath": "iska_istemal_banana_shake.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 129,
+					"regionalName": "संतरा",
+					"englishName": "Orange",
+					"imagePath": "129_Orange.png",
+					"audioPath": "Orange.mp3",
+					"useText": "यह एक सिट्रस फल है. इसका स्वाद खट्टा और मीठा होता है. मुख्यतया इसका उपयोग जूस, मुरब्बा और सॉस बनाने में किया जाता है.",
+					"useAudioPath": "yeh_ek_stris_phal_ha_iska_swad_khatta_mitha.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 130,
+					"regionalName": "तरबूज",
+					"englishName": "Watermelon",
+					"imagePath": "130_Watermelon.png",
+					"audioPath": "Watermelon.mp3",
+					"useText": "इसका उपयोग जूस बनाने में और कट फ्रूट्स में होता है. यह बाहर से हरा और अंदर इसका पल्प लाल गुलाबी होता है.",
+					"useAudioPath": "iska_use_juice_banane_mai_cut_fruits_mai_hota_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 131,
+					"regionalName": "अंगूर",
+					"englishName": "Grapes",
+					"imagePath": "131_Grapes.png",
+					"audioPath": "Grapes.mp3",
+					"useText": "यह काले और हरे रंग में उपलब्ध है. इससे जूस बनता है और मिक्स फ्रूट सलाद में भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "iska_use_juice_aur_salad_mai_hota_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 132,
+					"regionalName": "अनार",
+					"englishName": "Pomegranate",
+					"imagePath": "132_Pomegranate.png",
+					"audioPath": "Pomegranate.mp3",
+					"useText": "इससे जूस बनता है. यह दाबेली और समोसे में उपयोग किया जाता है. चाट के डिशेज़ को इससे गार्निश किया जाता है.",
+					"useAudioPath": "iska_use_juice_aur_samose_garnish_bhi_hota.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 133,
+					"regionalName": "अनानास",
+					"englishName": "Pineapple",
+					"imagePath": "133_Pineapple.png",
+					"audioPath": "Pineapple.mp3",
+					"useText": "इसका उपयोग नवरतन कोरमा में किया जाता है. केक और पेस्ट्रीज में भी इसका उपयोग होता है. इससे जूस भी बनता है.",
+					"useAudioPath": "iska_use_navratn_korma_cake_pastry.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 134,
+					"regionalName": "पपीता",
+					"englishName": "Papaya",
+					"imagePath": "134_Papaya.png",
+					"audioPath": "Papaya.mp3",
+					"useText": "इसका कच्चा फल मीट को मुलायम करने के लिए इस्तेमाल होता है. इसे कट फ्रूट में भी डाला जाता है.",
+					"useAudioPath": "iska_use_meat_ko_soft_krne_k_liye.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 135,
+					"regionalName": "चीकू",
+					"englishName": "Sapodilla",
+					"imagePath": "135_Sapodilla.png",
+					"audioPath": "Sapodilla.mp3",
+					"useText": "इसका उपयोग कट फ्रूट्स और मिल्क शेक्स में होता है.",
+					"useAudioPath": "iska_use_cut_fruits_milk_shake.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 136,
+					"regionalName": "मौसंबी",
+					"englishName": "Sweet Lime",
+					"imagePath": "136_Sweet_Lime.png",
+					"audioPath": "Sweet_Lime.mp3",
+					"useText": "इसका उपयोग जूस बनाने के लिए किया जाता है.",
+					"useAudioPath": "iska_use_juice_ke_liye_hota_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 137,
+					"regionalName": "आलू बुखारा",
+					"englishName": "Plum",
+					"imagePath": "137_Plum.png",
+					"audioPath": "Plum.mp3",
+					"useText": "इसका उपयोग फ़्रेश फ्रूट और फ्रूट सलाद में किया जाता है.",
+					"useAudioPath": "iska_use_fresh_fruit_salad.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 138,
+					"regionalName": "सीताफल",
+					"englishName": "Custard Apple",
+					"imagePath": "138_Custard_Apple.png",
+					"audioPath": "Custard_Apple.mp3",
+					"useText": "इसका उपयोग मिल्क शेक्स और सीताफल रबड़ी बनाने में होता है.",
+					"useAudioPath": "iska_use_milk_shake_seetaphal_rabri.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 139,
+					"regionalName": "चेरी",
+					"englishName": "Cherry",
+					"imagePath": "139_Cherry.png",
+					"audioPath": "Cherry.mp3",
+					"useText": "इसका उपयोग पेय पदार्थ, मीठे व्यंजनों और केक को गार्निश करने के लिए किया जाता है.",
+					"useAudioPath": "cake_ko_garnish_krne_k_liye.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 140,
+					"regionalName": "अंजीर",
+					"englishName": "Fig",
+					"imagePath": "140_Fig.png",
+					"audioPath": "Fig.mp3",
+					"useText": "इसका उपयोग लस्सी , मिल्क शेक्स और रबड़ी बनाने में होता है.",
+					"useAudioPath": "iska_use_lassi_milk_shake_rabri.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 141,
+					"regionalName": "खरबूजा",
+					"englishName": "Sweet Melon",
+					"imagePath": "141_Sweet_Melon.png",
+					"audioPath": "Sweet_Melon.mp3",
+					"useText": "इसका उपयोग मिक्स्ड फ्रूट सलाद बनाने में होता है.",
+					"useAudioPath": "iska_use_mixed_fruit_salad.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 142,
+					"regionalName": "स्ट्रॉबेरी",
+					"englishName": "Strawberry",
+					"imagePath": "142_Strawberry.png",
+					"audioPath": "Strawberry.mp3",
+					"useText": "इसका उपयोग फ्रूट सलाद, मिल्क शेक्स और आइसक्रीम बनाने के लिए किया जाता है. यह लाल रंग का होता है।",
+					"useAudioPath": "iska_use_fruit_salad_ice_cream_lal_rang.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 143,
+					"regionalName": "कीवी",
+					"englishName": "Kiwi",
+					"imagePath": "143_Kiwi.png",
+					"audioPath": "Kiwi.mp3",
+					"useText": "इसका उपयोग फ्रूट सलाद बनाने में होता है. इसे ' चायनीस गूज़बेरी' भी कहा जाता है।",
+					"useAudioPath": "iska_use_fruit_salad_chinese gujberi_bhi_kaha_jata_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 144,
+					"regionalName": "स्टार फल",
+					"englishName": "Carambola",
+					"imagePath": "144_Carambola.png",
+					"audioPath": "Carambola.mp3",
+					"useText": "इसका उपयोग फ्रूट सलाद के लिए और गार्निश के लिए किया जाता है. यह दिखनेमे स्टार कि तरह होता है।",
+					"useAudioPath": "fruit_salad_dikhne_mai_star_ki_tarah_hota_hai.mp3",
+					"processName": "Fruits"
+				},
+				{
+					"questionId": 145,
+					"regionalName": "अमरूद",
+					"englishName": "Guava",
+					"imagePath": "145_Guava.png",
+					"audioPath": "Guava.mp3",
+					"useText": "इसको कट फ्रूट सलाद, चटनी और जूस के लिए इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_use_cut_fruit_salad_chatni_mai_hota_hai.mp3",
+					"processName": "Fruits"
+				}
+			]
+		},
+		{
+			"category": "Cereals",
+			"categoryImage": "",
+
+			"dataList": [{
+					"questionId": 146,
+					"regionalName": "गेहूं",
+					"englishName": "Wheat",
+					"imagePath": "146_Wheat.png",
+					"audioPath": "Wheat.mp3",
+					"useText": "इसका उपयोग इंडियन ब्रेड बनाने में होता है जैसे चपाती, पूरी, फुल्का, पराठा, तंदूरी रोटी .इसका इस्तेमाल ब्राउन ब्रेड बनाने में भी होता है. मैदा इसी से बनाया जाता है.|",
+					"useAudioPath": "iska_use_indian_bread_brown_bread_maida_isi_se_bnta.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 147,
+					"regionalName": "बाजरा",
+					"englishName": "Pearl Millet",
+					"imagePath": "147_Pearl_Millet.png",
+					"audioPath": "Pearl Millet.mp3",
+					"useText": "इसका उपयोग भाकरी बनाने में होता है. . कुछ ग्रेवीज को गाढ़ा करने के लिए भी इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "gravy_ko_gara_karne_k_liye.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 148,
+					"regionalName": "ज्वार",
+					"englishName": "Sorghum Bicolor",
+					"imagePath": "148_Sorghum_Bicolor.png",
+					"audioPath": "Sorghum_Bicolor.mp3",
+					"useText": "इसका उपयोग भाकरी बनाने में होता है.",
+					"useAudioPath": "iska_use_bhakri_banane_mai_hota_hai.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 149,
+					"regionalName": "चावल",
+					"englishName": "Rice",
+					"imagePath": "149_Rice.png",
+					"audioPath": "Rice.mp3",
+					"useText": "इसका इस्तेमाल कई मीठे व्यंजनों जैसे चावल की खीर, फिरनी में किया जाता है. चावल से बने कई व्यंजन जैसे बिरयानी , पुलाव बनाने में भी इसका उपयोग होता है.",
+					"useAudioPath": "iska_use_mithe_vayanjan_rice_ki_khir_biryani_pulav.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 150,
+					"regionalName": "मकई",
+					"englishName": "Maize or Corn",
+					"imagePath": "150_Maize_Corn.png",
+					"audioPath": "Maize_or_Corn.mp3",
+					"useText": "इसके आटे का उपयोग इंडियन ब्रेड (मक्के की रोटी) बनाने में होता है| इससे पॉपकॉर्न भी बनता है.",
+					"useAudioPath": "iske_aate_ka_use_indian_bread_pop_corn_bhi_banta_hai.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 151,
+					"regionalName": "मुरमुरे",
+					"englishName": "Puffed Rice",
+					"imagePath": "151_Puffed_Rice.png",
+					"audioPath": "Puffed_Rice.mp3",
+					"useText": "इसका उपयोग भेल बनाने में होता है.",
+					"useAudioPath": "iska_use_bhel_banane_mai_hota_hai.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 152,
+					"regionalName": "कॉर्नफ़्लेक्स",
+					"englishName": "Cornflakes",
+					"imagePath": "152_Cornflakes.png",
+					"audioPath": "Cornflakes.mp3",
+					"useText": "यह मक्के से बनता है. आमतौर पर यह ब्रेकफास्ट में दूध के साथ लिया जाता है.",
+					"useAudioPath": "yeh_makke-se_bnta_hai_milk_k_sath.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 153,
+					"regionalName": "पोहा",
+					"englishName": "flattened Rice",
+					"imagePath": "153_flattened_Rice.png",
+					"audioPath": "flattened_Rice.mp3",
+					"useText": "इसका उपयोग फरसान में किया जाता है. इससे ब्रेकफास्ट डिश पोहा तैयार किया जाता है.",
+					"useAudioPath": "isse_breakfast_poha_ready_hota_hai.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 154,
+					"regionalName": "ओट फ्लेक्स",
+					"englishName": "Oat Flakes",
+					"imagePath": "154_Oat_Flakes.png",
+					"audioPath": "Oat_Flakes.mp3",
+					"useText": "यह ब्रेकफास्ट में दूध के साथ लिया जाता है. इसे धीरे-धीरे दूध में पकाया जाता है.",
+					"useAudioPath": "yeh_breakfast_mai_milk_k_sath_liya _jata_hai.mp3",
+					"processName": "Cereals"
+				},
+				{
+					"questionId": 155,
+					"regionalName": "रागी",
+					"englishName": "Finger Millet",
+					"imagePath": "155_Finger_Millet.png",
+					"audioPath": "Finger_Millet.mp3",
+					"useText": "मूल रूप से यह अफ्रीका से है. इसका उपयोग भाकरी और पापड़ बनाने में होता है.",
+					"useAudioPath": "mool_roop_se_africa_se_hai_papad_banane_mai.mp3",
+					"processName": "Cereals"
+				}
+			]
+		},
+		{
+			"category": "Pulses",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 156,
+					"regionalName": "अरहर / तूवर दाल",
+					"englishName": "Red Gram",
+					"imagePath": "156_Red_Gram.png",
+					"audioPath": "Red_Gram.mp3",
+					"useText": "इसका उपयोग दाल से तैयार डिशेज़ बनाने में होता है जैसे दाल तड़का, दाल फ्राई, सांभर आदि.",
+					"useAudioPath": "daal_se_ready_dishe_jaise_daal_tadka.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 157,
+					"regionalName": "मसूर दाल",
+					"englishName": "Red Lentil",
+					"imagePath": "157_Red_Lentil.png",
+					"audioPath": "Red_Lentil.mp3",
+					"useText": "इसका उपयोग दाल डिशेज़ बनाने में होता है जैसे मसूर दाल तड़का, सांभर पंचरतन दाल आदि.",
+					"useAudioPath": "daal_se_ready_dishe_jaise_daal_tadka_panchratan.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 158,
+					"regionalName": "राजमा",
+					"englishName": "Kidney Beans",
+					"imagePath": "158_Kidney_Beans.png",
+					"audioPath": "Kidney_Beans.mp3",
+					"useText": "इसका इस्तेमाल राजमा मसाला, दाल मखनी बनाने में होता है.",
+					"useAudioPath": "iska_use_rajma_masala.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 159,
+					"regionalName": "चना दाल",
+					"englishName": "Split Bengal Gram",
+					"imagePath": "159_Split_Bengal_Gram.png",
+					"audioPath": "Split_Bengal_Gram.mp3",
+					"useText": "इसका उपयोग पूरण पोली की फिलिंग और आमटी आदि बनाने में होता है.",
+					"useAudioPath": "iska_use_poran_poli_KI_filing.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 160,
+					"regionalName": "लोबिया",
+					"englishName": "Cow Pea",
+					"imagePath": "160_Cow_Pea.png",
+					"audioPath": "Cow_Pea.mp3",
+					"useText": "इसका इस्तेमाल लोबिया मसाला, लोबिया करी बनाने के लिए होता है.",
+					"useAudioPath": "iska_use_lobiya_masala_kari.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 161,
+					"regionalName": "मूंगदाल",
+					"englishName": "Split Green Gram",
+					"imagePath": "161_Split_Green_Gram.png",
+					"audioPath": "Split_Green_Gram.mp3",
+					"useText": "इसका उपयोग दाल से तैयार व्यंजन , मूंग दाल खिचड़ी, मूंग दाल हलवा बनाने में होता है.",
+					"useAudioPath": "iska_use_dal_se_tayyar_vayanjan.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 162,
+					"regionalName": "मटकी\n (मोठ)",
+					"englishName": "Moth Beans",
+					"imagePath": "162_Moth_Beans.png",
+					"audioPath": "Moth_Beans.mp3",
+					"useText": "इसका उपयोग अंकुरित बीन सलाद और मिसल में होता है.",
+					"useAudioPath": "iska_use_ankurit_been_salad.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 163,
+					"regionalName": "सूखे हरे मटर",
+					"englishName": "Dry Green Pea",
+					"imagePath": "163_Dry_Green_Pea.png",
+					"audioPath": "Dry_Green_Pea.mp3",
+					"useText": "इसका उपयोग रगडा और ग्रीन पीज मसाला बनाने में होता है.",
+					"useAudioPath": "iska_use_ragra_aur_green_peez.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 164,
+					"regionalName": "काली उड़द दाल",
+					"englishName": "Black Gram",
+					"imagePath": "164_Black_Gram.png",
+					"audioPath": "Black_Gram.mp3",
+					"useText": "इसका उपयोग मा की दाल, दाल मखनी, दाल बुखारा आदि बनाने में होता है.",
+					"useAudioPath": "iska_use_daal_makhni_bukhara.mp3",
+					"processName": "Pulses"
+				},
+				{
+					"questionId": 165,
+					"regionalName": "काबुली चना",
+					"englishName": "Chick Peas",
+					"imagePath": "165_Chick_Peas.png",
+					"audioPath": "Chick_Peas.mp3",
+					"useText": "इसका उपयोग चना पिंडी, चना मसाला बनाने में होता है.",
+					"useAudioPath": "iska_use_chana_pindi.mp3",
+					"processName": "Pulses"
+				}
+			]
+		},
+		{
+			"category": "Milk Products",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 166,
+					"regionalName": "घी",
+					"englishName": "Ghee",
+					"imagePath": "166_Ghee.png",
+					"audioPath": "Ghee.mp3",
+					"useText": "यह मक्खन (बटर) को गर्म करके बनता है. इसका उपयोग कई सारे भारतीय मीठे व्यंजनों में होता है जैसे गाजर का हलवा, सूजी हलवा.",
+					"useAudioPath": "yeh_butter_ko_garam_karke_banta_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 167,
+					"regionalName": "मक्खन",
+					"englishName": "Butter",
+					"imagePath": "167_Butter.png",
+					"audioPath": "Butter.mp3",
+					"useText": "यह एक डेरी उत्पाद है जिसे ताज़ी मलाई, फ़रमेंटेड मलाई या दूध को मथ कर बनाया जाता है. इसका उपयोग मखनी ग्रेवी, दाल मखनी आदि में किया जाता है. केक बनाने में भी इसका उपयोग किया जाता है.",
+					"useAudioPath": "yeh_ek_dairy_utpad_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 168,
+					"regionalName": "पनीर",
+					"englishName": "Paneer",
+					"imagePath": "168_Paneer.png",
+					"audioPath": "Paneer.mp3",
+					"useText": "दूध को फाड़कर लटकाने के बाद दबाने से पनीर तैयार होता है. इसका उपयोग पनीर टिक्का मसाला, पनीर मखनी, पनीर भुर्जी आदि बनाने में किया जाता है.",
+					"useAudioPath": "milk_ko_fadkar_dabane_se_tayyar_hota_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 169,
+					"regionalName": "खोया",
+					"englishName": "Khoya",
+					"imagePath": "169_Khoya.png",
+					"audioPath": "Khoya.mp3",
+					"useText": "कढ़ाई में दूध को उबालकर उसकी मात्रा घट जाने पर खोया मिलता है. इसका उपयोग कई सारे भारतीय मीठे व्यंजनों में किया जाता है जैसे गुलाब जामुन, गाजर का हलवा, मालपुआ.",
+					"useAudioPath": "kadhai_mai_milk_ko_ubalkar_uski_matra_ghat_jane_par_khoya_milta_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 170,
+					"regionalName": "दही",
+					"englishName": "Curd",
+					"imagePath": "170_Curd.png",
+					"audioPath": "Curd.mp3",
+					"useText": "मिल्क को जमा देने से दही मिलता है. इसका उपयोग रायता, लस्स्सी बनाने में किया जाता है. बिरयानी बनाने में भी इसका इस्तेमाल होता है.",
+					"useAudioPath": "milk_ko_jama_dene_se_dahi_banta_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 171,
+					"regionalName": "छाछ",
+					"englishName": "Buttermilk",
+					"imagePath": "171_Buttermilk.png",
+					"audioPath": "Butter_Milk.mp3",
+					"useText": "दही को मथने के बाद बचा पानी छाछ है. इसका उपयोग मसाला छाछ और सादी छाछ बनाने में होता है.",
+					"useAudioPath": "dahi_ko_mathne_ke_baad_bacha_pani_chhachh.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 172,
+					"regionalName": "फ़्रेश क्रीम",
+					"englishName": "Fresh Cream",
+					"imagePath": "172_Fresh_Cream.png",
+					"audioPath": "Fresh_Cream.mp3",
+					"useText": "यह गरम मिल्क के उपर जम जाता है. इसका उपयोग मखनी ग्रेवी, दाल मखनी और कोरमा ग्रेवी बनाने में होता है. इसे दाल मखनी, चिकन मखनी को गार्निश करने के लिए भी इस्तेमाल किया जाता है.",
+					"useAudioPath": "yeh_garam_milk_k_upar_jam_jata_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 173,
+					"regionalName": "दूध का पाउडर",
+					"englishName": "Milk Powder",
+					"imagePath": "173_Milk_Powder.png",
+					"audioPath": "Milk_Powder.mp3",
+					"useText": "यह सुखाया हुआ दूध होता है. इसके अंदर सिर्फ पानी मिलाना होता है. इसका उपयोग चाय, कॉफ़ी और दूध तैयार करने में किया जाता है.",
+					"useAudioPath": "yeh_sukhayaa_hua_milk_hota_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 174,
+					"regionalName": "चीज़",
+					"englishName": "Cheese",
+					"imagePath": "174_Cheese.png",
+					"audioPath": "Cheese.mp3",
+					"useText": "यह दूध से प्राप्त होता है. इसका उपयोग पिज़्ज़ा, बेक्ड सब्ज़ियों में किया जाता है.",
+					"useAudioPath": "yeh_milk_se_banta_hai.mp3",
+					"processName": "Milk Products"
+				},
+				{
+					"questionId": 175,
+					"regionalName": "कंडेंस्ड मिल्क",
+					"englishName": "Condensed Milk",
+					"imagePath": "175_Condensed_Milk.png",
+					"audioPath": "Condensed_Milk.mp3",
+					"useText": "दूध को आंच पर गाढ़ा होने और मात्रा घट जाने तक गर्म करने पर कंडेंस्ड मिल्क तैयार किया जाता है. इसका उपयोग मीठे व्यंजन बनाने में किया जाता है जैसे शाही टुकड़ा, मिल्क केक, जौके शाही, रबड़ी.",
+					"useAudioPath": "milk_ko_gara_hone_par_aur_matra_ghat_jane_par.mp3",
+					"processName": "Milk Products"
+				}
+			]
+		},
+		{
+			"category": "Fats & Oil",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 176,
+					"regionalName": "सूर्यमुखी तेल",
+					"englishName": "Sunflower Oil",
+					"imagePath": "176_Sunflower_Oil.png",
+					"audioPath": "Sunflower_Oil.mp3",
+					"useText": "इसे सूर्यमुखी के फूलों के बीजों से निकाला जाता है. इसमें भरपूर मात्रा में विटामिन ई होता है. सभी प्रकार की कुकिंग के लिए इसका उपयोग किया जाता है.",
+					"useAudioPath": "suryamukhi_k_phoolo_k_bijo_se_nikala_jata_hai.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 177,
+					"regionalName": "नारियल तेल",
+					"englishName": "Coconut Oil",
+					"imagePath": "177_Coconut_Oil.png",
+					"audioPath": "Coconut_Oil.mp3",
+					"useText": "इस तेल को दक्षिण भारतीय खाने में इस्तेमाल किया जाता है. इसमें भरपूर सैचुरेटेड वसा होती है.",
+					"useAudioPath": "is_oil_ko_west_india_khane_mai_use.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 178,
+					"regionalName": "मूंगफली तेल",
+					"englishName": "Groundnut Oil",
+					"imagePath": "178_Groundnut_Oil.png",
+					"audioPath": "Groundnut_Oil.mp3",
+					"useText": "यह तेल मूंगफली से बनाया जाता है. महाराष्ट्र में इसका उपयोग सभी प्रकार की कुकिंग के लिए किया जाता है.",
+					"useAudioPath": "yeh_oil_moongphali_se_banaya_jata_hai.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 179,
+					"regionalName": "सरसों तेल",
+					"englishName": "Mustard oil",
+					"imagePath": "179_Mustard_oil.png",
+					"audioPath": "Mustard_oil.mp3",
+					"useText": "यह तेल सरसों के बीजों से बनाया जाता है. तंदूरी खाना बनाने में इसका उपयोग किया जाता है. ओडिसा वेस्ट बंगाल में भी खाना बनाने में इसका इस्तेमाल होता है.",
+					"useAudioPath": "yeh_oil_sarso_k_bijo_se_banaya_jata_hai.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 180,
+					"regionalName": "ऑलिव ऑइल",
+					"englishName": "Olive Oil",
+					"imagePath": "180_Olive_Oil.png",
+					"audioPath": "Olive_Oil.mp3",
+					"useText": "मुख्यरूप से इसका प्रयोग कॉन्टिनेंटल खाने में होता है. इसमें फैट की मात्रा कम होती है. यह सलाद ड्रेसिंग के लिए अच्छा है.",
+					"useAudioPath": "iska_use_continental_khane_mai_hota_hai.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 181,
+					"regionalName": "तिल का तेल",
+					"englishName": "Sesame Oil",
+					"imagePath": "181_Sesame_Oil.png",
+					"audioPath": "Sesame_Oil.mp3",
+					"useText": "यह तिल के बीजों से बनाया जाता है. यह दो तरह का होता है. हल्के रंग के तेल का उपयोग भारत में होता है, और गहरे रंग वाले तेल का उपयोग एशियाई खाने में होता है.",
+					"useAudioPath": "yeh_til_k_bijo_se_banaya_jata_hai.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 182,
+					"regionalName": "राइस ब्रान ऑइल",
+					"englishName": "Rice Bran Oil",
+					"imagePath": "182_Rice_Bran_Oil.png",
+					"audioPath": "Rice_Bran_Oil.mp3",
+					"useText": "यह ऑइल चावल के बाहरी आवरण से प्राप्त किया जाता है. इसका उपयोग जापानी और चीनी व्यंजनों में स्टर फ्राइंग और डीप फ्राइंग के लिए किया जाता है.",
+					"useAudioPath": "iska_use_japani_aur_chini_dishes.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 183,
+					"regionalName": "कॉटन ऑइल",
+					"englishName": "Cotton Oil",
+					"imagePath": "183_Cotton_Oil.png",
+					"audioPath": "Cotton_Oil.mp3",
+					"useText": "यह ऑइल कॉटन के बीजों से निकाला जाता है. यह ऑइल सलाद ड्रेसिंग और मेयोनीज बनाने में काम आता है.",
+					"useAudioPath": "iska_use_salad_mayonnaise.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 184,
+					"regionalName": "मारजरीन",
+					"englishName": "Margarine",
+					"imagePath": "184_Margarine.png",
+					"audioPath": "Margarine.mp3",
+					"useText": "यह फैट है जिसे वैजिटेबल ऑइल से बनाया जाता है. यह बटर की जगह इस्तेमाल होता है.",
+					"useAudioPath": "yeh_fat_hai_butter_ki_jagah.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 185,
+					"regionalName": "मक्खन",
+					"englishName": "Butter",
+					"imagePath": "185_Butter.png",
+					"audioPath": "Butter.mp3",
+					"useText": "यह एक डेरी उत्पाद है जिसे ताज़ी या फर्मेंटेड मलाई या दूध को मथ कर प्राप्त किया जाता है. इसका उपयोग मखनी ग्रेवी, दाल मखनी इत्यादि में किया जाता है. केक बनाने में भी इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "dairy_utpad_hai_cake_banane_mai_use.mp3",
+					"processName": "Fats & Oil"
+				},
+				{
+					"questionId": 186,
+					"regionalName": "घी",
+					"englishName": "Ghee",
+					"imagePath": "186_Ghee.png",
+					"audioPath": "Ghee.mp3",
+					"useText": "यह बटर को गरम करके बनता है. इसका उपयोग भारतीय मीठे व्यंजनों में होता है जैसे गाजर का हलवा, सूजी हलवा.",
+					"useAudioPath": "butter_ko_garam_karke_gajar_ka_halwa.mp3",
+					"processName": "Fats & Oil"
+				}
+			]
+		},
+		{
+			"category": "Bulk Cooking Equipments",
+			"categoryImage": "",
+			"dataList": [{
+					"questionId": 187,
+					"regionalName": "एल्युमीनियम\n बर्तन",
+					"englishName": "Aluminum Vessel",
+					"imagePath": "187_Aluminum_Vessel.png",
+					"audioPath": "Aluminum_Vessel.mp3",
+					"useText": "इनका उपयोग ग्रेवी, मेन कोर्स, दाल, चावल ज्यादा मात्रा में तैयार करने के लिए किया जाता है.",
+					"useAudioPath": "iska_usea_gravy_main_course.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 188,
+					"regionalName": "बिरयानी डेग",
+					"englishName": "Biryani Degchi",
+					"imagePath": "188_Biryani_Degchi.png",
+					"audioPath": "Biryani_Degchi.mp3",
+					"useText": "इसका उपयोग ज़्यादा मात्रा में बिरयानी बनाने के लिए किया जाता है.",
+					"useAudioPath": "biryani_banane_mai.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 189,
+					"regionalName": "कढ़ाई (बड़ी)",
+					"englishName": "Wok (big)",
+					"imagePath": "189_Wok (big).png",
+					"audioPath": "Wok_big.mp3",
+					"useText": "इसका उपयोग प्याज और मसाले को सॉते करने के लिए और बड़ी मात्रा में करी डिशेज़ बनाने और तलने के लिए किया जाता है.",
+					"useAudioPath": "pyaz_aur_masale_ko_saante_talne_ke.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 190,
+					"regionalName": "टिल्टिंग पैन",
+					"englishName": "Tilting Pan",
+					"imagePath": "190_Tilting_Pan.png",
+					"audioPath": "Tilting_Pan.mp3",
+					"useText": "इसका उपयोग ग्रेवी, मेन कोर्स, अनियन सॉते करने के लिए किया जाता है. आधुनिक रसोईघरों में इसका इस्तेमाल किया जाता है.",
+					"useAudioPath": "iska_use_onion_saante_krne_.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 191,
+					"regionalName": "वाक-इन फ्रिज",
+					"englishName": "Walk-in fridge",
+					"imagePath": "191_ Walk_in_fridge.png",
+					"audioPath": "Walk_in_fridge.mp3",
+					"useText": "पका हुआ खाना, कच्ची सब्जियां और दूध को 0 c. से 7 c. में रखने के लिए इसका प्रयोग होता है. ( डीप फ्रिज में -18 c से नीचे आइस्क्रीम और कच्चा मांस आदि). शेफ इसके अन्दर आसानी से आ जा सकता है.",
+					"useAudioPath": "paka_hua_khana_kacha_maas.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 192,
+					"regionalName": "टिल्टिंग राइस बॉइलर",
+					"englishName": "Tilting Rice Boiler",
+					"imagePath": "192_Tilting_Rice_Boiler.png",
+					"audioPath": "Tilting_Rice_Boiler.mp3",
+					"useText": "इसका उपयोग ज़्यादा मात्रा में चावल पकाने के लिए किया जाता है.",
+					"useAudioPath": "rice_pakane_k_liye.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 193,
+					"regionalName": "बल्क कुकिंग तवा",
+					"englishName": "Griddle Bulk Cooking",
+					"imagePath": "193_Griddle.png",
+					"audioPath": "bulk_cooking.mp3",
+					"useText": "इसका उपयोग भारतीय ब्रेड जैसे चपाती, पराठा, मालाबारी पराठा और दक्षिण भारतीय व्यंजन जैसे डोसा, उत्तपा के लिए किया जाता है.",
+					"useAudioPath": "iska_use_indian_bread.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 194,
+					"regionalName": "आटा गूंदने की मशीन",
+					"englishName": "Dough Kneading Machine",
+					"imagePath": "194_Dough_Kneading_Machine.png",
+					"audioPath": "Dough_Kneading_Machine.mp3",
+					"useText": "इसका उपयोग चपाती, केक और अन्य बेकरी उत्पाद के लिए आटा गूंदने में किया जाता है.",
+					"useAudioPath": "iska_use_capati_cake_bakery.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 195,
+					"regionalName": "पल्वरायजर",
+					"englishName": "Pulveriser",
+					"imagePath": "195_Pulveriser.png",
+					"audioPath": "Pulveriser.mp3",
+					"useText": "इसका इस्तेमाल मसाला और ग्रेवी पीसने व पेस्ट बनाने में किया जाता है.",
+					"useAudioPath": "iska_use_masala_gravy__paste.mp3",
+					"processName": "Bulk Cooking Equipments"
+				},
+				{
+					"questionId": 196,
+					"regionalName": "आलू छिलने की\n मशीन",
+					"englishName": "Potato Peeler Machine",
+					"imagePath": "196_Potato_Peeler_Machine.png",
+					"audioPath": "Potato_Peeler_Machine.mp3",
+					"useText": "आलू की ज़्यादा मात्रा को छीलने के लिए इसका इस्तेमाल होता है.",
+					"useAudioPath": "potato_ki_jyada_matra_ko_chhilne_ke.mp3",
+					"processName": "Bulk Cooking Equipments"
+				}
+			]
+		}
+	]
+}
