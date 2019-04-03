@@ -12,6 +12,7 @@ import com.pratham.readandspeak.RASApplication;
 import com.pratham.readandspeak.database.AppDatabase;
 import com.pratham.readandspeak.database.BackupDatabase;
 import com.pratham.readandspeak.domain.ContentTable;
+import com.pratham.readandspeak.domain.ContentTableOuter;
 import com.pratham.readandspeak.utilities.RAS_Constants;
 
 import java.io.File;
@@ -48,7 +49,7 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
             protected Object doInBackground(Object[] objects) {
                 try {
 
-                    if(!RAS_Constants.SD_CARD_Content) {
+                    if (!RAS_Constants.SD_CARD_Content) {
 
                         AssetManager assetManager = context.getAssets();
                         try {
@@ -130,20 +131,24 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
             @Override
             protected void onPostExecute(Object o) {
                 super.onPostExecute(o);
-                getListData();
+                getListData1("1299");
             }
         }.execute();
 
     }
 
-    private void getListData() {
+    /*@Override
+    public List<ContentTable> getListData(String nodeId) {
+       *//* final List<ContentTable> innerList = new ArrayList<>();
+        nodeIds.clear();
+        // if (!nodeIds.get(nodeIds.size() - 1).equalsIgnoreCase("1299"))
+        nodeIds.add(nodeId);
         new AsyncTask<Object, Void, Object>() {
             @Override
             protected Object doInBackground(Object[] objects) {
                 try {
                     downloadedContentTableList = appDatabase.getContentTableDao().getContentData(nodeIds.get(nodeIds.size() - 1));
                     BackupDatabase.backup(context);
-
                     levelView.clearContentList();
 
                     try {
@@ -165,13 +170,13 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
                             contentTable.setContentType(downloadedContentTableList.get(j).getContentType());
                             contentTable.setIsDownloaded("true");
                             contentTable.setOnSDCard(true);
-
+                            innerList.add(contentTable);
                             levelView.addContentToViewList(contentTable);
                         }
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-                    return null;
+                    return innerList;
                 } catch (Exception e) {
                     e.printStackTrace();
                     return null;
@@ -183,16 +188,107 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
                 super.onPostExecute(o);
                 levelView.notifyAdapter();
             }
-        }.execute();
+        }.execute();*//*
+        *//*final List<ContentTable> innerList = getListData1(nodeId);
+
+        return innerList;*//*
+
     }
+*/
+
+    public void getListData1(String nodeId) {
+        final List<ContentTable> innerList = new ArrayList<>();
+        nodeIds.clear();
+        // if (!nodeIds.get(nodeIds.size() - 1).equalsIgnoreCase("1299"))
+        nodeIds.add(nodeId);
+        try {
+            downloadedContentTableList = appDatabase.getContentTableDao().getContentData(nodeIds.get(nodeIds.size() - 1));
+            BackupDatabase.backup(context);
+            //levelView.clearContentList();
+
+            try {
+                for (int j = 0; j < downloadedContentTableList.size(); j++) {
+                    ContentTableOuter contentTable = new ContentTableOuter();
+                    contentTable.setNodeId("" + downloadedContentTableList.get(j).getNodeId());
+                    contentTable.setNodeType("" + downloadedContentTableList.get(j).getNodeType());
+                    contentTable.setNodeTitle("" + downloadedContentTableList.get(j).getNodeTitle());
+                    contentTable.setNodeKeywords("" + downloadedContentTableList.get(j).getNodeKeywords());
+                    contentTable.setNodeAge("" + downloadedContentTableList.get(j).getNodeAge());
+                    contentTable.setNodeDesc("" + downloadedContentTableList.get(j).getNodeDesc());
+                    contentTable.setNodeServerImage("" + downloadedContentTableList.get(j).getNodeServerImage());
+                    contentTable.setNodeImage("" + downloadedContentTableList.get(j).getNodeImage());
+                    contentTable.setResourceId("" + downloadedContentTableList.get(j).getResourceId());
+                    contentTable.setResourceType("" + downloadedContentTableList.get(j).getNodeType());
+                    contentTable.setResourcePath("" + downloadedContentTableList.get(j).getResourcePath());
+                    contentTable.setParentId("" + downloadedContentTableList.get(j).getParentId());
+                    contentTable.setLevel("" + downloadedContentTableList.get(j).getLevel());
+                    contentTable.setContentType(downloadedContentTableList.get(j).getContentType());
+                    contentTable.setIsDownloaded("true");
+                    contentTable.setOnSDCard(true);
+                    contentTable.setContentTableList(getListInnerListData(downloadedContentTableList.get(j).getNodeId()));
+                    levelView.addContentToViewList(contentTable);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private List<ContentTable> getListInnerListData(String nodeId) {
+        final List<ContentTable> innerList = new ArrayList<>();
+        nodeIds.clear();
+        // if (!nodeIds.get(nodeIds.size() - 1).equalsIgnoreCase("1299"))
+        nodeIds.add(nodeId);
+        try {
+            downloadedContentTableList = appDatabase.getContentTableDao().getContentData(nodeIds.get(nodeIds.size() - 1));
+            BackupDatabase.backup(context);
+ //           levelView.clearContentList();
+
+            try {
+                for (int j = 0; j < downloadedContentTableList.size(); j++) {
+                    ContentTable contentTable = new ContentTable();
+                    contentTable.setNodeId("" + downloadedContentTableList.get(j).getNodeId());
+                    contentTable.setNodeType("" + downloadedContentTableList.get(j).getNodeType());
+                    contentTable.setNodeTitle("" + downloadedContentTableList.get(j).getNodeTitle());
+                    contentTable.setNodeKeywords("" + downloadedContentTableList.get(j).getNodeKeywords());
+                    contentTable.setNodeAge("" + downloadedContentTableList.get(j).getNodeAge());
+                    contentTable.setNodeDesc("" + downloadedContentTableList.get(j).getNodeDesc());
+                    contentTable.setNodeServerImage("" + downloadedContentTableList.get(j).getNodeServerImage());
+                    contentTable.setNodeImage("" + downloadedContentTableList.get(j).getNodeImage());
+                    contentTable.setResourceId("" + downloadedContentTableList.get(j).getResourceId());
+                    contentTable.setResourceType("" + downloadedContentTableList.get(j).getNodeType());
+                    contentTable.setResourcePath("" + downloadedContentTableList.get(j).getResourcePath());
+                    contentTable.setParentId("" + downloadedContentTableList.get(j).getParentId());
+                    contentTable.setLevel("" + downloadedContentTableList.get(j).getLevel());
+                    contentTable.setContentType(downloadedContentTableList.get(j).getContentType());
+                    contentTable.setIsDownloaded("true");
+                    contentTable.setOnSDCard(true);
+                    innerList.add(contentTable);
+//                    levelView.addContentToInnerViewList(contentTable);
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        return innerList;
+    }
+
 
     @Override
     public void getProfileImg() {
         String sImage;
-        if(!RAS_Constants.GROUP_LOGIN)
+        if (!RAS_Constants.GROUP_LOGIN)
             sImage = AppDatabase.getDatabaseInstance(context).getStudentDao().getStudentAvatar(RAS_Constants.currentStudentID);
         else
-           sImage = "group_icon";
+            sImage = "group_icon";
         if (sImage != null)
             levelView.setProfileImg(sImage);
     }
@@ -229,8 +325,8 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
     }
 
     @Override
-    public void startActivity(String activityName) {}
-
+    public void startActivity(String activityName) {
+    }
 }
 
 

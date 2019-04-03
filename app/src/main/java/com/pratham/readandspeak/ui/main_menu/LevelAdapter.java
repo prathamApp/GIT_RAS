@@ -2,7 +2,9 @@ package com.pratham.readandspeak.ui.main_menu;
 
 import android.content.Context;
 import android.os.Handler;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +16,12 @@ import android.widget.TextView;
 
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.domain.ContentTable;
+import com.pratham.readandspeak.domain.ContentTableOuter;
+import com.pratham.readandspeak.nestedRecycler.SectionListDataAdapter;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -22,18 +29,20 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
 
     private Context mContext;
     private int lastPos = -1;
-    private List<ContentTable> contentViewList;
+    private List<ContentTableOuter> contentViewList;
     LevelClicked levelClicked;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         private Button item_btn;
         private ImageButton item_ivbtn;
         private TextView item_content;
+        private RecyclerView recycler_view_list;
 
 
         public MyViewHolder(View view) {
             super(view);
             item_content = view.findViewById(R.id.tv_content_title);
+            recycler_view_list = view.findViewById(R.id.recycler_view_list);
 
          /*   item_btn = (Button) view.findViewById(R.id.item_btn);
             item_ivbtn = (ImageButton) view.findViewById(R.id.item_ivbtn);
@@ -41,7 +50,7 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
         }
     }
 
-    public LevelAdapter(Context mContext, List<ContentTable> contentViewList, LevelClicked levelClicked) {
+    public LevelAdapter(Context mContext, List<ContentTableOuter> contentViewList, LevelClicked levelClicked) {
         this.mContext = mContext;
         this.contentViewList = contentViewList;
         this.levelClicked = levelClicked;
@@ -70,9 +79,18 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
 
     @Override
     public void onBindViewHolder(final LevelAdapter.MyViewHolder holder, final int position) {
-        final ContentTable contentList = contentViewList.get(position);
+        final ContentTableOuter contentList = contentViewList.get(position);
         holder.item_content.setText(contentList.getNodeTitle());
 //        holder.item_btn.setText(contentList.getNodeTitle());
+        List<ContentTable> innerList = new ArrayList<>();
+        innerList.addAll(contentList.getContentTableList());
+        sortList(innerList);
+        SectionListDataAdapter itemListDataAdapter = new SectionListDataAdapter(mContext, innerList);
+
+     //   holder.recycler_view_list.setHasFixedSize(true);
+        holder.recycler_view_list.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false));
+        holder.recycler_view_list.setAdapter(itemListDataAdapter);
+        itemListDataAdapter.notifyDataSetChanged();
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,6 +99,16 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.MyViewHolder
         });
         holder.itemView.setVisibility(View.GONE);
         setAnimations(holder.itemView, position);
+    }
+
+    private void sortList(List<ContentTable> innerList) {
+        Collections.sort(innerList, new Comparator<ContentTable>() {
+            @Override
+            public int compare(ContentTable o1, ContentTable o2) {
+                return o1.getNodeId().compareTo(o2.getNodeId());
+            }
+        });
+        Log.d("sorted", contentViewList.toString());
     }
 
     private void setAnimations(final View content_card_view, final int position) {

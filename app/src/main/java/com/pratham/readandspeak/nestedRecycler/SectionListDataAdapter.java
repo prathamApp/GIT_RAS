@@ -10,16 +10,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.pratham.readandspeak.R;
+import com.pratham.readandspeak.domain.ContentTable;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListDataAdapter.SingleItemRowHolder> {
 
-    private ArrayList<SingleItemModel> itemsList;
+    private List<ContentTable> itemsList;
     private Context mContext;
 
-    public SectionListDataAdapter(Context context, ArrayList<SingleItemModel> itemsList) {
+    public SectionListDataAdapter(Context context, List<ContentTable> itemsList) {
         this.itemsList = itemsList;
         this.mContext = context;
     }
@@ -34,9 +36,9 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     @Override
     public void onBindViewHolder(SingleItemRowHolder holder, int i) {
 
-        SingleItemModel singleItem = itemsList.get(i);
+        ContentTable singleItem = itemsList.get(i);
 
-        holder.tvTitle.setText(singleItem.getName());
+        holder.tvTitle.setText(singleItem.getNodeTitle());
 
 
        /* Glide.with(mContext)
@@ -49,6 +51,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
 
     @Override
     public int getItemCount() {
+
         return (null != itemsList ? itemsList.size() : 0);
     }
 

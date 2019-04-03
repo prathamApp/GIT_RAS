@@ -9,6 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.util.TypedValue;
@@ -25,6 +26,7 @@ import com.pratham.readandspeak.RASApplication;
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.async.ZipDownloader;
 import com.pratham.readandspeak.domain.ContentTable;
+import com.pratham.readandspeak.domain.ContentTableOuter;
 import com.pratham.readandspeak.interfaces.API_Content_Result;
 import com.pratham.readandspeak.nestedRecycler.HomeActivity;
 import com.pratham.readandspeak.ui.bottom_fragment.add_student.MenuActivity;
@@ -56,7 +58,7 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
     @BindView(R.id.btn_Profile)
     ImageButton btn_Profile;
     LevelAdapter levelAdapter;
-    private List<ContentTable> contentViewList;
+    private List<ContentTableOuter> contentViewList;
     Gson gson;
     API_Content_Result APIContentResult;
     ZipDownloader zipDownloader;
@@ -73,12 +75,13 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
         contentViewList = new ArrayList<>();
         presenter.getProfileImg();
         levelAdapter = new LevelAdapter(this, contentViewList, this);
-        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
         recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
+//        recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(levelAdapter);
         presenter.copyListData();
+        levelAdapter.notifyDataSetChanged();
     }
 
     @Override
@@ -87,7 +90,20 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
     }
 
     @Override
-    public void addContentToViewList(ContentTable contentTable) {
+    public void addContentToViewList(ContentTableOuter contentTable) {
+
+        contentViewList.add(contentTable);
+
+        Collections.sort(contentViewList, new Comparator<ContentTableOuter>() {
+            @Override
+            public int compare(ContentTableOuter o1, ContentTableOuter o2) {
+                return o1.getNodeId().compareTo(o2.getNodeId());
+            }
+        });
+        Log.d("sorted", contentViewList.toString());
+    }/*
+ @Override
+    public void addContentToInnerViewList(ContentTable contentTable) {
 
         contentViewList.add(contentTable);
 
@@ -98,7 +114,7 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
             }
         });
         Log.d("sorted", contentViewList.toString());
-    }
+    }*/
 
     @Override
     public void notifyAdapter() {
@@ -163,7 +179,7 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
     public void onLevelClicked(int position, String nodeId, String contentName, String contentType) {
         ButtonClickSound.start();
         if (nodeId.equalsIgnoreCase("1300")) {
-           // showRcycler(nodeId);
+//            showRcycler(nodeId);
 
 
 
@@ -181,14 +197,21 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
         }
     }
 
+
+    /*@Override
+    public List<ContentTable> setRecyclerView(String nodeId) {
+        return presenter.getListData(nodeId);
+
+    }*/
+
     /*private void showRcycler(String nodeId) {
         zipDownloader = new ZipDownloader(this);
-        readingAdapter = new ReadingAdapter(this, ContentTableList, this);
+        *//*readingAdapter = new ReadingAdapter(this, ContentTableList, this);
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(readingAdapter);
+        recyclerView.setAdapter(readingAdapter);*//*
         presenter.getListData(nodeId);
     }*/
 
