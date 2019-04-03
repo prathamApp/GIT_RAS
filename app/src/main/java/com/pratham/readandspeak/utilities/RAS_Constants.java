@@ -44,6 +44,8 @@ public class RAS_Constants {
     public static final String FILE_DOWNLOAD_ERROR= "file_download_error";
     public static final String FILE_DOWNLOAD_COMPLETE = "file_download_complete";
     public static final String DOWNLOAD_COMPLETE = "download_complete";
+    public static final String API_PARENT = "api_parent";
+    public static final String API_CHILD = "api_child";
     public static String HINDI = "Hindi";
     public static String ENGLISH = "English";
     public static String MARATHI = "Marathi";

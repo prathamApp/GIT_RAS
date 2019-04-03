@@ -32,6 +32,7 @@ import com.pratham.readandspeak.domain.Attendance;
 import com.pratham.readandspeak.domain.Session;
 import com.pratham.readandspeak.domain.Student;
 //import com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity;
+import com.pratham.readandspeak.ui.home_screen_menu.HomeActivity;
 import com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity;
 import com.pratham.readandspeak.utilities.RAS_Constants;
 
@@ -183,7 +184,8 @@ public class FragmentChildAttendance extends Fragment implements ContractChildAt
             startSession(checkedStds);
             presentActivity(v);
 
-            startActivity(new Intent(getActivity(), ChooseLevelActivity.class));
+//            startActivity(new Intent(getActivity(), ChooseLevelActivity.class));
+            startActivity(new Intent(getActivity(), HomeActivity.class));
         } else {
             Toast.makeText(getContext(), "Please Select Students !", Toast.LENGTH_SHORT).show();
         }

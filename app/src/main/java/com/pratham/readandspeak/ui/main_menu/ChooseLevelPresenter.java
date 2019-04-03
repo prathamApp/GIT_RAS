@@ -54,7 +54,7 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
                         AssetManager assetManager = context.getAssets();
                         try {
                             InputStream in = assetManager.open("ras_database");
-                            OutputStream out = new FileOutputStream(RASApplication.pradigiPath + "/.LLA/ras_database");
+                            OutputStream out = new FileOutputStream(RASApplication.pradigiPath + "/.RAS/ras_database");
                             byte[] buffer = new byte[1024];
                             int read = in.read(buffer);
                             while (read != -1) {
@@ -67,7 +67,7 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
                                     if (!RAS_Constants.SMART_PHONE)
                                         folder_file = new File(RAS_Constants.ext_path);
                                     else
-                                        folder_file = new File(RASApplication.pradigiPath + "/.LLA/English/");
+                                        folder_file = new File(RASApplication.pradigiPath + "/.RAS/English/");
                                     if (folder_file.exists()) {
                                         Log.d("-CT-", "doInBackground RAS_Constants.ext_path: " + RAS_Constants.ext_path);
                                         db_file = new File(folder_file.getAbsolutePath() + "/" + AppDatabase.DB_NAME);

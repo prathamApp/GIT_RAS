@@ -62,7 +62,7 @@ public class StudentsAdapter extends RecyclerView.Adapter<StudentsAdapter.MyView
         Student studentAvatar = studentAvatarList.get(position);
         holder.studentName.setText(studentAvatar.getFullName());
 
-        Glide.with(mContext).load(RASApplication.pradigiPath + "/.LLA/English/LLA_Thumbs/" + studentAvatar.getAvatarName()).into(holder.avatar);
+        Glide.with(mContext).load(RASApplication.pradigiPath + "/.RAS/English/LLA_Thumbs/" + studentAvatar.getAvatarName()).into(holder.avatar);
 
         holder.rl_card.setOnClickListener(new View.OnClickListener() {
             @Override

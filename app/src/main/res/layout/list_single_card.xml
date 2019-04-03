@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    android:layout_width="@dimen/_150sdp"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    app:cardCornerRadius="5dp"
-    app:cardUseCompatPadding="true"
-    >
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_2sdp"
+    app:cardBackgroundColor="@color/colorWhiteLight"
+    app:cardUseCompatPadding="true">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="0dp"
@@ -17,11 +18,13 @@
 
         <ImageView
             android:id="@+id/itemImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/g1" />
+            android:src="@drawable/pratham_logo" />
 
 
         <TextView
@@ -29,13 +32,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/itemImage"
-            android:gravity="center"
             android:padding="5dp"
+            android:textAlignment="center"
             android:text="Sample title"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
-
-
-    </LinearLayout>
+            android:textSize="@dimen/_10sdp" />
+    </RelativeLayout>
 
 </android.support.v7.widget.CardView>

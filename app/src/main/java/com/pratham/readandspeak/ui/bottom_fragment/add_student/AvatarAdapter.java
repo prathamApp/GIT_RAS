@@ -59,7 +59,7 @@ public class AvatarAdapter extends RecyclerView.Adapter<AvatarAdapter.MyViewHold
         final AvatarModal studentAvatar = avatarList.get(position);
 //        holder.avatar.setImageResource(Integer.parseInt(avatarList.get(position).toString()));
         //Glide.with(context).load(studentAvatar).into(holder.avatar);
-        Glide.with(context).load(RASApplication.pradigiPath + "/.LLA/English/LLA_Thumbs/" + studentAvatar.getAvatarName()).into(holder.avatar);
+        Glide.with(context).load(RASApplication.pradigiPath + "/.RAS/English/LLA_Thumbs/" + studentAvatar.getAvatarName()).into(holder.avatar);
 
         if (studentAvatar.getClickFlag())
             holder.avatar.setBackground(context.getResources().getDrawable(R.drawable.ripple_rectangle_transparent_dark));

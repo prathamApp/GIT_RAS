@@ -177,7 +177,7 @@ public class DownloadingTask extends AsyncTask {
     }
 
     public static void downloadImage(String url, String filename) {
-        File dir = new File(RASApplication.pradigiPath + "/.LLA/English/LLA_Thumbs"); //Creating an internal dir;
+        File dir = new File(RASApplication.pradigiPath + "/.RAS/English/LLA_Thumbs"); //Creating an internal dir;
         if (!dir.exists()) dir.mkdirs();
         AndroidNetworking.download(url, dir.getAbsolutePath(), filename)
                 .setPriority(Priority.HIGH)

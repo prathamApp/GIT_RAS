@@ -50,11 +50,11 @@ public class ZipDownloader {
                                               Context context,
                                               ArrayList<ContentTable> levelContents) {
         File mydir = null;
-        mydir = new File(RASApplication.pradigiPath + "/.LLA");
+        mydir = new File(RASApplication.pradigiPath + "/.RAS");
         if (!mydir.exists()) mydir.mkdirs();
-        mydir = new File(RASApplication.pradigiPath + "/.LLA/English/");
+        mydir = new File(RASApplication.pradigiPath + "/.RAS/English/");
         if (!mydir.exists()) mydir.mkdirs();
-            mydir = new File(RASApplication.pradigiPath + "/.LLA/English/" + foldername);
+            mydir = new File(RASApplication.pradigiPath + "/.RAS/English/" + foldername);
         if (!mydir.exists()) mydir.mkdirs();
         if (RASApplication.wiseF.isDeviceConnectedToSSID(RAS_Constants.PRATHAM_KOLIBRI_HOTSPOT)) {
             if (foldername.equalsIgnoreCase(RAS_Constants.GAME)) {
@@ -84,10 +84,10 @@ public class ZipDownloader {
         if (path.isEmpty())
             return;
         DocumentFile documentFile = DocumentFile.fromFile(new File(path));
-        if (documentFile.findFile("/.LLA/English" + foldername) != null)
-            documentFile = documentFile.findFile("/.LLA/English" + foldername);
+        if (documentFile.findFile("/.RAS/English" + foldername) != null)
+            documentFile = documentFile.findFile("/.RAS/English" + foldername);
         else
-            documentFile = documentFile.createDirectory("/.LLA/English" + foldername);
+            documentFile = documentFile.createDirectory("/.RAS/English" + foldername);
         if (RASApplication.wiseF.isDeviceConnectedToSSID(RAS_Constants.PRATHAM_KOLIBRI_HOTSPOT)) {
             if (foldername.equalsIgnoreCase(RAS_Constants.GAME)) {
                 f_name = f_name.substring(0, f_name.lastIndexOf("."));

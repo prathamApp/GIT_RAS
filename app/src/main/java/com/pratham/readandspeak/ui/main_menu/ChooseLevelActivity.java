@@ -131,7 +131,7 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
         if(sImage.equalsIgnoreCase("group_icon"))
             btn_Profile.setImageResource(R.drawable.ic_group_black_24dp);
         else
-            Glide.with(this).load(RASApplication.pradigiPath + "/.LLA/English/LLA_Thumbs/" + sImage).into(btn_Profile);
+            Glide.with(this).load(RASApplication.pradigiPath + "/.RAS/English/LLA_Thumbs/" + sImage).into(btn_Profile);
     }
 
     @OnClick({R.id.btn_Profile, R.id.rl_Profile})

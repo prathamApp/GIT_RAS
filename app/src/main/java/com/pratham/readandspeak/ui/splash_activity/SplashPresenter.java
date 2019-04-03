@@ -396,10 +396,10 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
                 if (!sharedPreferences.getBoolean(RAS_Constants.KEY_ASSET_COPIED, false)) {
                     splashView.showProgressDialog();
                     File mydir = null;
-                    mydir = new File(RASApplication.pradigiPath + "/.LLA");
+                    mydir = new File(RASApplication.pradigiPath + "/.RAS");
                     if (!mydir.exists()) mydir.mkdirs();
 
-                    String path = RASApplication.pradigiPath + "/.LLA/";
+                    String path = RASApplication.pradigiPath + "/.RAS/";
                     copyFile(context, path);
 
                     sharedPreferences.edit().putBoolean(RAS_Constants.KEY_ASSET_COPIED, true).apply();
@@ -432,15 +432,15 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
     private void copyFile(Context context, String path) {
         AssetManager assetManager = context.getAssets();
         try {
-            InputStream in = assetManager.open("English.zip");
-            OutputStream out = new FileOutputStream(path + "English.zip");
+            InputStream in = assetManager.open("RAS_data.zip");
+            OutputStream out = new FileOutputStream(path + "RAS_data.zip");
             byte[] buffer = new byte[1024];
             int read = in.read(buffer);
             while (read != -1) {
                 out.write(buffer, 0, read);
                 read = in.read(buffer);
             }
-            unzipFile(RASApplication.pradigiPath + "/.LLA/English.zip", RASApplication.pradigiPath + "/.LLA");
+            unzipFile(RASApplication.pradigiPath + "/.RAS/RAS_data.zip", RASApplication.pradigiPath + "/.RAS");
         } catch (Exception e) {
             e.getMessage();
         }
@@ -449,12 +449,12 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
     private void copyDBFile() {
         AssetManager assetManager = context.getAssets();
         try {
-            File direct = new File(Environment.getExternalStorageDirectory().toString() + "/.EngGameInternal");
+            File direct = new File(RASApplication.pradigiPath + "/.RAS/RAS_Internal");
             if (!direct.exists()) direct.mkdir();
 
-            InputStream in = new FileInputStream(RAS_Constants.ext_path+ "/.LLA/English/" + AppDatabase.DB_NAME);
-//            InputStream in = assetManager.open("English.zip");
-            OutputStream out = new FileOutputStream(Environment.getExternalStorageDirectory().toString() + "/.EngGameInternal/" + AppDatabase.DB_NAME);
+            InputStream in = new FileInputStream(RAS_Constants.ext_path+ "/.RAS/English/" + AppDatabase.DB_NAME);
+//            InputStream in = assetManager.open("RAS_data.zip");
+            OutputStream out = new FileOutputStream(RASApplication.pradigiPath + "/.RAS/RAS_Internal/" + AppDatabase.DB_NAME);
             byte[] buffer = new byte[1024];
             int read = in.read(buffer);
             while (read != -1) {
@@ -474,7 +474,7 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
             copyDBFile();
             try {
                 File db_file;
-                db_file = new File(Environment.getExternalStorageDirectory().toString() + "/.EngGameInternal/" + AppDatabase.DB_NAME);
+                db_file = new File(RASApplication.pradigiPath + "/.RAS/RAS_Internal" + AppDatabase.DB_NAME);
                 if (db_file.exists()) {
                     RAS_Constants.SD_CARD_Content = true;
                     SQLiteDatabase db = SQLiteDatabase.openDatabase(db_file.getAbsolutePath(), null, SQLiteDatabase.OPEN_READONLY);
@@ -536,10 +536,10 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
                     folder_file = new File(RAS_Constants.ext_path);
                 else
                     folder_file = new File(RASApplication.pradigiPath);
-//                    folder_file = new File(RASApplication.pradigiPath + "/.LLA/English/");
+//                    folder_file = new File(RASApplication.pradigiPath + "/.RAS/English/");
                 if (folder_file.exists()) {
                     Log.d("-CT-", "doInBackground RAS_Constants.ext_path: " + RAS_Constants.ext_path);
-                    db_file = new File(folder_file + "/" + AppDatabase.DB_NAME);
+                    db_file = new File(folder_file + "/.RAS/English/" + AppDatabase.DB_NAME);
 //                    db_file = new File(folder_file.getAbsolutePath() + "/" + AppDatabase.DB_NAME);
                     if (db_file.exists()) {
                         SQLiteDatabase db = SQLiteDatabase.openDatabase(db_file.getAbsolutePath(), null, SQLiteDatabase.OPEN_READONLY);
@@ -782,7 +782,7 @@ public class SplashPresenter implements SplashContract.SplashPresenter {
         } else
             fpath = Environment.getExternalStorageDirectory().getAbsolutePath();
 
-        File file = new File(fpath + "/.LLA/English/ras_database");
+        File file = new File(fpath + "/.RAS/English/ras_database");
 
         if (file.exists()) {
             RAS_Constants.ext_path = fpath + "/";

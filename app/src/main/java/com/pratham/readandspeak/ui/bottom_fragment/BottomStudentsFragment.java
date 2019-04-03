@@ -30,6 +30,7 @@ import com.pratham.readandspeak.domain.Student;
 import com.pratham.readandspeak.interfaces.SplashInterface;
 import com.pratham.readandspeak.ui.bottom_fragment.add_student.AddStudentFragment;
 //import com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity;
+import com.pratham.readandspeak.ui.home_screen_menu.HomeActivity;
 import com.pratham.readandspeak.ui.splash_activity.SplashActivity;
 import com.pratham.readandspeak.utilities.RAS_Constants;
 
@@ -251,6 +252,7 @@ public class BottomStudentsFragment extends BottomSheetDialogFragment implements
             protected void onPostExecute(Object o) {
                 super.onPostExecute(o);
 //                startActivity(new Intent(getActivity(), ChooseLevelActivity.class));
+                startActivity(new Intent(getActivity(), HomeActivity.class));
                 getActivity().finish();
             }
         }.execute();

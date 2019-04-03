@@ -10,8 +10,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
@@ -22,25 +20,23 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
+import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.RASApplication;
 import com.pratham.readandspeak.RAS_Utility;
-import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.database.AppDatabase;
 import com.pratham.readandspeak.interfaces.Interface_copying;
 import com.pratham.readandspeak.interfaces.PermissionResult;
 import com.pratham.readandspeak.ui.bottom_fragment.BottomStudentsFragment;
 import com.pratham.readandspeak.ui.bottom_fragment.add_student.MenuActivity;
-import com.pratham.readandspeak.utilities.RAS_Constants;
 import com.pratham.readandspeak.utilities.PermissionUtils;
+import com.pratham.readandspeak.utilities.RAS_Constants;
 import com.pratham.readandspeak.utilities.SplashSupportActivity;
 
 import org.greenrobot.eventbus.EventBus;
@@ -85,8 +81,8 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
         context = SplashActivity.this;
         btn_start_game.setVisibility(View.GONE);
         iv_logo_pradigi.setVisibility(View.GONE);
- //       bgMusic = MediaPlayer.create(this, R.raw.bg_sound);
- //       bgMusic.setLooping(true);
+        //       bgMusic = MediaPlayer.create(this, R.raw.bg_sound);
+        //       bgMusic.setLooping(true);
         initiateApp();
     }
 
@@ -95,7 +91,7 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
         ImageViewAnimatedChange(this, iv_logo);
     }
 
-   public void ImageViewAnimatedChange(final Context c, final ImageView iv_logo) {
+    public void ImageViewAnimatedChange(final Context c, final ImageView iv_logo) {
         final Animation anim_in = AnimationUtils.loadAnimation(c, R.anim.zoom_in_new);
         anim_in.setAnimationListener(new Animation.AnimationListener() {
             @Override
@@ -113,6 +109,7 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
         });
         iv_logo.setAnimation(anim_in);
     }
+
     public void ImageViewAnimatedChangeSecond(final Context c, final ImageView iv_logo) {
         final Animation anim_out = AnimationUtils.loadAnimation(c, R.anim.zoom_out_new);
         iv_logo.setAnimation(anim_out);
@@ -131,6 +128,7 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
             }
         });
     }
+
     public void pradigiAnimation(Context c, final ImageView iv_logo_pradigi) {
         final Animation anim_in = AnimationUtils.loadAnimation(c, R.anim.item_animation_from_bottom);
         iv_logo_pradigi.setVisibility(View.VISIBLE);
@@ -166,6 +164,7 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
         });
         iv_logo_pradigi.setAnimation(anim_in);
     }
+
     @Override
     public void showButton() {
         new Handler().postDelayed(new Runnable() {
@@ -232,20 +231,20 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
                 fpath = path;
             } else
                 fpath = Environment.getExternalStorageDirectory().getAbsolutePath();
-            fpath = fpath + "/.LLA/English/";
+            fpath = fpath + "/.RAS/English/";
             File file = new File(fpath);
             RAS_Constants.ext_path = fpath;
             Log.d("getSD", "getSdCardPath: " + RAS_Constants.ext_path);
             if (file.exists())
                 updateSdCardPath(fpath);
             else {
-                File direct = new File(Environment.getExternalStorageDirectory().toString() + ".LLA");
+                File direct = new File(Environment.getExternalStorageDirectory().toString() + ".RAS");
                 if (!direct.exists()) direct.mkdir();
-                direct = new File(Environment.getExternalStorageDirectory().toString() + ".LLA/English");
+                direct = new File(Environment.getExternalStorageDirectory().toString() + ".RAS/English");
                 if (!direct.exists()) direct.mkdir();
-                file = new File(Environment.getExternalStorageDirectory().toString() + ".LLA/English/");
+                file = new File(Environment.getExternalStorageDirectory().toString() + ".RAS/English/");
                 if (file.exists())
-                    updateSdCardPath("" + Environment.getExternalStorageDirectory().toString() + "/.LLA/English/");
+                    updateSdCardPath("" + Environment.getExternalStorageDirectory().toString() + "/.RAS/English/");
             }
         }
     }
@@ -424,11 +423,11 @@ public class SplashActivity extends SplashSupportActivity implements SplashContr
 
     @Override
     public void gotoNextActivity() {
-        if (RAS_Constants.SMART_PHONE && !RAS_Constants.SD_CARD_Content) {
-        }
+/*        if (RAS_Constants.SMART_PHONE && !RAS_Constants.SD_CARD_Content) {
+        }*/
         if (RAS_Constants.SMART_PHONE && !RAS_Constants.SD_CARD_Content) {
             splashPresenter.pushData();
-            RAS_Constants.ext_path = RASApplication.pradigiPath + "/.LLA/English/";
+            RAS_Constants.ext_path = RASApplication.pradigiPath + "/.RAS/English/";
             dismissProgressDialog();
             showBottomFragment();
         } else {
