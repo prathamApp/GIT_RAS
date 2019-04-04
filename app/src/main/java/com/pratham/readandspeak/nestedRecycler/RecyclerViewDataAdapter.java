@@ -48,7 +48,7 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
         itemRowHolder.recycler_view_list.setAdapter(itemListDataAdapter);
 
 
-        itemRowHolder.btnMore.setOnClickListener(new View.OnClickListener() {
+        /*itemRowHolder.btnMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -57,7 +57,7 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
 
 
             }
-        });
+        });*/
 
 
        /* Glide.with(mContext)
@@ -87,7 +87,7 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
 
             this.itemTitle = (TextView) view.findViewById(R.id.tv_content_title);
             this.recycler_view_list = (RecyclerView) view.findViewById(R.id.recycler_view_list);
-            this.btnMore = (Button) view.findViewById(R.id.btnMore);
+//            this.btnMore = (Button) view.findViewById(R.id.btnMore);
 
 
         }

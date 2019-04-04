@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.domain.ContentTable;
 
@@ -39,7 +40,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
         ContentTable singleItem = itemsList.get(i);
 
         holder.tvTitle.setText(singleItem.getNodeTitle());
-
+        Glide.with(mContext).load(singleItem.getNodeImage()).into(holder.itemImage);
 
        /* Glide.with(mContext)
                 .load(feedItem.getImageURL())

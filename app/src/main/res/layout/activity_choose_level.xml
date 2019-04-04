@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@drawable/choose_level_bg_img"
     android:gravity="top|center_horizontal"
     android:orientation="vertical"
     android:weightSum="5"

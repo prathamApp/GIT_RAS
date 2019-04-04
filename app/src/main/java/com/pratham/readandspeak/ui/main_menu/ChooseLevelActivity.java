@@ -74,13 +74,13 @@ public class ChooseLevelActivity extends BaseActivity implements ChooseLevelCont
         gson = new Gson();
         contentViewList = new ArrayList<>();
         presenter.getProfileImg();
+        presenter.copyListData();
         levelAdapter = new LevelAdapter(this, contentViewList, this);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(mLayoutManager);
 //        recyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(levelAdapter);
-        presenter.copyListData();
         levelAdapter.notifyDataSetChanged();
     }
 
