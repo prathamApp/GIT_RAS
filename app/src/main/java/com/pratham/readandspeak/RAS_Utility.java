@@ -137,6 +137,13 @@ public class RAS_Utility {
         else return true;
     }
 
+    public static void deleteRecursive(File fileOrDirectory) {
+        if (fileOrDirectory.isDirectory())
+            for (File child : fileOrDirectory.listFiles())
+                deleteRecursive(child);
+        fileOrDirectory.delete();
+    }
+
     public static String getCurrentVersion(Context context) {
         PackageManager pm = context.getPackageManager();
         PackageInfo pInfo = null;

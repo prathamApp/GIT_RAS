@@ -1,26 +1,28 @@
 package com.pratham.readandspeak.ui.home_screen_menu;
 
-import android.os.AsyncTask;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.async.API_Content;
-import com.pratham.readandspeak.database.BackupDatabase;
 import com.pratham.readandspeak.domain.ContentTable;
 import com.pratham.readandspeak.domain.ContentTableNew;
 import com.pratham.readandspeak.interfaces.API_Content_Result;
+import com.pratham.readandspeak.ui.display_content.ContentDisplay;
 import com.pratham.readandspeak.utilities.BaseActivity;
-import com.pratham.readandspeak.utilities.RAS_Constants;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeActivity extends BaseActivity implements API_Content_Result {
+public class HomeActivity extends BaseActivity implements HomeContract.HomeView, API_Content_Result, ItemClicked {
+
+    HomeContract.HomePresenter presenter;
 
     private Toolbar toolbar;
     ArrayList<String> nodeIds;
@@ -37,120 +39,34 @@ public class HomeActivity extends BaseActivity implements API_Content_Result {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        presenter = new HomePresenter(HomeActivity.this,this);
         nodeIds = new ArrayList<>();
         gson = new Gson();
-        nodeIds.add("1299");
         api_content = new API_Content(this, HomeActivity.this);
 
         downloadedContentParentList = new ArrayList<>();
         contentParentList = new ArrayList<>();
 
-        //allSampleData = new ArrayList<SectionDataModel>();
-
-        if (toolbar != null) {
-            setSupportActionBar(toolbar);
-            toolbar.setTitle("Talkbot");
-        }
-
         RecyclerView my_recycler_view = (RecyclerView) findViewById(R.id.my_recycler_view);
         my_recycler_view.setHasFixedSize(true);
-        adapterParent = new RecyclerViewDataAdapter(this, contentParentList);
+        adapterParent = new RecyclerViewDataAdapter(this, contentParentList, this);
         my_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         my_recycler_view.setAdapter(adapterParent);
 
-        getCOSData();
+        presenter.insertNodeId("1299");
+        presenter.getDataForList();
     }
 
-    public void getCOSData() {
-
-        new AsyncTask<Object, Void, Object>() {
-
-            @Override
-            protected Object doInBackground(Object[] objects) {
-                try {
-                    downloadedContentParentList = appDatabase.getContentTableDao().getContentData("" + nodeIds.get(nodeIds.size() - 1));
-                    BackupDatabase.backup(HomeActivity.this);
-                    contentParentList.clear();
-                    try {
-                        for (int j = 0; j < downloadedContentParentList.size(); j++) {
-                            List<ContentTableNew> tempList;
-                            ContentTableNew contentTable = new ContentTableNew();
-                            tempList = new ArrayList<>();
-
-                            childDwContentList = appDatabase.getContentTableDao().getContentData("" + downloadedContentParentList.get(j).getNodeId());
-
-                            contentTable.setNodeId("" + downloadedContentParentList.get(j).getNodeId());
-                            contentTable.setNodeType("" + downloadedContentParentList.get(j).getNodeType());
-                            contentTable.setNodeTitle("" + downloadedContentParentList.get(j).getNodeTitle());
-                            contentTable.setNodeKeywords("" + downloadedContentParentList.get(j).getNodeKeywords());
-                            contentTable.setNodeAge("" + downloadedContentParentList.get(j).getNodeAge());
-                            contentTable.setNodeDesc("" + downloadedContentParentList.get(j).getNodeDesc());
-                            contentTable.setNodeServerImage("" + downloadedContentParentList.get(j).getNodeServerImage());
-                            contentTable.setNodeImage("" + downloadedContentParentList.get(j).getNodeImage());
-                            contentTable.setResourceId("" + downloadedContentParentList.get(j).getResourceId());
-                            contentTable.setResourceType("" + downloadedContentParentList.get(j).getNodeType());
-                            contentTable.setResourcePath("" + downloadedContentParentList.get(j).getResourcePath());
-                            contentTable.setParentId("" + downloadedContentParentList.get(j).getParentId());
-                            contentTable.setLevel("" + downloadedContentParentList.get(j).getLevel());
-                            contentTable.setContentType(downloadedContentParentList.get(j).getContentType());
-                            contentTable.setIsDownloaded("true");
-                            contentTable.setOnSDCard(true);
-
-                            for (int i = 0; i < childDwContentList.size(); i++) {
-                                ContentTableNew contentChild = new ContentTableNew();
-                                contentChild.setNodeId("" + childDwContentList.get(i).getNodeId());
-                                contentChild.setNodeType("" + childDwContentList.get(i).getNodeType());
-                                contentChild.setNodeTitle("" + childDwContentList.get(i).getNodeTitle());
-                                contentChild.setNodeKeywords("" + childDwContentList.get(i).getNodeKeywords());
-                                contentChild.setNodeAge("" + childDwContentList.get(i).getNodeAge());
-                                contentChild.setNodeDesc("" + childDwContentList.get(i).getNodeDesc());
-                                contentChild.setNodeServerImage("" + childDwContentList.get(i).getNodeServerImage());
-                                contentChild.setNodeImage("" + childDwContentList.get(i).getNodeImage());
-                                contentChild.setResourceId("" + childDwContentList.get(i).getResourceId());
-                                contentChild.setResourceType("" + childDwContentList.get(i).getNodeType());
-                                contentChild.setResourcePath("" + childDwContentList.get(i).getResourcePath());
-                                contentChild.setParentId("" + childDwContentList.get(i).getParentId());
-                                contentChild.setLevel("" + childDwContentList.get(i).getLevel());
-                                contentChild.setContentType(childDwContentList.get(i).getContentType());
-                                contentChild.setIsDownloaded("true");
-                                contentChild.setOnSDCard(false);
-                                contentChild.setNodelist(null);
-                                tempList.add(contentChild);
-                            }
-                            contentTable.setNodelist(tempList);
-                            contentParentList.add(contentTable);
-                        }
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    return null;
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    return null;
-                }
-            }
-
-            @Override
-            protected void onPostExecute(Object o) {
-                super.onPostExecute(o);
-                adapterParent.notifyDataSetChanged();
-            }
-        }.execute();
-
-
-//        api_content.getAPIContent(requestCode, RAS_Constants.INTERNET_DOWNLOAD_API, nodeIds.get(nodeIds.size() - 1));
-//        adapterParent.notifyDataSetChanged();
-    }
-
-    public void getParentsChildData() {
-
+    @Override
+    public void notifyAdapter(List<ContentTableNew> contentList) {
+        contentParentList.addAll(contentList);
+        adapterParent.notifyDataSetChanged();
     }
 
     @Override
     public void receivedContent(String header, String response) {
-
         /*if (header.equalsIgnoreCase(RAS_Constants.API_PARENT)) {
 
             new AsyncTask<Object, Void, Object>() {
@@ -293,15 +209,27 @@ public class HomeActivity extends BaseActivity implements API_Content_Result {
         }*/
     }
 
-//    private void getChildData(int pos) {
-//        parentPosition = pos;
-//        if(parentPosition<apidownloadedContentParentList.size()){
-//            api_content.getAPIContent(RAS_Constants.API_CHILD, RAS_Constants.INTERNET_DOWNLOAD_API, ""+apidownloadedContentParentList.get(pos).getNodeId());
-//        }
-//    }
+/*
+    private void getChildData(int pos) {
+        parentPosition = pos;
+        if(parentPosition<apidownloadedContentParentList.size()){
+            api_content.getAPIContent(RAS_Constants.API_CHILD, RAS_Constants.INTERNET_DOWNLOAD_API, ""+apidownloadedContentParentList.get(pos).getNodeId());
+        }
+    }
+*/
 
     @Override
     public void receivedError(String header) {
         Toast.makeText(this, "Please Check Internet", Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    public void onContentCardClicked(ContentTableNew singleItem) {
+        String nodeId = singleItem.getNodeId();
+        Intent intent = new Intent(this, ContentDisplay.class);
+        intent.putExtra("nodeId", nodeId);
+        startActivity(intent);
+
+    }
+
 }
