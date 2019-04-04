@@ -1,6 +1,7 @@
 package com.pratham.readandspeak.ui.home_screen_menu;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.domain.ContentTableNew;
+import com.pratham.readandspeak.ui.reading_screen.ReadingScreenActivity;
 
 import java.util.List;
 
@@ -64,7 +66,8 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
         holder.item_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), holder.tvTitle.getText(), Toast.LENGTH_SHORT).show();
+      //          Toast.makeText(v.getContext(), holder.tvTitle.getText(), Toast.LENGTH_SHORT).show();
+                mContext.startActivity(new Intent(mContext, ReadingScreenActivity.class));
             }
         });
 

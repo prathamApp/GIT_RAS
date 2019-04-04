@@ -68,5 +68,7 @@ dependencies {
     implementation "org.androidannotations:androidannotations-api:4.5.2"
     //catcho
     implementation 'net.alhazmy13.catcho:library:1.1.0'
+//flowlayout
+    implementation 'com.nex3z:flow-layout:1.2.4'
 
 }

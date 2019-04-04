@@ -1,6 +1,7 @@
 package com.pratham.readandspeak.nestedRecycler;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.pratham.readandspeak.R;
 import com.pratham.readandspeak.domain.ContentTable;
+import com.pratham.readandspeak.ui.reading_screen.ReadingScreenActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,8 +76,8 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
                 @Override
                 public void onClick(View v) {
 
-
-                    Toast.makeText(v.getContext(), tvTitle.getText(), Toast.LENGTH_SHORT).show();
+                    mContext.startActivity(new Intent(mContext, ReadingScreenActivity.class));
+//                    Toast.makeText(v.getContext(), tvTitle.getText(), Toast.LENGTH_SHORT).show();
 
                 }
             });
