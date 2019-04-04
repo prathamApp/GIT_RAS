@@ -22,10 +22,12 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
 
     private List<ContentTableNew> itemsList;
     private Context mContext;
+    ItemClicked itemClicked;
 
-    public SectionListDataAdapter(Context context, List<ContentTableNew> itemsList) {
+    public SectionListDataAdapter(Context context, List<ContentTableNew> itemsList, ItemClicked itemClicked) {
         this.itemsList = itemsList;
         this.mContext = context;
+        this.itemClicked = itemClicked;
     }
 
     @Override
@@ -38,7 +40,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     @Override
     public void onBindViewHolder(final SingleItemRowHolder holder, int i) {
 
-        ContentTableNew singleItem = itemsList.get(i);
+        final ContentTableNew singleItem = itemsList.get(i);
 
         holder.tvTitle.setText(singleItem.getNodeTitle());
 
@@ -65,6 +67,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), holder.tvTitle.getText(), Toast.LENGTH_SHORT).show();
+                itemClicked.onContentCardClicked(singleItem);
             }
         });
 

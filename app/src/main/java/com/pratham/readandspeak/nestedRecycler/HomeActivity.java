@@ -8,12 +8,15 @@ import android.support.v7.widget.Toolbar;
 
 
 import com.pratham.readandspeak.R;
+import com.pratham.readandspeak.utilities.BaseActivity;
+
+import org.jsoup.Connection;
 
 import java.util.ArrayList;
+import java.util.prefs.BackingStoreException;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends BaseActivity {
 
-    private Toolbar toolbar;
 
     ArrayList<SectionDataModel> allSampleData;
 
@@ -23,14 +26,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-
         allSampleData = new ArrayList<SectionDataModel>();
-
-        if (toolbar != null) {
-            setSupportActionBar(toolbar);
-            toolbar.setTitle("Talkbot");
-        }
 
         createDummyData();
 

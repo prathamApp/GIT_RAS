@@ -1,26 +1,11 @@
-package com.pratham.readandspeak.ui.reading_screen;
+package com.pratham.readandspeak.ui.reading_screen.paragraph_screen;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.graphics.Rect;
-import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.speech.SpeechRecognizer;
-import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -36,21 +21,14 @@ import com.pratham.readandspeak.services.speech_recognition_service.STT_Result;
 import com.pratham.readandspeak.utilities.BaseActivity;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 
-public class ReadingScreenActivity extends BaseActivity implements /*RecognitionListener, */STT_Result {
+public class ParagarphScreenActivity extends BaseActivity implements /*RecognitionListener, */STT_Result {
 
     public static MediaPlayer mp, mPlayer;
     @BindView(R.id.myflowlayout)
@@ -108,8 +86,8 @@ public class ReadingScreenActivity extends BaseActivity implements /*Recognition
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //COS_Constants.SD_CARD_Content = true;
-        /*setContentView(R.layout.activity_reading_screen);
-        ButterKnife.bind(this);
+        setContentView(R.layout.activity_paragraph_screen);
+       /* ButterKnife.bind(this);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         context = this;

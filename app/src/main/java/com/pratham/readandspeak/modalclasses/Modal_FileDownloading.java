@@ -4,6 +4,7 @@ import android.support.annotation.NonNull;
 
 import com.pratham.readandspeak.domain.ContentTable;
 
+
 public class Modal_FileDownloading implements Comparable {
     String downloadId;
     String filename;

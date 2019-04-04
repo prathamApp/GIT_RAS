@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.pratham.readandspeak.R;
-import com.pratham.readandspeak.domain.ContentTable;
 import com.pratham.readandspeak.domain.ContentTableNew;
 
 import java.util.List;
@@ -21,10 +20,12 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
     private List<ContentTableNew> dataList;
     private Context mContext;
     public int childCounter = 0;
+    ItemClicked itemClicked;
 
-    public RecyclerViewDataAdapter(Context context, List<ContentTableNew> dataList) {
+    public RecyclerViewDataAdapter(Context context, List<ContentTableNew> dataList, ItemClicked itemClicked) {
         this.dataList = dataList;
         this.mContext = context;
+        this.itemClicked = itemClicked;
     }
 
     @Override
@@ -42,7 +43,7 @@ public class RecyclerViewDataAdapter extends RecyclerView.Adapter<RecyclerViewDa
 
         try {
             itemRowHolder.itemTitle.setText(sectionName);
-            SectionListDataAdapter itemListDataAdapter = new SectionListDataAdapter(mContext, dataList.get(i).getNodelist());
+            SectionListDataAdapter itemListDataAdapter = new SectionListDataAdapter(mContext, dataList.get(i).getNodelist(),itemClicked);
             itemRowHolder.recycler_view_list.setHasFixedSize(true);
             itemRowHolder.recycler_view_list.setLayoutManager(new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false));
             itemRowHolder.recycler_view_list.setAdapter(itemListDataAdapter);

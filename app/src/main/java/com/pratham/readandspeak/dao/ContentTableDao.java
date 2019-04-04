@@ -35,5 +35,13 @@ public interface ContentTableDao {
     @Query("SELECT * FROM ContentTable WHERE parentid=:id and contentLanguage=:language")
     public List<ContentTable> getChildsOfParent(String id, String language);
 
+    @Query("Delete from ContentTable WHERE nodeid=:nodeId")
+    void deleteContent(String nodeId);
+
+    @Query("SELECT COUNT(*) from ContentTable WHERE parentId=:nodeId" /*and contentLanguage=:language*/)
+    int getChildCountOfParent(String nodeId/*, String language*/);
+
+    @Query("SELECT * FROM ContentTable WHERE nodeId=:id" /*and content_language=:language"*/)
+    public ContentTable getContent(String id/*, String language*/);
 
 }
