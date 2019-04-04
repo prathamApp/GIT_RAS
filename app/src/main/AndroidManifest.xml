@@ -60,9 +60,11 @@
         <activity
             android:name=".ui.home_screen_menu.HomeActivity"
             android:screenOrientation="portrait" />
-            android:name=".ui.reading_screen.ReadingScreenActivity"
         <activity
             android:name=".ui.display_content.ContentDisplay"
+            android:screenOrientation="portrait" />
+ <activity
+            android:name=".ui.reading_screen.ReadingScreenActivity"
             android:screenOrientation="portrait" />
 
     </application>
