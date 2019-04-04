@@ -32,6 +32,7 @@ import com.pratham.readandspeak.domain.Session;
 import com.pratham.readandspeak.domain.Student;
 //import com.pratham.readandspeak.modalclasses.PlayerModal;
 //import com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity;
+import com.pratham.readandspeak.ui.main_menu.ChooseLevelActivity;
 import com.pratham.readandspeak.utilities.BaseActivity;
 import com.pratham.readandspeak.utilities.RAS_Constants;
 
@@ -235,7 +236,7 @@ public class QRScanActivity extends BaseActivity implements QRScanContract.QRSca
         ButtonClickSound.start();
         RAS_Constants.GROUP_LOGIN = false;
         //startActivity(new Intent(this, RCGameActivity.class));
-   //     startActivity(new Intent(this, ChooseLevelActivity.class));
+        startActivity(new Intent(this, ChooseLevelActivity.class));
 
 /*        Intent dataConfirmationIntent = new Intent(this, DataConfirmation.class);
         Bundle bundle = new Bundle();

@@ -13,6 +13,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.speech.SpeechRecognizer;
+import android.support.design.internal.FlowLayout;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,11 +29,16 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.pratham.readandspeak.R;
+import com.pratham.readandspeak.RASApplication;
+import com.pratham.readandspeak.RAS_Utility;
 import com.pratham.readandspeak.custom.RipplePulseLayout;
+import com.pratham.readandspeak.database.BackupDatabase;
+import com.pratham.readandspeak.domain.Score;
 import com.pratham.readandspeak.services.TTSService;
 import com.pratham.readandspeak.services.speech_recognition_service.ContinuousSpeechService;
 import com.pratham.readandspeak.services.speech_recognition_service.STT_Result;
 import com.pratham.readandspeak.utilities.BaseActivity;
+import com.pratham.readandspeak.utilities.RAS_Constants;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -106,7 +112,7 @@ public class ReadingScreenActivity extends BaseActivity implements /*Recognition
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //COS_Constants.SD_CARD_Content = true;
+        //RAS_Constants.SD_CARD_Content = true;
         setContentView(R.layout.activity_reading_screen);
         ButterKnife.bind(this);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -138,14 +144,14 @@ public class ReadingScreenActivity extends BaseActivity implements /*Recognition
         readSounds.add(R.raw.would_you_like_to_read);
         readSounds.add(R.raw.tap_the_mic_to_read_out);
         Collections.shuffle(readSounds);
-        startTime = COSApplication.getCurrentDateTime();
+        startTime = RASApplication.getCurrentDateTime();
 
         currentPage = 0;
         //setMute(0);
-        if (COS_Constants.SMART_PHONE && !COS_Constants.SD_CARD_Content)
-            readingContentPath = COSApplication.pradigiPath + "/.LLA/English/Game/" + storyPath + "/";
-        else if (COS_Constants.SMART_PHONE && COS_Constants.SD_CARD_Content)
-            readingContentPath = COS_Constants.ext_path + "/.LLA/English/Game/" + storyPath + "/";
+        if (RAS_Constants.SMART_PHONE && !RAS_Constants.SD_CARD_Content)
+            readingContentPath = RASApplication.pradigiPath + "/.LLA/English/Game/" + storyPath + "/";
+        else if (RAS_Constants.SMART_PHONE && RAS_Constants.SD_CARD_Content)
+            readingContentPath = RAS_Constants.ext_path + "/.LLA/English/Game/" + storyPath + "/";
         if (speech != null)
             speech.destroy();
         speech = SpeechRecognizer.createSpeechRecognizer(this);
@@ -1121,7 +1127,7 @@ public class ReadingScreenActivity extends BaseActivity implements /*Recognition
     public void loadFragment() {
         Bundle bundle = new Bundle();
         bundle.putString("contentType", contentType);
-        COS_Utility.showFragment(ReadingScreenActivity.this, new fragment_acknowledge(), R.id.story_ll,
+        RAS_Utility.showFragment(ReadingScreenActivity.this, new fragment_acknowledge(), R.id.story_ll,
                 bundle, fragment_acknowledge.class.getSimpleName());
     }
 
@@ -1138,15 +1144,15 @@ public class ReadingScreenActivity extends BaseActivity implements /*Recognition
                     String deviceId = appDatabase.getStatusDao().getValue("DeviceId");
 
                     Score score = new Score();
-                    score.setSessionID(COS_Constants.currentSession);
+                    score.setSessionID(RAS_Constants.currentSession);
                     score.setResourceID(storyId);
                     score.setQuestionId(wID);
                     score.setScoredMarks(scoredMarks);
                     score.setTotalMarks(totalMarks);
-                    score.setStudentID(COS_Constants.currentStudentID);
+                    score.setStudentID(RAS_Constants.currentStudentID);
                     score.setStartDateTime(startTime);
                     score.setDeviceID(deviceId.equals(null) ? "0000" : deviceId);
-                    score.setEndDateTime(COSApplication.getCurrentDateTime());
+                    score.setEndDateTime(RASApplication.getCurrentDateTime());
                     score.setLevel(0);
                     score.setLabel(Word + " - " + Label);
                     score.setSentFlag(0);

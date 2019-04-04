@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_260sdp"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:id="@+id/dial_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_7sdp"
+        >
+
+        <TextView
+            android:id="@+id/dia_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:textColor="@color/colorRed"
+            android:layout_alignParentTop="true"
+            android:text="Exit"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/_20sdp" />
+        <TextView
+            android:id="@+id/dia_s_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textColor="@color/colorRed"
+            android:layout_below="@id/dia_title"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/_20sdp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dia_btn_restart"
+            android:layout_width= "@dimen/_90sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:text="Restart"
+            android:elevation="5dp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/ripple_effect"/>
+        <Button
+            android:id="@+id/dia_btn_exit"
+            android:layout_width= "@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="Exit"
+            android:elevation="5dp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/ripple_effect"
+            />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/exit_ib"
+        android:src="@drawable/credits_icon"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:padding="@dimen/_3sdp"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

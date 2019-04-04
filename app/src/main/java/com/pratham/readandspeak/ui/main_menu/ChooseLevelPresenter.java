@@ -28,7 +28,7 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
 
     Context context;
     ChooseLevelContract.ChooseLevelView levelView;
-    List<ContentTable> contentTableList, downloadedContentTableList;
+    List<ContentTable> contentTableList, downloadedContentTableList, downloadedContentTableListInner;
     ArrayList<String> nodeIds;
 
 
@@ -243,27 +243,27 @@ public class ChooseLevelPresenter implements ChooseLevelContract.ChooseLevelPres
         // if (!nodeIds.get(nodeIds.size() - 1).equalsIgnoreCase("1299"))
         nodeIds.add(nodeId);
         try {
-            downloadedContentTableList = appDatabase.getContentTableDao().getContentData(nodeIds.get(nodeIds.size() - 1));
+            downloadedContentTableListInner = appDatabase.getContentTableDao().getContentData(nodeIds.get(nodeIds.size() - 1));
             BackupDatabase.backup(context);
  //           levelView.clearContentList();
 
             try {
-                for (int j = 0; j < downloadedContentTableList.size(); j++) {
+                for (int j = 0; j < downloadedContentTableListInner.size(); j++) {
                     ContentTable contentTable = new ContentTable();
-                    contentTable.setNodeId("" + downloadedContentTableList.get(j).getNodeId());
-                    contentTable.setNodeType("" + downloadedContentTableList.get(j).getNodeType());
-                    contentTable.setNodeTitle("" + downloadedContentTableList.get(j).getNodeTitle());
-                    contentTable.setNodeKeywords("" + downloadedContentTableList.get(j).getNodeKeywords());
-                    contentTable.setNodeAge("" + downloadedContentTableList.get(j).getNodeAge());
-                    contentTable.setNodeDesc("" + downloadedContentTableList.get(j).getNodeDesc());
-                    contentTable.setNodeServerImage("" + downloadedContentTableList.get(j).getNodeServerImage());
-                    contentTable.setNodeImage("" + downloadedContentTableList.get(j).getNodeImage());
-                    contentTable.setResourceId("" + downloadedContentTableList.get(j).getResourceId());
-                    contentTable.setResourceType("" + downloadedContentTableList.get(j).getNodeType());
-                    contentTable.setResourcePath("" + downloadedContentTableList.get(j).getResourcePath());
-                    contentTable.setParentId("" + downloadedContentTableList.get(j).getParentId());
-                    contentTable.setLevel("" + downloadedContentTableList.get(j).getLevel());
-                    contentTable.setContentType(downloadedContentTableList.get(j).getContentType());
+                    contentTable.setNodeId("" + downloadedContentTableListInner.get(j).getNodeId());
+                    contentTable.setNodeType("" + downloadedContentTableListInner.get(j).getNodeType());
+                    contentTable.setNodeTitle("" + downloadedContentTableListInner.get(j).getNodeTitle());
+                    contentTable.setNodeKeywords("" + downloadedContentTableListInner.get(j).getNodeKeywords());
+                    contentTable.setNodeAge("" + downloadedContentTableListInner.get(j).getNodeAge());
+                    contentTable.setNodeDesc("" + downloadedContentTableListInner.get(j).getNodeDesc());
+                    contentTable.setNodeServerImage("" + downloadedContentTableListInner.get(j).getNodeServerImage());
+                    contentTable.setNodeImage("" + downloadedContentTableListInner.get(j).getNodeImage());
+                    contentTable.setResourceId("" + downloadedContentTableListInner.get(j).getResourceId());
+                    contentTable.setResourceType("" + downloadedContentTableListInner.get(j).getNodeType());
+                    contentTable.setResourcePath("" + downloadedContentTableListInner.get(j).getResourcePath());
+                    contentTable.setParentId("" + downloadedContentTableListInner.get(j).getParentId());
+                    contentTable.setLevel("" + downloadedContentTableListInner.get(j).getLevel());
+                    contentTable.setContentType(downloadedContentTableListInner.get(j).getContentType());
                     contentTable.setIsDownloaded("true");
                     contentTable.setOnSDCard(true);
                     innerList.add(contentTable);
