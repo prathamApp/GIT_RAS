@@ -6,13 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.pratham.readandspeak.R;
-import com.pratham.readandspeak.domain.ContentTable;
 import com.pratham.readandspeak.domain.ContentTableNew;
 
 import java.util.List;
@@ -36,7 +36,7 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     }
 
     @Override
-    public void onBindViewHolder(SingleItemRowHolder holder, int i) {
+    public void onBindViewHolder(final SingleItemRowHolder holder, int i) {
 
         ContentTableNew singleItem = itemsList.get(i);
 
@@ -55,18 +55,20 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
             holder.itemImage.setImageResource(R.drawable.chat_icon);
         } else if (singleItem.getNodeTitle().equalsIgnoreCase("reading challenge")) {
             holder.itemImage.setImageResource(R.drawable.rc_icon);
+        } else {
+            Glide.with(mContext).setDefaultRequestOptions(requestOptions)
+                    .load(singleItem.getNodeServerImage())
+                    .into(holder.itemImage);
         }
 
-        Glide.with(mContext).setDefaultRequestOptions(requestOptions)
-                .load(singleItem.getNodeServerImage())
-                .into(holder.itemImage);
+        holder.item_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(v.getContext(), holder.tvTitle.getText(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
-/*        Glide.with(mContext)
-                .load(singleItem.getNodeServerImage())
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .centerCrop()
-                .error(R.drawable.ic_warning)
-                .into(feedListRowHolder.thumbView);*/
+
     }
 
     @Override
@@ -77,8 +79,8 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
     public class SingleItemRowHolder extends RecyclerView.ViewHolder {
 
         protected TextView tvTitle;
-
         protected ImageView itemImage;
+        protected RelativeLayout item_card;
 
 
         public SingleItemRowHolder(View view) {
@@ -86,18 +88,14 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
 
             this.tvTitle = (TextView) view.findViewById(R.id.tvTitle);
             this.itemImage = (ImageView) view.findViewById(R.id.itemImage);
+            this.item_card = (RelativeLayout) view.findViewById(R.id.rl_full_view);
 
-
-            view.setOnClickListener(new View.OnClickListener() {
+/*            view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
-
                     Toast.makeText(v.getContext(), tvTitle.getText(), Toast.LENGTH_SHORT).show();
-
                 }
-            });
-
+            });*/
 
         }
 

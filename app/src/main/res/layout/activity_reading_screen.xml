@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/story_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_weight="5"
+            android:background="@color/colorBlack"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pratham_logo" />
+
+        <com.pratham.readandspeak.custom.RipplePulseLayout
+            android:id="@+id/layout_ripplepulse_left"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:clipChildren="false"
+            ripple:duration="2000"
+            ripple:endRadius="@dimen/_40sdp"
+            ripple:rippleColor="@color/colorBlack"
+            ripple:rippleType="fill"
+            ripple:startRadius="2dp"
+            ripple:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/btn_prev"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ripple_effect"
+                    android:elevation="5dp"
+                    android:scaleType="centerInside" />
+            </RelativeLayout>
+
+        </com.pratham.readandspeak.custom.RipplePulseLayout>
+
+        <com.pratham.readandspeak.custom.RipplePulseLayout
+            android:id="@+id/layout_ripplepulse_right"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:clipChildren="false"
+            ripple:duration="2000"
+            ripple:endRadius="@dimen/_40sdp"
+            ripple:rippleColor="@color/colorBlack"
+            ripple:rippleType="fill"
+            ripple:startRadius="2dp"
+            ripple:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/btn_next"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ripple_effect"
+                    android:elevation="5dp"
+                    android:scaleType="centerInside"/>
+            </RelativeLayout>
+
+        </com.pratham.readandspeak.custom.RipplePulseLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="5.2"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_story_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="2"
+            android:background="@drawable/ripple_rectangle_card"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="The Moon And The Cap"
+            android:textColor="@color/colorAccentDark"
+            android:textSize="@dimen/_23sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ScrollView
+                android:id="@+id/myScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginVertical="10dp">
+
+                <com.nex3z.flowlayout.FlowLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/myflowlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    app:flChildSpacing="10dp" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_weight="0.8"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/ll_btn_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/ripple_effect"
+                android:elevation="@dimen/_3sdp"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+
+        <com.pratham.readandspeak.custom.RipplePulseLayout
+            android:id="@+id/layout_mic_ripple"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            ripple:duration="2000"
+            ripple:endRadius="@dimen/_80sdp"
+            ripple:rippleColor="@color/colorBlack"
+            ripple:rippleType="fill"
+            ripple:startRadius="2dp"
+            ripple:strokeWidth="2dp">
+
+            <ImageButton
+                android:id="@+id/btn_read_mic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/ripple_effect"
+                android:elevation="@dimen/_3sdp"
+                android:scaleType="centerInside"/>
+
+        </com.pratham.readandspeak.custom.RipplePulseLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
