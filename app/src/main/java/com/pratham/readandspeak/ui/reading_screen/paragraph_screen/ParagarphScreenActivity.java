@@ -238,39 +238,6 @@ public class ParagarphScreenActivity extends BaseActivity implements /*Recogniti
         }
     }
 
-    private void setWordsToLayout(final String[] linesStringList) {
-
-        for (int i = 0; i < linesStringList.length; i++) {
-
-            final TextView myTextView = new TextView(this);
-            myTextView.setText(linesStringList[i]);
-            myTextView.setId(i);
-            myTextView.setTextSize(35);
-            myTextView.setTextColor(getResources().getColor(R.color.colorPrimary));
-            final int finalI = i;
-            myTextView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if ((!playFlg || pauseFlg) && !voiceStart) {
-                        setMute(0);
-                        myTextView.setTextColor(getResources().getColor(R.color.colorRedDark));
-                        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.reading_zoom_in);
-                        myTextView.startAnimation(animation);
-                        colorChangeHandler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                myTextView.setTextColor(getResources().getColor(R.color.colorPrimary));
-                                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.reading_zoom_out);
-                                myTextView.startAnimation(animation);
-                            }
-                        }, 350);
-                        ttsService.play("" + linesStringList[finalI]);
-                    }
-                }
-            });
-            quesFlowLayout.addView(myTextView);
-        }
-    }
 
     private void startAudioReading(int read) {
         try {
